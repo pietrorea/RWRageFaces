@@ -13,8 +13,11 @@
 @property (weak, nonatomic) IBOutlet UIToolbar *navigationBar;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
+@property (strong, nonatomic) NSArray* dictionaryKeys;
 @property (strong, nonatomic) NSMutableDictionary* mutableDictionary;
-@property (strong, nonatomic) NSString* currentCategory; //for XML parser
+
+//XML parser helper properties
+@property (strong, nonatomic) NSString* currentCategory; 
 
 @end
 
@@ -44,6 +47,8 @@
     
     [parser parse];
     
+    self.dictionaryKeys = [self.mutableDictionary allKeys];
+    
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"RWRageFaceCell"];
 }
 
@@ -55,14 +60,11 @@
 #pragma mark - UICollectionView Datasource
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return [[self.mutableDictionary allKeys] count];
+    return self.dictionaryKeys.count;
 }
 
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section {
-    
-    NSArray* keysArray = [self.mutableDictionary allKeys];
-    NSString* key = keysArray[section];
-    
+    NSString* key = self.dictionaryKeys[section];
     return [self.mutableDictionary[key] count];
 }
 
@@ -71,9 +73,7 @@
     UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"RWRageFaceCell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
     
-    NSArray* keysArray = [self.mutableDictionary allKeys];
-    NSString* key = keysArray[indexPath.section];
-    
+    NSString* key = self.dictionaryKeys[indexPath.section];
     NSString* imageName = [self.mutableDictionary[key] objectAtIndex:indexPath.row];
     cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
 
@@ -110,9 +110,6 @@
         NSMutableArray* array = self.mutableDictionary[self.currentCategory];
         [array addObject:attributeDict[@"name"]];
     }
-    
-    //category
-        //"category
     
 }
 
