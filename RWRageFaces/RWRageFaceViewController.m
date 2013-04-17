@@ -59,12 +59,24 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section {
-    return 20;
+    
+    NSArray* keysArray = [self.mutableDictionary allKeys];
+    NSString* key = keysArray[section];
+    
+    return [self.mutableDictionary[key] count];
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
     UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"RWRageFaceCell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
+    
+    NSArray* keysArray = [self.mutableDictionary allKeys];
+    NSString* key = keysArray[indexPath.section];
+    
+    NSString* imageName = [self.mutableDictionary[key] objectAtIndex:indexPath.row];
+    cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
+
     return cell;
 }
 
