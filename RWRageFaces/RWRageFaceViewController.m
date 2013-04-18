@@ -79,10 +79,15 @@
     
     UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"RWRageFaceCell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
+    cell.clipsToBounds = YES;
     
     NSString* key = self.dictionaryKeys[indexPath.section];
     NSString* imageName = [self.mutableDictionary[key] objectAtIndex:indexPath.row];
-    cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
+    
+    UIImageView* imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
+    
+    cell.backgroundView = imageView;
 
     return cell;
 }
@@ -99,7 +104,7 @@
 #pragma mark – UICollectionViewDelegateFlowLayout
 
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    return CGSizeMake(100, 100);
+    return CGSizeMake(150, 150);
 }
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
