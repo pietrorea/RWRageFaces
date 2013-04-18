@@ -12,13 +12,8 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6wa-E0-fqf">
-                                <items>
-                                    <barButtonItem title="Item" id="ovF-4J-I9z"/>
-                                </items>
-                            </toolbar>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dLT-MV-qjm">
-                                <color key="backgroundColor" red="0.26388730440000002" green="0.42009951270000001" blue="0.71328922189999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.61176470588235299" green="0.61176470588235299" blue="0.61176470588235299" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bcQ-Gu-WlS">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -34,6 +29,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="U16-sS-PlR" kind="modal" identifier="toDetailViewController" modalPresentationStyle="formSheet" id="szf-XF-Blc"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -41,26 +39,80 @@
                                     <outlet property="delegate" destination="2" id="XLa-QS-4hb"/>
                                 </connections>
                             </collectionView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="7uv-yC-uOW">
+                                <color key="tintColor" red="0.14509803921568626" green="0.32156862745098036" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Rage Faces!" id="JnB-8d-8Zx"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="7uv-yC-uOW" firstAttribute="bottom" secondItem="dLT-MV-qjm" secondAttribute="top" type="default" id="7rA-VT-V5b"/>
                             <constraint firstItem="dLT-MV-qjm" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="Bpx-T5-HGD"/>
-                            <constraint firstItem="6wa-E0-fqf" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="KlG-4b-vGG"/>
                             <constraint firstItem="dLT-MV-qjm" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="SkW-gB-fOn"/>
                             <constraint firstItem="dLT-MV-qjm" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="Twv-CT-1VT"/>
-                            <constraint firstItem="6wa-E0-fqf" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="bc7-Dc-oR8"/>
-                            <constraint firstItem="6wa-E0-fqf" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="h5k-ii-pma"/>
-                            <constraint firstItem="dLT-MV-qjm" firstAttribute="top" secondItem="6wa-E0-fqf" secondAttribute="bottom" type="default" id="k3v-yM-EAM"/>
+                            <constraint firstItem="7uv-yC-uOW" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="Z2g-wN-wez"/>
+                            <constraint firstItem="7uv-yC-uOW" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="aOj-rj-yl0"/>
+                            <constraint firstItem="7uv-yC-uOW" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="kaj-dL-C6o"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="dLT-MV-qjm" id="yUD-3D-dvD"/>
-                        <outlet property="navigationBar" destination="6wa-E0-fqf" id="4NW-KK-9js"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-420" y="-42"/>
+            <point key="canvasLocation" x="-910" y="-76"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="oCt-zs-aoK">
+            <objects>
+                <viewController id="U16-sS-PlR" customClass="RWDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bfz-6n-IX8">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CEe-c8-hQh">
+                                <color key="tintColor" red="0.14509803921568626" green="0.32156862745098036" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="2yc-tv-laW">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="mmT-pL-b61">
+                                            <connections>
+                                                <action selector="doneButtonTapped:" destination="U16-sS-PlR" id="poI-Pi-zSV"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Share" id="ZIS-Yu-Xbd"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egX-OR-1x0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="393" id="hPO-Gt-ViS"/>
+                                    <constraint firstAttribute="width" constant="397" id="roR-IP-HKi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.61176470589999998" green="0.61176470589999998" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="egX-OR-1x0" firstAttribute="centerX" secondItem="CEe-c8-hQh" secondAttribute="centerX" type="default" id="Ak0-yI-kyJ"/>
+                            <constraint firstItem="CEe-c8-hQh" firstAttribute="trailing" secondItem="bfz-6n-IX8" secondAttribute="trailing" type="default" id="KmL-Lg-uxF"/>
+                            <constraint firstItem="egX-OR-1x0" firstAttribute="top" secondItem="bfz-6n-IX8" secondAttribute="top" constant="113" id="MXK-FY-SMw"/>
+                            <constraint firstItem="CEe-c8-hQh" firstAttribute="leading" secondItem="bfz-6n-IX8" secondAttribute="leading" type="default" id="ZE6-YY-sCJ"/>
+                            <constraint firstItem="CEe-c8-hQh" firstAttribute="top" secondItem="bfz-6n-IX8" secondAttribute="top" type="default" id="rri-1I-Rt0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vdV-BX-WTQ"/>
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="doneButton" destination="mmT-pL-b61" id="Xvf-sP-E9q"/>
+                        <outlet property="imageView" destination="egX-OR-1x0" id="u1z-gp-wxi"/>
+                        <outlet property="navigationBar" destination="CEe-c8-hQh" id="wX5-qI-zxl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="laz-O8-52c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="-51"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

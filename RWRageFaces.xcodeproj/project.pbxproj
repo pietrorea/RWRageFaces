@@ -725,6 +725,7 @@
 		FE116B5A171E4DEA00721035 /* gtfo no words inverted smiling.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116897171E4DE900721035 /* gtfo no words inverted smiling.png */; };
 		FE116B5B171E4DEA00721035 /* gtfo.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116898171E4DE900721035 /* gtfo.png */; };
 		FE116B5C171E4DEA00721035 /* melvin fuck yeah.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116899171E4DE900721035 /* melvin fuck yeah.png */; };
+		FE116B62171F837400721035 /* RWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE116B61171F837400721035 /* RWDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1451,6 +1452,8 @@
 		FE116897171E4DE900721035 /* gtfo no words inverted smiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gtfo no words inverted smiling.png"; sourceTree = "<group>"; };
 		FE116898171E4DE900721035 /* gtfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gtfo.png; sourceTree = "<group>"; };
 		FE116899171E4DE900721035 /* melvin fuck yeah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "melvin fuck yeah.png"; sourceTree = "<group>"; };
+		FE116B60171F837400721035 /* RWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDetailViewController.h; sourceTree = "<group>"; };
+		FE116B61171F837400721035 /* RWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1501,6 +1504,8 @@
 				FE1165A3171E315800721035 /* RWAppDelegate.m */,
 				FE1165B6171E320600721035 /* RWRageFaceViewController.h */,
 				FE1165B7171E320600721035 /* RWRageFaceViewController.m */,
+				FE116B60171F837400721035 /* RWDetailViewController.h */,
+				FE116B61171F837400721035 /* RWDetailViewController.m */,
 				FE1165AB171E315800721035 /* MainStoryboard.storyboard */,
 				FE11659A171E315800721035 /* Supporting Files */,
 				FE1165B9171E4DC200721035 /* Resources */,
@@ -3245,6 +3250,7 @@
 				FE1165A0171E315800721035 /* main.m in Sources */,
 				FE1165A4171E315800721035 /* RWAppDelegate.m in Sources */,
 				FE1165B8171E320600721035 /* RWRageFaceViewController.m in Sources */,
+				FE116B62171F837400721035 /* RWDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

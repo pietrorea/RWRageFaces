@@ -7,10 +7,11 @@
 //
 
 #import "RWRageFaceViewController.h"
+#import "RWDetailViewController.h"
 
 @interface RWRageFaceViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, NSXMLParserDelegate>
 
-@property (weak, nonatomic) IBOutlet UIToolbar *navigationBar;
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @property (strong, nonatomic) NSArray* dictionaryKeys;
@@ -57,6 +58,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    RWDetailViewController* detailViewController = (RWDetailViewController*)segue.destinationViewController;
+    detailViewController.imageName = (NSString *)sender;
+}
+
 #pragma mark - UICollectionView Datasource
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -83,7 +90,10 @@
 #pragma mark - UICollectionViewDelegate
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    // TODO: Select Item
+    NSString* key = self.dictionaryKeys[indexPath.section];
+    NSString* imageName = [self.mutableDictionary[key] objectAtIndex:indexPath.row];
+    
+    [self performSegueWithIdentifier:@"toDetailViewController" sender:imageName];
 }
 
 #pragma mark – UICollectionViewDelegateFlowLayout
