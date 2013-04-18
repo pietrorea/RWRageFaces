@@ -18,17 +18,6 @@
 		FE1165AA171E315800721035 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165A9171E315800721035 /* Default-568h@2x.png */; };
 		FE1165AD171E315800721035 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1165AB171E315800721035 /* MainStoryboard.storyboard */; };
 		FE1165B8171E320600721035 /* RWRageFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1165B7171E320600721035 /* RWRageFaceViewController.m */; };
-		FE11689A171E4DE900721035 /* ForeverAloneComputer.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165BC171E4DE700721035 /* ForeverAloneComputer.png */; };
-		FE11689B171E4DE900721035 /* ForeverAloneComputer2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165BD171E4DE700721035 /* ForeverAloneComputer2.png */; };
-		FE11689C171E4DE900721035 /* ForeverAloneComputer3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165BE171E4DE700721035 /* ForeverAloneComputer3.png */; };
-		FE11689D171E4DE900721035 /* gasp2panel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165BF171E4DE700721035 /* gasp2panel.png */; };
-		FE11689E171E4DE900721035 /* gaspcat2panel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C0171E4DE700721035 /* gaspcat2panel.png */; };
-		FE11689F171E4DE900721035 /* gaspcatglasses2panel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C1171E4DE700721035 /* gaspcatglasses2panel.png */; };
-		FE1168A0171E4DE900721035 /* gasphand2panel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C2171E4DE700721035 /* gasphand2panel.png */; };
-		FE1168A1171E4DE900721035 /* I Lied_black2panel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C3171E4DE700721035 /* I Lied_black2panel.jpg */; };
-		FE1168A2171E4DE900721035 /* I Lied_black2panel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C4171E4DE700721035 /* I Lied_black2panel2.jpg */; };
-		FE1168A3171E4DE900721035 /* rage2panel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C5171E4DE700721035 /* rage2panel.png */; };
-		FE1168A4171E4DE900721035 /* stare2panel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C6171E4DE700721035 /* stare2panel.png */; };
 		FE1168A5171E4DE900721035 /* 1darkokay.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C8171E4DE700721035 /* 1darkokay.png */; };
 		FE1168A6171E4DE900721035 /* 2SadShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C9171E4DE700721035 /* 2SadShadow.png */; };
 		FE1168A7171E4DE900721035 /* 3Actually.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165CA171E4DE700721035 /* 3Actually.png */; };
@@ -134,212 +123,6 @@
 		FE11690B171E4DE900721035 /* black_why no hands.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116632171E4DE700721035 /* black_why no hands.png */; };
 		FE11690C171E4DE900721035 /* black_why.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116633171E4DE700721035 /* black_why.png */; };
 		FE11690D171E4DE900721035 /* black_wut.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116634171E4DE700721035 /* black_wut.png */; };
-		FE11690E171E4DE900721035 /* 01blondehair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116636171E4DE700721035 /* 01blondehair.png */; };
-		FE11690F171E4DE900721035 /* blonde_big smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116637171E4DE700721035 /* blonde_big smile.png */; };
-		FE116910171E4DE900721035 /* blonde_concentrated.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116638171E4DE700721035 /* blonde_concentrated.png */; };
-		FE116911171E4DE900721035 /* blonde_crying.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116639171E4DE700721035 /* blonde_crying.png */; };
-		FE116912171E4DE900721035 /* blonde_dazed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11663A171E4DE700721035 /* blonde_dazed.png */; };
-		FE116913171E4DE900721035 /* blonde_determined.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11663B171E4DE700721035 /* blonde_determined.png */; };
-		FE116914171E4DE900721035 /* blonde_dude.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11663C171E4DE700721035 /* blonde_dude.png */; };
-		FE116915171E4DE900721035 /* blonde_dumbfounded.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11663D171E4DE700721035 /* blonde_dumbfounded.png */; };
-		FE116916171E4DE900721035 /* blonde_ewbte.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11663E171E4DE700721035 /* blonde_ewbte.png */; };
-		FE116917171E4DE900721035 /* blonde_excited bliss.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11663F171E4DE700721035 /* blonde_excited bliss.png */; };
-		FE116918171E4DE900721035 /* blonde_excited tears.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116640171E4DE700721035 /* blonde_excited tears.png */; };
-		FE116919171E4DE900721035 /* blonde_excited.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116641171E4DE700721035 /* blonde_excited.png */; };
-		FE11691A171E4DE900721035 /* blonde_facepalm.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116642171E4DE700721035 /* blonde_facepalm.png */; };
-		FE11691B171E4DE900721035 /* blonde_fake smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116643171E4DE700721035 /* blonde_fake smile.png */; };
-		FE11691C171E4DE900721035 /* blonde_forever alone.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116644171E4DE700721035 /* blonde_forever alone.png */; };
-		FE11691D171E4DE900721035 /* blonde_freddie.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116645171E4DE700721035 /* blonde_freddie.png */; };
-		FE11691E171E4DE900721035 /* blonde_fuck that bitch.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116646171E4DE700721035 /* blonde_fuck that bitch.png */; };
-		FE11691F171E4DE900721035 /* blonde_fuck yeah.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116647171E4DE700721035 /* blonde_fuck yeah.png */; };
-		FE116920171E4DE900721035 /* blonde_gasp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116648171E4DE700721035 /* blonde_gasp.jpg */; };
-		FE116921171E4DE900721035 /* blonde_gasp2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116649171E4DE700721035 /* blonde_gasp2.jpg */; };
-		FE116922171E4DE900721035 /* blonde_happy.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11664A171E4DE700721035 /* blonde_happy.png */; };
-		FE116923171E4DE900721035 /* blonde_hmmm.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11664B171E4DE700721035 /* blonde_hmmm.png */; };
-		FE116924171E4DE900721035 /* blonde_i wonder.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11664C171E4DE700721035 /* blonde_i wonder.png */; };
-		FE116925171E4DE900721035 /* blonde_ladystare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11664D171E4DE700721035 /* blonde_ladystare.jpg */; };
-		FE116926171E4DE900721035 /* blonde_ladystare2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11664E171E4DE700721035 /* blonde_ladystare2.jpg */; };
-		FE116927171E4DE900721035 /* blonde_lean.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11664F171E4DE700721035 /* blonde_lean.png */; };
-		FE116928171E4DE900721035 /* blonde_lol.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116650171E4DE700721035 /* blonde_lol.png */; };
-		FE116929171E4DE900721035 /* blonde_me gusta.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116651171E4DE700721035 /* blonde_me gusta.png */; };
-		FE11692A171E4DE900721035 /* blonde_milk.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116652171E4DE700721035 /* blonde_milk.png */; };
-		FE11692B171E4DE900721035 /* blonde_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116653171E4DE700721035 /* blonde_normal.png */; };
-		FE11692C171E4DE900721035 /* blonde_normal2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116654171E4DE700721035 /* blonde_normal2.png */; };
-		FE11692D171E4DE900721035 /* blonde_okay.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116655171E4DE700721035 /* blonde_okay.png */; };
-		FE11692E171E4DE900721035 /* blonde_omgrun.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116656171E4DE700721035 /* blonde_omgrun.png */; };
-		FE11692F171E4DE900721035 /* blonde_pfft.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116657171E4DE700721035 /* blonde_pfft.png */; };
-		FE116930171E4DE900721035 /* blonde_pokerface.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116658171E4DE700721035 /* blonde_pokerface.png */; };
-		FE116931171E4DE900721035 /* blonde_quite.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116659171E4DE700721035 /* blonde_quite.png */; };
-		FE116932171E4DE900721035 /* blonde_rage canadian.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11665A171E4DE700721035 /* blonde_rage canadian.png */; };
-		FE116933171E4DE900721035 /* blonde_rage extreme.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11665B171E4DE700721035 /* blonde_rage extreme.png */; };
-		FE116934171E4DE900721035 /* blonde_rage extreme2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11665C171E4DE700721035 /* blonde_rage extreme2.png */; };
-		FE116935171E4DE900721035 /* blonde_rage foaming.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11665D171E4DE700721035 /* blonde_rage foaming.png */; };
-		FE116936171E4DE900721035 /* blonde_rage getting pissed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11665E171E4DE700721035 /* blonde_rage getting pissed.png */; };
-		FE116937171E4DE900721035 /* blonde_rage mad.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11665F171E4DE700721035 /* blonde_rage mad.png */; };
-		FE116938171E4DE900721035 /* blonde_rage mad2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116660171E4DE700721035 /* blonde_rage mad2.png */; };
-		FE116939171E4DE900721035 /* blonde_rage quiet.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116661171E4DE700721035 /* blonde_rage quiet.png */; };
-		FE11693A171E4DE900721035 /* blonde_rage shaking.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116662171E4DE700721035 /* blonde_rage shaking.png */; };
-		FE11693B171E4DE900721035 /* blonde_rage super.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116663171E4DE700721035 /* blonde_rage super.png */; };
-		FE11693C171E4DE900721035 /* blonde_rage.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116664171E4DE700721035 /* blonde_rage.png */; };
-		FE11693D171E4DE900721035 /* blonde_rage2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116665171E4DE700721035 /* blonde_rage2.png */; };
-		FE11693E171E4DE900721035 /* blonde_really determined.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116666171E4DE700721035 /* blonde_really determined.png */; };
-		FE11693F171E4DE900721035 /* blonde_red tongue.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116667171E4DE700721035 /* blonde_red tongue.png */; };
-		FE116940171E4DE900721035 /* blonde_schlick.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116668171E4DE700721035 /* blonde_schlick.png */; };
-		FE116941171E4DE900721035 /* blonde_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116669171E4DE800721035 /* blonde_smile.png */; };
-		FE116942171E4DE900721035 /* blonde_sweet tears.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11666A171E4DE800721035 /* blonde_sweet tears.png */; };
-		FE116943171E4DE900721035 /* blonde_tongue down.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11666B171E4DE800721035 /* blonde_tongue down.png */; };
-		FE116944171E4DE900721035 /* blonde_troll sad.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11666C171E4DE800721035 /* blonde_troll sad.png */; };
-		FE116945171E4DE900721035 /* blonde_troll.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11666D171E4DE800721035 /* blonde_troll.png */; };
-		FE116946171E4DE900721035 /* blonde_what.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11666E171E4DE800721035 /* blonde_what.png */; };
-		FE116947171E4DE900721035 /* blonde_why no hands.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11666F171E4DE800721035 /* blonde_why no hands.png */; };
-		FE116948171E4DE900721035 /* blonde_why.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116670171E4DE800721035 /* blonde_why.png */; };
-		FE116949171E4DE900721035 /* blonde_wut.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116671171E4DE800721035 /* blonde_wut.png */; };
-		FE11694A171E4DE900721035 /* 01brunettehair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116673171E4DE800721035 /* 01brunettehair.png */; };
-		FE11694B171E4DE900721035 /* brunette_big smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116674171E4DE800721035 /* brunette_big smile.png */; };
-		FE11694C171E4DE900721035 /* brunette_concentrated.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116675171E4DE800721035 /* brunette_concentrated.png */; };
-		FE11694D171E4DE900721035 /* brunette_crying.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116676171E4DE800721035 /* brunette_crying.png */; };
-		FE11694E171E4DE900721035 /* brunette_dazed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116677171E4DE800721035 /* brunette_dazed.png */; };
-		FE11694F171E4DE900721035 /* brunette_determined.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116678171E4DE800721035 /* brunette_determined.png */; };
-		FE116950171E4DE900721035 /* brunette_dude.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116679171E4DE800721035 /* brunette_dude.png */; };
-		FE116951171E4DE900721035 /* brunette_dumbfounded.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11667A171E4DE800721035 /* brunette_dumbfounded.png */; };
-		FE116952171E4DE900721035 /* brunette_ewbte.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11667B171E4DE800721035 /* brunette_ewbte.png */; };
-		FE116953171E4DE900721035 /* brunette_excited bliss.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11667C171E4DE800721035 /* brunette_excited bliss.png */; };
-		FE116954171E4DE900721035 /* brunette_excited tears.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11667D171E4DE800721035 /* brunette_excited tears.png */; };
-		FE116955171E4DE900721035 /* brunette_excited.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11667E171E4DE800721035 /* brunette_excited.png */; };
-		FE116956171E4DE900721035 /* brunette_facepalm.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11667F171E4DE800721035 /* brunette_facepalm.png */; };
-		FE116957171E4DE900721035 /* brunette_fake smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116680171E4DE800721035 /* brunette_fake smile.png */; };
-		FE116958171E4DE900721035 /* brunette_forever alone.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116681171E4DE800721035 /* brunette_forever alone.png */; };
-		FE116959171E4DE900721035 /* brunette_freddie.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116682171E4DE800721035 /* brunette_freddie.png */; };
-		FE11695A171E4DE900721035 /* brunette_fuck that bitch.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116683171E4DE800721035 /* brunette_fuck that bitch.png */; };
-		FE11695B171E4DE900721035 /* brunette_fuck yeah.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116684171E4DE800721035 /* brunette_fuck yeah.png */; };
-		FE11695C171E4DE900721035 /* brunette_gasp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116685171E4DE800721035 /* brunette_gasp.jpg */; };
-		FE11695D171E4DE900721035 /* brunette_gasp2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116686171E4DE800721035 /* brunette_gasp2.jpg */; };
-		FE11695E171E4DE900721035 /* brunette_happy.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116687171E4DE800721035 /* brunette_happy.png */; };
-		FE11695F171E4DE900721035 /* brunette_hmmm.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116688171E4DE800721035 /* brunette_hmmm.png */; };
-		FE116960171E4DE900721035 /* brunette_i wonder.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116689171E4DE800721035 /* brunette_i wonder.png */; };
-		FE116961171E4DE900721035 /* brunette_ladystare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11668A171E4DE800721035 /* brunette_ladystare.jpg */; };
-		FE116962171E4DE900721035 /* brunette_ladystare2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11668B171E4DE800721035 /* brunette_ladystare2.jpg */; };
-		FE116963171E4DE900721035 /* brunette_lean.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11668C171E4DE800721035 /* brunette_lean.png */; };
-		FE116964171E4DE900721035 /* brunette_lol.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11668D171E4DE800721035 /* brunette_lol.png */; };
-		FE116965171E4DE900721035 /* brunette_me gusta.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11668E171E4DE800721035 /* brunette_me gusta.png */; };
-		FE116966171E4DE900721035 /* brunette_milk.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11668F171E4DE800721035 /* brunette_milk.png */; };
-		FE116967171E4DE900721035 /* brunette_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116690171E4DE800721035 /* brunette_normal.png */; };
-		FE116968171E4DE900721035 /* brunette_normal2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116691171E4DE800721035 /* brunette_normal2.png */; };
-		FE116969171E4DE900721035 /* brunette_okay.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116692171E4DE800721035 /* brunette_okay.png */; };
-		FE11696A171E4DE900721035 /* brunette_omgrun.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116693171E4DE800721035 /* brunette_omgrun.png */; };
-		FE11696B171E4DE900721035 /* brunette_pfft.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116694171E4DE800721035 /* brunette_pfft.png */; };
-		FE11696C171E4DE900721035 /* brunette_pokerface.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116695171E4DE800721035 /* brunette_pokerface.png */; };
-		FE11696D171E4DE900721035 /* brunette_quite.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116696171E4DE800721035 /* brunette_quite.png */; };
-		FE11696E171E4DE900721035 /* brunette_rage canadian.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116697171E4DE800721035 /* brunette_rage canadian.png */; };
-		FE11696F171E4DE900721035 /* brunette_rage extreme.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116698171E4DE800721035 /* brunette_rage extreme.png */; };
-		FE116970171E4DE900721035 /* brunette_rage extreme2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116699171E4DE800721035 /* brunette_rage extreme2.png */; };
-		FE116971171E4DE900721035 /* brunette_rage foaming.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11669A171E4DE800721035 /* brunette_rage foaming.png */; };
-		FE116972171E4DE900721035 /* brunette_rage getting pissed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11669B171E4DE800721035 /* brunette_rage getting pissed.png */; };
-		FE116973171E4DE900721035 /* brunette_rage mad.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11669C171E4DE800721035 /* brunette_rage mad.png */; };
-		FE116974171E4DE900721035 /* brunette_rage mad2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11669D171E4DE800721035 /* brunette_rage mad2.png */; };
-		FE116975171E4DE900721035 /* brunette_rage quiet.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11669E171E4DE800721035 /* brunette_rage quiet.png */; };
-		FE116976171E4DE900721035 /* brunette_rage shaking.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11669F171E4DE800721035 /* brunette_rage shaking.png */; };
-		FE116977171E4DE900721035 /* brunette_rage super.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A0171E4DE800721035 /* brunette_rage super.png */; };
-		FE116978171E4DE900721035 /* brunette_rage.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A1171E4DE800721035 /* brunette_rage.png */; };
-		FE116979171E4DE900721035 /* brunette_rage2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A2171E4DE800721035 /* brunette_rage2.png */; };
-		FE11697A171E4DE900721035 /* brunette_really determined.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A3171E4DE800721035 /* brunette_really determined.png */; };
-		FE11697B171E4DE900721035 /* brunette_red tongue.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A4171E4DE800721035 /* brunette_red tongue.png */; };
-		FE11697C171E4DE900721035 /* brunette_schlick.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A5171E4DE800721035 /* brunette_schlick.png */; };
-		FE11697D171E4DE900721035 /* brunette_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A6171E4DE800721035 /* brunette_smile.png */; };
-		FE11697E171E4DE900721035 /* brunette_sweet tears.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A7171E4DE800721035 /* brunette_sweet tears.png */; };
-		FE11697F171E4DE900721035 /* brunette_tongue down.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A8171E4DE800721035 /* brunette_tongue down.png */; };
-		FE116980171E4DE900721035 /* brunette_troll sad.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166A9171E4DE800721035 /* brunette_troll sad.png */; };
-		FE116981171E4DE900721035 /* brunette_troll.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166AA171E4DE800721035 /* brunette_troll.png */; };
-		FE116982171E4DE900721035 /* brunette_what.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166AB171E4DE800721035 /* brunette_what.png */; };
-		FE116983171E4DE900721035 /* brunette_why no hands.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166AC171E4DE800721035 /* brunette_why no hands.png */; };
-		FE116984171E4DE900721035 /* brunette_why.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166AD171E4DE800721035 /* brunette_why.png */; };
-		FE116985171E4DE900721035 /* brunette_wut.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166AE171E4DE800721035 /* brunette_wut.png */; };
-		FE116986171E4DE900721035 /* 01blackhair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B0171E4DE800721035 /* 01blackhair.png */; };
-		FE116987171E4DE900721035 /* 01blankhair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B1171E4DE800721035 /* 01blankhair.png */; };
-		FE116988171E4DE900721035 /* 01blondehair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B2171E4DE800721035 /* 01blondehair.png */; };
-		FE116989171E4DE900721035 /* 01brunettehair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B3171E4DE800721035 /* 01brunettehair.png */; };
-		FE11698A171E4DE900721035 /* 01redhair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B4171E4DE800721035 /* 01redhair.png */; };
-		FE11698B171E4DE900721035 /* 02blackhair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B5171E4DE800721035 /* 02blackhair.png */; };
-		FE11698C171E4DE900721035 /* 03blackhair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B6171E4DE800721035 /* 03blackhair.png */; };
-		FE11698D171E4DE900721035 /* grandmahair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B7171E4DE800721035 /* grandmahair.png */; };
-		FE11698E171E4DE900721035 /* 01redhair.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166B9171E4DE800721035 /* 01redhair.png */; };
-		FE11698F171E4DE900721035 /* red_big smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166BA171E4DE800721035 /* red_big smile.png */; };
-		FE116990171E4DE900721035 /* red_concentrated.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166BB171E4DE800721035 /* red_concentrated.png */; };
-		FE116991171E4DE900721035 /* red_crying.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166BC171E4DE800721035 /* red_crying.png */; };
-		FE116992171E4DE900721035 /* red_dazed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166BD171E4DE800721035 /* red_dazed.png */; };
-		FE116993171E4DE900721035 /* red_determined.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166BE171E4DE800721035 /* red_determined.png */; };
-		FE116994171E4DE900721035 /* red_dude.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166BF171E4DE800721035 /* red_dude.png */; };
-		FE116995171E4DE900721035 /* red_dumbfounded.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C0171E4DE800721035 /* red_dumbfounded.png */; };
-		FE116996171E4DE900721035 /* red_ewbte.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C1171E4DE800721035 /* red_ewbte.png */; };
-		FE116997171E4DE900721035 /* red_excited bliss.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C2171E4DE800721035 /* red_excited bliss.png */; };
-		FE116998171E4DE900721035 /* red_excited tears.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C3171E4DE800721035 /* red_excited tears.png */; };
-		FE116999171E4DE900721035 /* red_excited.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C4171E4DE800721035 /* red_excited.png */; };
-		FE11699A171E4DE900721035 /* red_facepalm.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C5171E4DE800721035 /* red_facepalm.png */; };
-		FE11699B171E4DE900721035 /* red_fake smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C6171E4DE800721035 /* red_fake smile.png */; };
-		FE11699C171E4DE900721035 /* red_forever alone.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C7171E4DE800721035 /* red_forever alone.png */; };
-		FE11699D171E4DE900721035 /* red_freddie.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C8171E4DE800721035 /* red_freddie.png */; };
-		FE11699E171E4DE900721035 /* red_fuck that bitch.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166C9171E4DE800721035 /* red_fuck that bitch.png */; };
-		FE11699F171E4DE900721035 /* red_fuck yeah.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166CA171E4DE800721035 /* red_fuck yeah.png */; };
-		FE1169A0171E4DE900721035 /* red_gasp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1166CB171E4DE800721035 /* red_gasp.jpg */; };
-		FE1169A1171E4DE900721035 /* red_gasp2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1166CC171E4DE800721035 /* red_gasp2.jpg */; };
-		FE1169A2171E4DE900721035 /* red_happy.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166CD171E4DE800721035 /* red_happy.png */; };
-		FE1169A3171E4DE900721035 /* red_hmmm.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166CE171E4DE800721035 /* red_hmmm.png */; };
-		FE1169A4171E4DE900721035 /* red_i wonder.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166CF171E4DE800721035 /* red_i wonder.png */; };
-		FE1169A5171E4DE900721035 /* red_ladystare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D0171E4DE800721035 /* red_ladystare.jpg */; };
-		FE1169A6171E4DE900721035 /* red_ladystare2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D1171E4DE800721035 /* red_ladystare2.jpg */; };
-		FE1169A7171E4DE900721035 /* red_lean.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D2171E4DE800721035 /* red_lean.png */; };
-		FE1169A8171E4DE900721035 /* red_lol.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D3171E4DE800721035 /* red_lol.png */; };
-		FE1169A9171E4DE900721035 /* red_me gusta.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D4171E4DE800721035 /* red_me gusta.png */; };
-		FE1169AA171E4DE900721035 /* red_milk.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D5171E4DE800721035 /* red_milk.png */; };
-		FE1169AB171E4DE900721035 /* red_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D6171E4DE800721035 /* red_normal.png */; };
-		FE1169AC171E4DE900721035 /* red_normal2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D7171E4DE800721035 /* red_normal2.png */; };
-		FE1169AD171E4DE900721035 /* red_okay.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D8171E4DE800721035 /* red_okay.png */; };
-		FE1169AE171E4DE900721035 /* red_omgrun.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166D9171E4DE800721035 /* red_omgrun.png */; };
-		FE1169AF171E4DE900721035 /* red_pfft.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166DA171E4DE800721035 /* red_pfft.png */; };
-		FE1169B0171E4DE900721035 /* red_pokerface.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166DB171E4DE800721035 /* red_pokerface.png */; };
-		FE1169B1171E4DE900721035 /* red_quite.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166DC171E4DE800721035 /* red_quite.png */; };
-		FE1169B2171E4DE900721035 /* red_rage canadian.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166DD171E4DE800721035 /* red_rage canadian.png */; };
-		FE1169B3171E4DE900721035 /* red_rage extreme.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166DE171E4DE800721035 /* red_rage extreme.png */; };
-		FE1169B4171E4DE900721035 /* red_rage extreme2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166DF171E4DE800721035 /* red_rage extreme2.png */; };
-		FE1169B5171E4DE900721035 /* red_rage foaming.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E0171E4DE800721035 /* red_rage foaming.png */; };
-		FE1169B6171E4DE900721035 /* red_rage getting pissed.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E1171E4DE800721035 /* red_rage getting pissed.png */; };
-		FE1169B7171E4DE900721035 /* red_rage mad.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E2171E4DE800721035 /* red_rage mad.png */; };
-		FE1169B8171E4DE900721035 /* red_rage mad2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E3171E4DE800721035 /* red_rage mad2.png */; };
-		FE1169B9171E4DE900721035 /* red_rage quiet.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E4171E4DE800721035 /* red_rage quiet.png */; };
-		FE1169BA171E4DE900721035 /* red_rage shaking.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E5171E4DE800721035 /* red_rage shaking.png */; };
-		FE1169BB171E4DE900721035 /* red_rage super.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E6171E4DE800721035 /* red_rage super.png */; };
-		FE1169BC171E4DE900721035 /* red_rage.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E7171E4DE800721035 /* red_rage.png */; };
-		FE1169BD171E4DE900721035 /* red_rage2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E8171E4DE800721035 /* red_rage2.png */; };
-		FE1169BE171E4DE900721035 /* red_really determined.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166E9171E4DE800721035 /* red_really determined.png */; };
-		FE1169BF171E4DE900721035 /* red_red tongue.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166EA171E4DE800721035 /* red_red tongue.png */; };
-		FE1169C0171E4DE900721035 /* red_schlick.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166EB171E4DE800721035 /* red_schlick.png */; };
-		FE1169C1171E4DE900721035 /* red_smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166EC171E4DE800721035 /* red_smile.png */; };
-		FE1169C2171E4DE900721035 /* red_sweet tears.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166ED171E4DE800721035 /* red_sweet tears.png */; };
-		FE1169C3171E4DE900721035 /* red_tongue down.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166EE171E4DE800721035 /* red_tongue down.png */; };
-		FE1169C4171E4DE900721035 /* red_troll sad.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166EF171E4DE800721035 /* red_troll sad.png */; };
-		FE1169C5171E4DE900721035 /* red_troll.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F0171E4DE800721035 /* red_troll.png */; };
-		FE1169C6171E4DE900721035 /* red_what.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F1171E4DE800721035 /* red_what.png */; };
-		FE1169C7171E4DE900721035 /* red_why no hands.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F2171E4DE800721035 /* red_why no hands.png */; };
-		FE1169C8171E4DE900721035 /* red_why.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F3171E4DE800721035 /* red_why.png */; };
-		FE1169C9171E4DE900721035 /* red_wut.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F4171E4DE800721035 /* red_wut.png */; };
-		FE1169CA171E4DE900721035 /* chef hat.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F6171E4DE800721035 /* chef hat.png */; };
-		FE1169CB171E4DE900721035 /* face_fap.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F7171E4DE800721035 /* face_fap.png */; };
-		FE1169CC171E4DE900721035 /* face_mustache.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F8171E4DE800721035 /* face_mustache.png */; };
-		FE1169CD171E4DE900721035 /* ing_bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166F9171E4DE800721035 /* ing_bacon.png */; };
-		FE1169CE171E4DE900721035 /* ing_bacon2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166FA171E4DE800721035 /* ing_bacon2.png */; };
-		FE1169CF171E4DE900721035 /* ing_cheese cheddar.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166FB171E4DE800721035 /* ing_cheese cheddar.png */; };
-		FE1169D0171E4DE900721035 /* ing_cheese swiss.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166FC171E4DE800721035 /* ing_cheese swiss.png */; };
-		FE1169D1171E4DE900721035 /* ing_egg.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166FD171E4DE800721035 /* ing_egg.png */; };
-		FE1169D2171E4DE900721035 /* ing_flour.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166FE171E4DE800721035 /* ing_flour.png */; };
-		FE1169D3171E4DE900721035 /* ing_garlic.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1166FF171E4DE800721035 /* ing_garlic.png */; };
-		FE1169D4171E4DE900721035 /* ing_milk.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116700171E4DE800721035 /* ing_milk.png */; };
-		FE1169D5171E4DE900721035 /* ing_onion.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116701171E4DE800721035 /* ing_onion.png */; };
-		FE1169D6171E4DE900721035 /* ing_pepper green.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116702171E4DE800721035 /* ing_pepper green.png */; };
-		FE1169D7171E4DE900721035 /* ing_pepper red.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116703171E4DE800721035 /* ing_pepper red.png */; };
-		FE1169D8171E4DE900721035 /* ing_pepper.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116704171E4DE800721035 /* ing_pepper.png */; };
-		FE1169D9171E4DE900721035 /* ing_salt.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116705171E4DE800721035 /* ing_salt.png */; };
-		FE1169DA171E4DE900721035 /* ing_tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116706171E4DE800721035 /* ing_tomato.png */; };
-		FE1169DB171E4DE900721035 /* skillet.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116707171E4DE800721035 /* skillet.png */; };
 		FE1169DC171E4DE900721035 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116709171E4DE800721035 /* 05.png */; };
 		FE1169DD171E4DE900721035 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11670A171E4DE800721035 /* 06.png */; };
 		FE1169DE171E4DE900721035 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11670B171E4DE800721035 /* 08.png */; };
@@ -358,28 +141,6 @@
 		FE1169EB171E4DE900721035 /* oh stop it you.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116718171E4DE800721035 /* oh stop it you.png */; };
 		FE1169EC171E4DE900721035 /* Smile2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116719171E4DE800721035 /* Smile2.png */; };
 		FE1169ED171E4DE900721035 /* images.xml in Resources */ = {isa = PBXBuildFile; fileRef = FE11671A171E4DE800721035 /* images.xml */; };
-		FE1169EE171E4DE900721035 /* inglip_burning skeleton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11671C171E4DE800721035 /* inglip_burning skeleton.jpg */; };
-		FE1169EF171E4DE900721035 /* inglip_captcha.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11671D171E4DE800721035 /* inglip_captcha.png */; };
-		FE1169F0171E4DE900721035 /* inglip_captchatext.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11671E171E4DE800721035 /* inglip_captchatext.jpg */; };
-		FE1169F1171E4DE900721035 /* inglip_full body.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11671F171E4DE800721035 /* inglip_full body.jpg */; };
-		FE1169F2171E4DE900721035 /* inglip_full body2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116720171E4DE800721035 /* inglip_full body2.jpg */; };
-		FE1169F3171E4DE900721035 /* inglip_gropaga amazed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116721171E4DE800721035 /* inglip_gropaga amazed.jpg */; };
-		FE1169F4171E4DE900721035 /* inglip_gropaga blank.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116722171E4DE800721035 /* inglip_gropaga blank.png */; };
-		FE1169F5171E4DE900721035 /* inglip_gropaga front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116723171E4DE800721035 /* inglip_gropaga front.jpg */; };
-		FE1169F6171E4DE900721035 /* inglip_gropaga okay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116724171E4DE800721035 /* inglip_gropaga okay.jpg */; };
-		FE1169F7171E4DE900721035 /* inglip_gropaga why.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116725171E4DE800721035 /* inglip_gropaga why.jpg */; };
-		FE1169F8171E4DE900721035 /* inglip_gropaga1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116726171E4DE800721035 /* inglip_gropaga1.jpg */; };
-		FE1169F9171E4DE900721035 /* inglip_gropaga2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116727171E4DE800721035 /* inglip_gropaga2.jpg */; };
-		FE1169FA171E4DE900721035 /* inglip_gropaga3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116728171E4DE800721035 /* inglip_gropaga3.jpg */; };
-		FE1169FB171E4DE900721035 /* inglip_gropaga4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116729171E4DE800721035 /* inglip_gropaga4.jpg */; };
-		FE1169FC171E4DE900721035 /* inglip_gropaga5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11672A171E4DE800721035 /* inglip_gropaga5.jpg */; };
-		FE1169FD171E4DE900721035 /* inglip_gropaga6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11672B171E4DE800721035 /* inglip_gropaga6.jpg */; };
-		FE1169FE171E4DE900721035 /* inglip_gropaga7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11672C171E4DE800721035 /* inglip_gropaga7.jpg */; };
-		FE1169FF171E4DE900721035 /* inglip_hail inglip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11672D171E4DE800721035 /* inglip_hail inglip.jpg */; };
-		FE116A00171E4DE900721035 /* inglip_hood1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11672E171E4DE800721035 /* inglip_hood1.png */; };
-		FE116A01171E4DE900721035 /* inglip_hood2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11672F171E4DE800721035 /* inglip_hood2.png */; };
-		FE116A02171E4DE900721035 /* inglip_ircip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116730171E4DE800721035 /* inglip_ircip.jpg */; };
-		FE116A03171E4DE900721035 /* inglip_ready to battle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116731171E4DE800721035 /* inglip_ready to battle.jpg */; };
 		FE116A04171E4DE900721035 /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116733171E4DE800721035 /* 27.png */; };
 		FE116A05171E4DE900721035 /* 34.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116734171E4DE800721035 /* 34.png */; };
 		FE116A06171E4DE900721035 /* 40.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116735171E4DE800721035 /* 40.png */; };
@@ -501,51 +262,6 @@
 		FE116A7A171E4DEA00721035 /* rage reddit alien.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167AF171E4DE800721035 /* rage reddit alien.png */; };
 		FE116A7B171E4DEA00721035 /* rage super.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B0171E4DE800721035 /* rage super.png */; };
 		FE116A7C171E4DEA00721035 /* RageLion.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B1171E4DE800721035 /* RageLion.png */; };
-		FE116A7D171E4DEA00721035 /* brick1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B3171E4DE800721035 /* brick1.jpg */; };
-		FE116A7E171E4DEA00721035 /* brick2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B4171E4DE800721035 /* brick2.jpg */; };
-		FE116A7F171E4DEA00721035 /* brick3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B5171E4DE800721035 /* brick3.jpg */; };
-		FE116A80171E4DEA00721035 /* brick4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B6171E4DE900721035 /* brick4.jpg */; };
-		FE116A81171E4DEA00721035 /* brick5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B7171E4DE900721035 /* brick5.jpg */; };
-		FE116A82171E4DEA00721035 /* command1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B8171E4DE900721035 /* command1.jpg */; };
-		FE116A83171E4DEA00721035 /* command10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167B9171E4DE900721035 /* command10.jpg */; };
-		FE116A84171E4DEA00721035 /* command11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167BA171E4DE900721035 /* command11.jpg */; };
-		FE116A85171E4DEA00721035 /* command2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167BB171E4DE900721035 /* command2.jpg */; };
-		FE116A86171E4DEA00721035 /* command3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167BC171E4DE900721035 /* command3.jpg */; };
-		FE116A87171E4DEA00721035 /* command4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167BD171E4DE900721035 /* command4.jpg */; };
-		FE116A88171E4DEA00721035 /* command5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167BE171E4DE900721035 /* command5.jpg */; };
-		FE116A89171E4DEA00721035 /* command6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167BF171E4DE900721035 /* command6.jpg */; };
-		FE116A8A171E4DEA00721035 /* command7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C0171E4DE900721035 /* command7.jpg */; };
-		FE116A8B171E4DEA00721035 /* command8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C1171E4DE900721035 /* command8.jpg */; };
-		FE116A8C171E4DEA00721035 /* command9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C2171E4DE900721035 /* command9.jpg */; };
-		FE116A8D171E4DEA00721035 /* radio1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C3171E4DE900721035 /* radio1.jpg */; };
-		FE116A8E171E4DEA00721035 /* radio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C4171E4DE900721035 /* radio2.jpg */; };
-		FE116A8F171E4DEA00721035 /* radio3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C5171E4DE900721035 /* radio3.jpg */; };
-		FE116A90171E4DEA00721035 /* radio4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C6171E4DE900721035 /* radio4.jpg */; };
-		FE116A91171E4DEA00721035 /* radio5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C7171E4DE900721035 /* radio5.jpg */; };
-		FE116A92171E4DEA00721035 /* radio6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C8171E4DE900721035 /* radio6.jpg */; };
-		FE116A93171E4DEA00721035 /* radio7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167C9171E4DE900721035 /* radio7.jpg */; };
-		FE116A94171E4DEA00721035 /* radio8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167CA171E4DE900721035 /* radio8.jpg */; };
-		FE116A95171E4DEA00721035 /* soldier1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167CB171E4DE900721035 /* soldier1.jpg */; };
-		FE116A96171E4DEA00721035 /* soldier2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167CC171E4DE900721035 /* soldier2.jpg */; };
-		FE116A97171E4DEA00721035 /* soldier3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167CD171E4DE900721035 /* soldier3.jpg */; };
-		FE116A98171E4DEA00721035 /* soldier_commander1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167CE171E4DE900721035 /* soldier_commander1.jpg */; };
-		FE116A99171E4DEA00721035 /* soldier_commander2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167CF171E4DE900721035 /* soldier_commander2.jpg */; };
-		FE116A9A171E4DEA00721035 /* soldier_commander3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D0171E4DE900721035 /* soldier_commander3.jpg */; };
-		FE116A9B171E4DEA00721035 /* soldier_engineer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D1171E4DE900721035 /* soldier_engineer.jpg */; };
-		FE116A9C171E4DEA00721035 /* soldier_engineer2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D2171E4DE900721035 /* soldier_engineer2.jpg */; };
-		FE116A9D171E4DEA00721035 /* soldier_gunners.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D3171E4DE900721035 /* soldier_gunners.jpg */; };
-		FE116A9E171E4DEA00721035 /* soldier_lookout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D4171E4DE900721035 /* soldier_lookout.jpg */; };
-		FE116A9F171E4DEA00721035 /* soldier_march.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D5171E4DE900721035 /* soldier_march.jpg */; };
-		FE116AA0171E4DEA00721035 /* soldier_rapel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D6171E4DE900721035 /* soldier_rapel.jpg */; };
-		FE116AA1171E4DEA00721035 /* soldier_sniper1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D7171E4DE900721035 /* soldier_sniper1.jpg */; };
-		FE116AA2171E4DEA00721035 /* soldier_sniper2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D8171E4DE900721035 /* soldier_sniper2.jpg */; };
-		FE116AA3171E4DEA00721035 /* soldier_tank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167D9171E4DE900721035 /* soldier_tank.jpg */; };
-		FE116AA4171E4DEA00721035 /* strategize1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167DA171E4DE900721035 /* strategize1.jpg */; };
-		FE116AA5171E4DEA00721035 /* strategize2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167DB171E4DE900721035 /* strategize2.jpg */; };
-		FE116AA6171E4DEA00721035 /* strategize3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167DC171E4DE900721035 /* strategize3.jpg */; };
-		FE116AA7171E4DEA00721035 /* strategize4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167DD171E4DE900721035 /* strategize4.jpg */; };
-		FE116AA8171E4DEA00721035 /* strategize5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167DE171E4DE900721035 /* strategize5.jpg */; };
-		FE116AA9171E4DEA00721035 /* strategize6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167DF171E4DE900721035 /* strategize6.jpg */; };
 		FE116AAA171E4DEA00721035 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167E1171E4DE900721035 /* 10.png */; };
 		FE116AAB171E4DEA00721035 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167E2171E4DE900721035 /* 16.png */; };
 		FE116AAC171E4DEA00721035 /* 39.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167E3171E4DE900721035 /* 39.png */; };
@@ -564,70 +280,6 @@
 		FE116AB9171E4DEA00721035 /* sad plain.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F0171E4DE900721035 /* sad plain.png */; };
 		FE116ABA171E4DEA00721035 /* that feel.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F1171E4DE900721035 /* that feel.png */; };
 		FE116ABB171E4DEA00721035 /* why inverted.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F2171E4DE900721035 /* why inverted.png */; };
-		FE116ABC171E4DEA00721035 /* 01 - later1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F4171E4DE900721035 /* 01 - later1.jpg */; };
-		FE116ABD171E4DEA00721035 /* 01 - later2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F5171E4DE900721035 /* 01 - later2.jpg */; };
-		FE116ABE171E4DEA00721035 /* 01 - later3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F6171E4DE900721035 /* 01 - later3.jpg */; };
-		FE116ABF171E4DEA00721035 /* 01 - later3_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F7171E4DE900721035 /* 01 - later3_1.jpg */; };
-		FE116AC0171E4DEA00721035 /* 01 - later4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F8171E4DE900721035 /* 01 - later4.jpg */; };
-		FE116AC1171E4DEA00721035 /* 01 - later5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167F9171E4DE900721035 /* 01 - later5.jpg */; };
-		FE116AC2171E4DEA00721035 /* 01 - later6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167FA171E4DE900721035 /* 01 - later6.jpg */; };
-		FE116AC3171E4DEA00721035 /* 01 - later7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167FB171E4DE900721035 /* 01 - later7.jpg */; };
-		FE116AC4171E4DEA00721035 /* 01 - later8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167FC171E4DE900721035 /* 01 - later8.jpg */; };
-		FE116AC5171E4DEA00721035 /* 01 - s_eventually.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167FD171E4DE900721035 /* 01 - s_eventually.jpg */; };
-		FE116AC6171E4DEA00721035 /* 01 - same evening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167FE171E4DE900721035 /* 01 - same evening.jpg */; };
-		FE116AC7171E4DEA00721035 /* 02 - 10 seconds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE1167FF171E4DE900721035 /* 02 - 10 seconds.jpg */; };
-		FE116AC8171E4DEA00721035 /* 02 - 12 seconds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116800171E4DE900721035 /* 02 - 12 seconds.jpg */; };
-		FE116AC9171E4DEA00721035 /* 03 - 1 37 seconds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116801171E4DE900721035 /* 03 - 1 37 seconds.jpg */; };
-		FE116ACA171E4DEA00721035 /* 03 - 15 minutes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116802171E4DE900721035 /* 03 - 15 minutes.jpg */; };
-		FE116ACB171E4DEA00721035 /* 03 - 2 minutes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116803171E4DE900721035 /* 03 - 2 minutes.jpg */; };
-		FE116ACC171E4DEA00721035 /* 03 - 20 minutes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116804171E4DE900721035 /* 03 - 20 minutes.jpg */; };
-		FE116ACD171E4DEA00721035 /* 03 - 346 minutes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116805171E4DE900721035 /* 03 - 346 minutes.jpg */; };
-		FE116ACE171E4DEA00721035 /* 03 - 4 minutes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116806171E4DE900721035 /* 03 - 4 minutes.jpg */; };
-		FE116ACF171E4DEA00721035 /* 03 - 4 minutes2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116807171E4DE900721035 /* 03 - 4 minutes2.jpg */; };
-		FE116AD0171E4DEA00721035 /* 03 - 5 minutes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116808171E4DE900721035 /* 03 - 5 minutes.jpg */; };
-		FE116AD1171E4DEA00721035 /* 04 - 1 hour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116809171E4DE900721035 /* 04 - 1 hour.jpg */; };
-		FE116AD2171E4DEA00721035 /* 04 - 2 hours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11680A171E4DE900721035 /* 04 - 2 hours.jpg */; };
-		FE116AD3171E4DEA00721035 /* 04 - 2 hours2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11680B171E4DE900721035 /* 04 - 2 hours2.jpg */; };
-		FE116AD4171E4DEA00721035 /* 04 - 2 hours3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11680C171E4DE900721035 /* 04 - 2 hours3.jpg */; };
-		FE116AD5171E4DEA00721035 /* 04 - 2 hours4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11680D171E4DE900721035 /* 04 - 2 hours4.jpg */; };
-		FE116AD6171E4DEA00721035 /* 04 - 2 hours5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11680E171E4DE900721035 /* 04 - 2 hours5.jpg */; };
-		FE116AD7171E4DEA00721035 /* 04 - 3 hours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11680F171E4DE900721035 /* 04 - 3 hours.jpg */; };
-		FE116AD8171E4DEA00721035 /* 04 - 3 hours2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116810171E4DE900721035 /* 04 - 3 hours2.jpg */; };
-		FE116AD9171E4DEA00721035 /* 04 - 3 hours3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116811171E4DE900721035 /* 04 - 3 hours3.jpg */; };
-		FE116ADA171E4DEA00721035 /* 04 - 48 hours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116812171E4DE900721035 /* 04 - 48 hours.jpg */; };
-		FE116ADB171E4DEA00721035 /* 04 - 6 hours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116813171E4DE900721035 /* 04 - 6 hours.jpg */; };
-		FE116ADC171E4DEA00721035 /* 04 - 6 hours2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116814171E4DE900721035 /* 04 - 6 hours2.jpg */; };
-		FE116ADD171E4DEA00721035 /* 04 - 6 hours3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116815171E4DE900721035 /* 04 - 6 hours3.jpg */; };
-		FE116ADE171E4DEA00721035 /* 04 - 7 hours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116816171E4DE900721035 /* 04 - 7 hours.jpg */; };
-		FE116ADF171E4DEA00721035 /* 04 - 8 hours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116817171E4DE900721035 /* 04 - 8 hours.jpg */; };
-		FE116AE0171E4DEA00721035 /* 04 - 8 hours2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116818171E4DE900721035 /* 04 - 8 hours2.jpg */; };
-		FE116AE1171E4DEA00721035 /* 05 - 1 day.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116819171E4DE900721035 /* 05 - 1 day.jpg */; };
-		FE116AE2171E4DEA00721035 /* 05 - 1 day2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11681A171E4DE900721035 /* 05 - 1 day2.jpg */; };
-		FE116AE3171E4DEA00721035 /* 05 - 3 days.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11681B171E4DE900721035 /* 05 - 3 days.jpg */; };
-		FE116AE4171E4DEA00721035 /* 05 - 3 days2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11681C171E4DE900721035 /* 05 - 3 days2.jpg */; };
-		FE116AE5171E4DEA00721035 /* 05 - 3 days3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11681D171E4DE900721035 /* 05 - 3 days3.jpg */; };
-		FE116AE6171E4DEA00721035 /* 05 - 3 days4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11681E171E4DE900721035 /* 05 - 3 days4.jpg */; };
-		FE116AE7171E4DEA00721035 /* 05 - 3 days5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11681F171E4DE900721035 /* 05 - 3 days5.jpg */; };
-		FE116AE8171E4DEA00721035 /* 05 - days.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116820171E4DE900721035 /* 05 - days.jpg */; };
-		FE116AE9171E4DEA00721035 /* 05 - tomorrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116821171E4DE900721035 /* 05 - tomorrow.jpg */; };
-		FE116AEA171E4DEA00721035 /* 05 - tomorrow2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116822171E4DE900721035 /* 05 - tomorrow2.jpg */; };
-		FE116AEB171E4DEA00721035 /* 05 - yesterday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116823171E4DE900721035 /* 05 - yesterday.jpg */; };
-		FE116AEC171E4DEA00721035 /* 06 - 1 week.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116824171E4DE900721035 /* 06 - 1 week.jpg */; };
-		FE116AED171E4DEA00721035 /* 06 - 3 weeks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116825171E4DE900721035 /* 06 - 3 weeks.jpg */; };
-		FE116AEE171E4DEA00721035 /* 06 - 3 weeks2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116826171E4DE900721035 /* 06 - 3 weeks2.jpg */; };
-		FE116AEF171E4DEA00721035 /* 06 - 4-6 weeks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116827171E4DE900721035 /* 06 - 4-6 weeks.jpg */; };
-		FE116AF0171E4DEA00721035 /* 07 - 6 months.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116828171E4DE900721035 /* 07 - 6 months.jpg */; };
-		FE116AF1171E4DEA00721035 /* 07 - many months.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116829171E4DE900721035 /* 07 - many months.jpg */; };
-		FE116AF2171E4DEA00721035 /* 08 - 2000 years.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11682A171E4DE900721035 /* 08 - 2000 years.jpg */; };
-		FE116AF3171E4DEA00721035 /* 08 - 3000 years.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11682B171E4DE900721035 /* 08 - 3000 years.jpg */; };
-		FE116AF4171E4DEA00721035 /* 08 - thousands of tears.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11682C171E4DE900721035 /* 08 - thousands of tears.jpg */; };
-		FE116AF5171E4DEA00721035 /* 09 - 1200am.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11682D171E4DE900721035 /* 09 - 1200am.jpg */; };
-		FE116AF6171E4DEA00721035 /* 09 - 328am.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11682E171E4DE900721035 /* 09 - 328am.jpg */; };
-		FE116AF7171E4DEA00721035 /* 09 - 759am.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11682F171E4DE900721035 /* 09 - 759am.jpg */; };
-		FE116AF8171E4DEA00721035 /* 09 - 801pm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116830171E4DE900721035 /* 09 - 801pm.jpg */; };
-		FE116AF9171E4DEA00721035 /* 10 - day2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116831171E4DE900721035 /* 10 - day2.jpg */; };
-		FE116AFA171E4DEA00721035 /* 10 - day3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116832171E4DE900721035 /* 10 - day3.jpg */; };
-		FE116AFB171E4DEA00721035 /* 10 - day4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116833171E4DE900721035 /* 10 - day4.jpg */; };
 		FE116AFC171E4DEA00721035 /* AreYouKiddingMe.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116835171E4DE900721035 /* AreYouKiddingMe.png */; };
 		FE116AFD171E4DEA00721035 /* AreYouKiddingMeNoText.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116836171E4DE900721035 /* AreYouKiddingMeNoText.png */; };
 		FE116AFE171E4DEA00721035 /* girl-glasses2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE116837171E4DE900721035 /* girl-glasses2.jpg */; };
@@ -677,41 +329,6 @@
 		FE116B2A171E4DEA00721035 /* speech5.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116865171E4DE900721035 /* speech5.png */; };
 		FE116B2B171E4DEA00721035 /* speech6.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116866171E4DE900721035 /* speech6.png */; };
 		FE116B2C171E4DEA00721035 /* xmashat.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116867171E4DE900721035 /* xmashat.png */; };
-		FE116B2D171E4DEA00721035 /* bic blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116869171E4DE900721035 /* bic blue.png */; };
-		FE116B2E171E4DEA00721035 /* bic brown.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11686A171E4DE900721035 /* bic brown.png */; };
-		FE116B2F171E4DEA00721035 /* bic red.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11686B171E4DE900721035 /* bic red.png */; };
-		FE116B30171E4DEA00721035 /* bong.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11686C171E4DE900721035 /* bong.png */; };
-		FE116B31171E4DEA00721035 /* bud brick.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11686D171E4DE900721035 /* bud brick.png */; };
-		FE116B32171E4DEA00721035 /* bud green.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11686E171E4DE900721035 /* bud green.png */; };
-		FE116B33171E4DEA00721035 /* bud orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11686F171E4DE900721035 /* bud orange.png */; };
-		FE116B34171E4DEA00721035 /* bud purple.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116870171E4DE900721035 /* bud purple.png */; };
-		FE116B35171E4DEA00721035 /* face1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116871171E4DE900721035 /* face1.png */; };
-		FE116B36171E4DEA00721035 /* face2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116872171E4DE900721035 /* face2.png */; };
-		FE116B37171E4DEA00721035 /* face3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116873171E4DE900721035 /* face3.png */; };
-		FE116B38171E4DEA00721035 /* face4.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116874171E4DE900721035 /* face4.png */; };
-		FE116B39171E4DEA00721035 /* face5.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116875171E4DE900721035 /* face5.png */; };
-		FE116B3A171E4DEA00721035 /* face6.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116876171E4DE900721035 /* face6.png */; };
-		FE116B3B171E4DEA00721035 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116877171E4DE900721035 /* fire.png */; };
-		FE116B3C171E4DEA00721035 /* goofy smile.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116878171E4DE900721035 /* goofy smile.png */; };
-		FE116B3D171E4DEA00721035 /* happy smoking.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116879171E4DE900721035 /* happy smoking.png */; };
-		FE116B3E171E4DEA00721035 /* joint.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11687A171E4DE900721035 /* joint.png */; };
-		FE116B3F171E4DEA00721035 /* joint2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11687B171E4DE900721035 /* joint2.png */; };
-		FE116B40171E4DEA00721035 /* joint3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11687C171E4DE900721035 /* joint3.png */; };
-		FE116B41171E4DEA00721035 /* launch_box.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11687D171E4DE900721035 /* launch_box.png */; };
-		FE116B42171E4DEA00721035 /* munchies.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11687E171E4DE900721035 /* munchies.png */; };
-		FE116B43171E4DEA00721035 /* pineapple.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11687F171E4DE900721035 /* pineapple.png */; };
-		FE116B44171E4DEA00721035 /* pipe1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116880171E4DE900721035 /* pipe1.png */; };
-		FE116B45171E4DEA00721035 /* pipe2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116881171E4DE900721035 /* pipe2.png */; };
-		FE116B46171E4DEA00721035 /* pipe3.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116882171E4DE900721035 /* pipe3.png */; };
-		FE116B47171E4DEA00721035 /* pot leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116883171E4DE900721035 /* pot leaf.png */; };
-		FE116B48171E4DEA00721035 /* stoned exhale.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116884171E4DE900721035 /* stoned exhale.png */; };
-		FE116B49171E4DEA00721035 /* stoned inhale.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116885171E4DE900721035 /* stoned inhale.png */; };
-		FE116B4A171E4DEA00721035 /* stoned what no words.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116886171E4DE900721035 /* stoned what no words.png */; };
-		FE116B4B171E4DEA00721035 /* stoned what.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116887171E4DE900721035 /* stoned what.png */; };
-		FE116B4C171E4DEA00721035 /* stoned.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116888171E4DE900721035 /* stoned.png */; };
-		FE116B4D171E4DEA00721035 /* ten guy.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116889171E4DE900721035 /* ten guy.png */; };
-		FE116B4E171E4DEA00721035 /* tokerface.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11688A171E4DE900721035 /* tokerface.png */; };
-		FE116B4F171E4DEA00721035 /* visine.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11688B171E4DE900721035 /* visine.png */; };
 		FE116B50171E4DEA00721035 /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11688D171E4DE900721035 /* 28.png */; };
 		FE116B51171E4DEA00721035 /* 43.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11688E171E4DE900721035 /* 43.png */; };
 		FE116B52171E4DEA00721035 /* AllTheThings_back.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11688F171E4DE900721035 /* AllTheThings_back.png */; };
@@ -745,17 +362,6 @@
 		FE1165AC171E315800721035 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		FE1165B6171E320600721035 /* RWRageFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRageFaceViewController.h; sourceTree = "<group>"; };
 		FE1165B7171E320600721035 /* RWRageFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRageFaceViewController.m; sourceTree = "<group>"; };
-		FE1165BC171E4DE700721035 /* ForeverAloneComputer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForeverAloneComputer.png; sourceTree = "<group>"; };
-		FE1165BD171E4DE700721035 /* ForeverAloneComputer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForeverAloneComputer2.png; sourceTree = "<group>"; };
-		FE1165BE171E4DE700721035 /* ForeverAloneComputer3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForeverAloneComputer3.png; sourceTree = "<group>"; };
-		FE1165BF171E4DE700721035 /* gasp2panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gasp2panel.png; sourceTree = "<group>"; };
-		FE1165C0171E4DE700721035 /* gaspcat2panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gaspcat2panel.png; sourceTree = "<group>"; };
-		FE1165C1171E4DE700721035 /* gaspcatglasses2panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gaspcatglasses2panel.png; sourceTree = "<group>"; };
-		FE1165C2171E4DE700721035 /* gasphand2panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gasphand2panel.png; sourceTree = "<group>"; };
-		FE1165C3171E4DE700721035 /* I Lied_black2panel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I Lied_black2panel.jpg"; sourceTree = "<group>"; };
-		FE1165C4171E4DE700721035 /* I Lied_black2panel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "I Lied_black2panel2.jpg"; sourceTree = "<group>"; };
-		FE1165C5171E4DE700721035 /* rage2panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rage2panel.png; sourceTree = "<group>"; };
-		FE1165C6171E4DE700721035 /* stare2panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stare2panel.png; sourceTree = "<group>"; };
 		FE1165C8171E4DE700721035 /* 1darkokay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1darkokay.png; sourceTree = "<group>"; };
 		FE1165C9171E4DE700721035 /* 2SadShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2SadShadow.png; sourceTree = "<group>"; };
 		FE1165CA171E4DE700721035 /* 3Actually.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3Actually.png; sourceTree = "<group>"; };
@@ -861,212 +467,6 @@
 		FE116632171E4DE700721035 /* black_why no hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black_why no hands.png"; sourceTree = "<group>"; };
 		FE116633171E4DE700721035 /* black_why.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_why.png; sourceTree = "<group>"; };
 		FE116634171E4DE700721035 /* black_wut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_wut.png; sourceTree = "<group>"; };
-		FE116636171E4DE700721035 /* 01blondehair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01blondehair.png; sourceTree = "<group>"; };
-		FE116637171E4DE700721035 /* blonde_big smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_big smile.png"; sourceTree = "<group>"; };
-		FE116638171E4DE700721035 /* blonde_concentrated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_concentrated.png; sourceTree = "<group>"; };
-		FE116639171E4DE700721035 /* blonde_crying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_crying.png; sourceTree = "<group>"; };
-		FE11663A171E4DE700721035 /* blonde_dazed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_dazed.png; sourceTree = "<group>"; };
-		FE11663B171E4DE700721035 /* blonde_determined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_determined.png; sourceTree = "<group>"; };
-		FE11663C171E4DE700721035 /* blonde_dude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_dude.png; sourceTree = "<group>"; };
-		FE11663D171E4DE700721035 /* blonde_dumbfounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_dumbfounded.png; sourceTree = "<group>"; };
-		FE11663E171E4DE700721035 /* blonde_ewbte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_ewbte.png; sourceTree = "<group>"; };
-		FE11663F171E4DE700721035 /* blonde_excited bliss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_excited bliss.png"; sourceTree = "<group>"; };
-		FE116640171E4DE700721035 /* blonde_excited tears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_excited tears.png"; sourceTree = "<group>"; };
-		FE116641171E4DE700721035 /* blonde_excited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_excited.png; sourceTree = "<group>"; };
-		FE116642171E4DE700721035 /* blonde_facepalm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_facepalm.png; sourceTree = "<group>"; };
-		FE116643171E4DE700721035 /* blonde_fake smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_fake smile.png"; sourceTree = "<group>"; };
-		FE116644171E4DE700721035 /* blonde_forever alone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_forever alone.png"; sourceTree = "<group>"; };
-		FE116645171E4DE700721035 /* blonde_freddie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_freddie.png; sourceTree = "<group>"; };
-		FE116646171E4DE700721035 /* blonde_fuck that bitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_fuck that bitch.png"; sourceTree = "<group>"; };
-		FE116647171E4DE700721035 /* blonde_fuck yeah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_fuck yeah.png"; sourceTree = "<group>"; };
-		FE116648171E4DE700721035 /* blonde_gasp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blonde_gasp.jpg; sourceTree = "<group>"; };
-		FE116649171E4DE700721035 /* blonde_gasp2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blonde_gasp2.jpg; sourceTree = "<group>"; };
-		FE11664A171E4DE700721035 /* blonde_happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_happy.png; sourceTree = "<group>"; };
-		FE11664B171E4DE700721035 /* blonde_hmmm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_hmmm.png; sourceTree = "<group>"; };
-		FE11664C171E4DE700721035 /* blonde_i wonder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_i wonder.png"; sourceTree = "<group>"; };
-		FE11664D171E4DE700721035 /* blonde_ladystare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blonde_ladystare.jpg; sourceTree = "<group>"; };
-		FE11664E171E4DE700721035 /* blonde_ladystare2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blonde_ladystare2.jpg; sourceTree = "<group>"; };
-		FE11664F171E4DE700721035 /* blonde_lean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_lean.png; sourceTree = "<group>"; };
-		FE116650171E4DE700721035 /* blonde_lol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_lol.png; sourceTree = "<group>"; };
-		FE116651171E4DE700721035 /* blonde_me gusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_me gusta.png"; sourceTree = "<group>"; };
-		FE116652171E4DE700721035 /* blonde_milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_milk.png; sourceTree = "<group>"; };
-		FE116653171E4DE700721035 /* blonde_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_normal.png; sourceTree = "<group>"; };
-		FE116654171E4DE700721035 /* blonde_normal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_normal2.png; sourceTree = "<group>"; };
-		FE116655171E4DE700721035 /* blonde_okay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_okay.png; sourceTree = "<group>"; };
-		FE116656171E4DE700721035 /* blonde_omgrun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_omgrun.png; sourceTree = "<group>"; };
-		FE116657171E4DE700721035 /* blonde_pfft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_pfft.png; sourceTree = "<group>"; };
-		FE116658171E4DE700721035 /* blonde_pokerface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_pokerface.png; sourceTree = "<group>"; };
-		FE116659171E4DE700721035 /* blonde_quite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_quite.png; sourceTree = "<group>"; };
-		FE11665A171E4DE700721035 /* blonde_rage canadian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage canadian.png"; sourceTree = "<group>"; };
-		FE11665B171E4DE700721035 /* blonde_rage extreme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage extreme.png"; sourceTree = "<group>"; };
-		FE11665C171E4DE700721035 /* blonde_rage extreme2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage extreme2.png"; sourceTree = "<group>"; };
-		FE11665D171E4DE700721035 /* blonde_rage foaming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage foaming.png"; sourceTree = "<group>"; };
-		FE11665E171E4DE700721035 /* blonde_rage getting pissed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage getting pissed.png"; sourceTree = "<group>"; };
-		FE11665F171E4DE700721035 /* blonde_rage mad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage mad.png"; sourceTree = "<group>"; };
-		FE116660171E4DE700721035 /* blonde_rage mad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage mad2.png"; sourceTree = "<group>"; };
-		FE116661171E4DE700721035 /* blonde_rage quiet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage quiet.png"; sourceTree = "<group>"; };
-		FE116662171E4DE700721035 /* blonde_rage shaking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage shaking.png"; sourceTree = "<group>"; };
-		FE116663171E4DE700721035 /* blonde_rage super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_rage super.png"; sourceTree = "<group>"; };
-		FE116664171E4DE700721035 /* blonde_rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_rage.png; sourceTree = "<group>"; };
-		FE116665171E4DE700721035 /* blonde_rage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_rage2.png; sourceTree = "<group>"; };
-		FE116666171E4DE700721035 /* blonde_really determined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_really determined.png"; sourceTree = "<group>"; };
-		FE116667171E4DE700721035 /* blonde_red tongue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_red tongue.png"; sourceTree = "<group>"; };
-		FE116668171E4DE700721035 /* blonde_schlick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_schlick.png; sourceTree = "<group>"; };
-		FE116669171E4DE800721035 /* blonde_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_smile.png; sourceTree = "<group>"; };
-		FE11666A171E4DE800721035 /* blonde_sweet tears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_sweet tears.png"; sourceTree = "<group>"; };
-		FE11666B171E4DE800721035 /* blonde_tongue down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_tongue down.png"; sourceTree = "<group>"; };
-		FE11666C171E4DE800721035 /* blonde_troll sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_troll sad.png"; sourceTree = "<group>"; };
-		FE11666D171E4DE800721035 /* blonde_troll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_troll.png; sourceTree = "<group>"; };
-		FE11666E171E4DE800721035 /* blonde_what.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_what.png; sourceTree = "<group>"; };
-		FE11666F171E4DE800721035 /* blonde_why no hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blonde_why no hands.png"; sourceTree = "<group>"; };
-		FE116670171E4DE800721035 /* blonde_why.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_why.png; sourceTree = "<group>"; };
-		FE116671171E4DE800721035 /* blonde_wut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blonde_wut.png; sourceTree = "<group>"; };
-		FE116673171E4DE800721035 /* 01brunettehair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01brunettehair.png; sourceTree = "<group>"; };
-		FE116674171E4DE800721035 /* brunette_big smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_big smile.png"; sourceTree = "<group>"; };
-		FE116675171E4DE800721035 /* brunette_concentrated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_concentrated.png; sourceTree = "<group>"; };
-		FE116676171E4DE800721035 /* brunette_crying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_crying.png; sourceTree = "<group>"; };
-		FE116677171E4DE800721035 /* brunette_dazed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_dazed.png; sourceTree = "<group>"; };
-		FE116678171E4DE800721035 /* brunette_determined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_determined.png; sourceTree = "<group>"; };
-		FE116679171E4DE800721035 /* brunette_dude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_dude.png; sourceTree = "<group>"; };
-		FE11667A171E4DE800721035 /* brunette_dumbfounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_dumbfounded.png; sourceTree = "<group>"; };
-		FE11667B171E4DE800721035 /* brunette_ewbte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_ewbte.png; sourceTree = "<group>"; };
-		FE11667C171E4DE800721035 /* brunette_excited bliss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_excited bliss.png"; sourceTree = "<group>"; };
-		FE11667D171E4DE800721035 /* brunette_excited tears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_excited tears.png"; sourceTree = "<group>"; };
-		FE11667E171E4DE800721035 /* brunette_excited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_excited.png; sourceTree = "<group>"; };
-		FE11667F171E4DE800721035 /* brunette_facepalm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_facepalm.png; sourceTree = "<group>"; };
-		FE116680171E4DE800721035 /* brunette_fake smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_fake smile.png"; sourceTree = "<group>"; };
-		FE116681171E4DE800721035 /* brunette_forever alone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_forever alone.png"; sourceTree = "<group>"; };
-		FE116682171E4DE800721035 /* brunette_freddie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_freddie.png; sourceTree = "<group>"; };
-		FE116683171E4DE800721035 /* brunette_fuck that bitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_fuck that bitch.png"; sourceTree = "<group>"; };
-		FE116684171E4DE800721035 /* brunette_fuck yeah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_fuck yeah.png"; sourceTree = "<group>"; };
-		FE116685171E4DE800721035 /* brunette_gasp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brunette_gasp.jpg; sourceTree = "<group>"; };
-		FE116686171E4DE800721035 /* brunette_gasp2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brunette_gasp2.jpg; sourceTree = "<group>"; };
-		FE116687171E4DE800721035 /* brunette_happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_happy.png; sourceTree = "<group>"; };
-		FE116688171E4DE800721035 /* brunette_hmmm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_hmmm.png; sourceTree = "<group>"; };
-		FE116689171E4DE800721035 /* brunette_i wonder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_i wonder.png"; sourceTree = "<group>"; };
-		FE11668A171E4DE800721035 /* brunette_ladystare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brunette_ladystare.jpg; sourceTree = "<group>"; };
-		FE11668B171E4DE800721035 /* brunette_ladystare2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brunette_ladystare2.jpg; sourceTree = "<group>"; };
-		FE11668C171E4DE800721035 /* brunette_lean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_lean.png; sourceTree = "<group>"; };
-		FE11668D171E4DE800721035 /* brunette_lol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_lol.png; sourceTree = "<group>"; };
-		FE11668E171E4DE800721035 /* brunette_me gusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_me gusta.png"; sourceTree = "<group>"; };
-		FE11668F171E4DE800721035 /* brunette_milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_milk.png; sourceTree = "<group>"; };
-		FE116690171E4DE800721035 /* brunette_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_normal.png; sourceTree = "<group>"; };
-		FE116691171E4DE800721035 /* brunette_normal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_normal2.png; sourceTree = "<group>"; };
-		FE116692171E4DE800721035 /* brunette_okay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_okay.png; sourceTree = "<group>"; };
-		FE116693171E4DE800721035 /* brunette_omgrun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_omgrun.png; sourceTree = "<group>"; };
-		FE116694171E4DE800721035 /* brunette_pfft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_pfft.png; sourceTree = "<group>"; };
-		FE116695171E4DE800721035 /* brunette_pokerface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_pokerface.png; sourceTree = "<group>"; };
-		FE116696171E4DE800721035 /* brunette_quite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_quite.png; sourceTree = "<group>"; };
-		FE116697171E4DE800721035 /* brunette_rage canadian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage canadian.png"; sourceTree = "<group>"; };
-		FE116698171E4DE800721035 /* brunette_rage extreme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage extreme.png"; sourceTree = "<group>"; };
-		FE116699171E4DE800721035 /* brunette_rage extreme2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage extreme2.png"; sourceTree = "<group>"; };
-		FE11669A171E4DE800721035 /* brunette_rage foaming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage foaming.png"; sourceTree = "<group>"; };
-		FE11669B171E4DE800721035 /* brunette_rage getting pissed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage getting pissed.png"; sourceTree = "<group>"; };
-		FE11669C171E4DE800721035 /* brunette_rage mad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage mad.png"; sourceTree = "<group>"; };
-		FE11669D171E4DE800721035 /* brunette_rage mad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage mad2.png"; sourceTree = "<group>"; };
-		FE11669E171E4DE800721035 /* brunette_rage quiet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage quiet.png"; sourceTree = "<group>"; };
-		FE11669F171E4DE800721035 /* brunette_rage shaking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage shaking.png"; sourceTree = "<group>"; };
-		FE1166A0171E4DE800721035 /* brunette_rage super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_rage super.png"; sourceTree = "<group>"; };
-		FE1166A1171E4DE800721035 /* brunette_rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_rage.png; sourceTree = "<group>"; };
-		FE1166A2171E4DE800721035 /* brunette_rage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_rage2.png; sourceTree = "<group>"; };
-		FE1166A3171E4DE800721035 /* brunette_really determined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_really determined.png"; sourceTree = "<group>"; };
-		FE1166A4171E4DE800721035 /* brunette_red tongue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_red tongue.png"; sourceTree = "<group>"; };
-		FE1166A5171E4DE800721035 /* brunette_schlick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_schlick.png; sourceTree = "<group>"; };
-		FE1166A6171E4DE800721035 /* brunette_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_smile.png; sourceTree = "<group>"; };
-		FE1166A7171E4DE800721035 /* brunette_sweet tears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_sweet tears.png"; sourceTree = "<group>"; };
-		FE1166A8171E4DE800721035 /* brunette_tongue down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_tongue down.png"; sourceTree = "<group>"; };
-		FE1166A9171E4DE800721035 /* brunette_troll sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_troll sad.png"; sourceTree = "<group>"; };
-		FE1166AA171E4DE800721035 /* brunette_troll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_troll.png; sourceTree = "<group>"; };
-		FE1166AB171E4DE800721035 /* brunette_what.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_what.png; sourceTree = "<group>"; };
-		FE1166AC171E4DE800721035 /* brunette_why no hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brunette_why no hands.png"; sourceTree = "<group>"; };
-		FE1166AD171E4DE800721035 /* brunette_why.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_why.png; sourceTree = "<group>"; };
-		FE1166AE171E4DE800721035 /* brunette_wut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brunette_wut.png; sourceTree = "<group>"; };
-		FE1166B0171E4DE800721035 /* 01blackhair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01blackhair.png; sourceTree = "<group>"; };
-		FE1166B1171E4DE800721035 /* 01blankhair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01blankhair.png; sourceTree = "<group>"; };
-		FE1166B2171E4DE800721035 /* 01blondehair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01blondehair.png; sourceTree = "<group>"; };
-		FE1166B3171E4DE800721035 /* 01brunettehair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01brunettehair.png; sourceTree = "<group>"; };
-		FE1166B4171E4DE800721035 /* 01redhair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01redhair.png; sourceTree = "<group>"; };
-		FE1166B5171E4DE800721035 /* 02blackhair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02blackhair.png; sourceTree = "<group>"; };
-		FE1166B6171E4DE800721035 /* 03blackhair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03blackhair.png; sourceTree = "<group>"; };
-		FE1166B7171E4DE800721035 /* grandmahair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grandmahair.png; sourceTree = "<group>"; };
-		FE1166B9171E4DE800721035 /* 01redhair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01redhair.png; sourceTree = "<group>"; };
-		FE1166BA171E4DE800721035 /* red_big smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_big smile.png"; sourceTree = "<group>"; };
-		FE1166BB171E4DE800721035 /* red_concentrated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_concentrated.png; sourceTree = "<group>"; };
-		FE1166BC171E4DE800721035 /* red_crying.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_crying.png; sourceTree = "<group>"; };
-		FE1166BD171E4DE800721035 /* red_dazed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dazed.png; sourceTree = "<group>"; };
-		FE1166BE171E4DE800721035 /* red_determined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_determined.png; sourceTree = "<group>"; };
-		FE1166BF171E4DE800721035 /* red_dude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dude.png; sourceTree = "<group>"; };
-		FE1166C0171E4DE800721035 /* red_dumbfounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dumbfounded.png; sourceTree = "<group>"; };
-		FE1166C1171E4DE800721035 /* red_ewbte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_ewbte.png; sourceTree = "<group>"; };
-		FE1166C2171E4DE800721035 /* red_excited bliss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_excited bliss.png"; sourceTree = "<group>"; };
-		FE1166C3171E4DE800721035 /* red_excited tears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_excited tears.png"; sourceTree = "<group>"; };
-		FE1166C4171E4DE800721035 /* red_excited.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_excited.png; sourceTree = "<group>"; };
-		FE1166C5171E4DE800721035 /* red_facepalm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_facepalm.png; sourceTree = "<group>"; };
-		FE1166C6171E4DE800721035 /* red_fake smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_fake smile.png"; sourceTree = "<group>"; };
-		FE1166C7171E4DE800721035 /* red_forever alone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_forever alone.png"; sourceTree = "<group>"; };
-		FE1166C8171E4DE800721035 /* red_freddie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_freddie.png; sourceTree = "<group>"; };
-		FE1166C9171E4DE800721035 /* red_fuck that bitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_fuck that bitch.png"; sourceTree = "<group>"; };
-		FE1166CA171E4DE800721035 /* red_fuck yeah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_fuck yeah.png"; sourceTree = "<group>"; };
-		FE1166CB171E4DE800721035 /* red_gasp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_gasp.jpg; sourceTree = "<group>"; };
-		FE1166CC171E4DE800721035 /* red_gasp2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_gasp2.jpg; sourceTree = "<group>"; };
-		FE1166CD171E4DE800721035 /* red_happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_happy.png; sourceTree = "<group>"; };
-		FE1166CE171E4DE800721035 /* red_hmmm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_hmmm.png; sourceTree = "<group>"; };
-		FE1166CF171E4DE800721035 /* red_i wonder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_i wonder.png"; sourceTree = "<group>"; };
-		FE1166D0171E4DE800721035 /* red_ladystare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_ladystare.jpg; sourceTree = "<group>"; };
-		FE1166D1171E4DE800721035 /* red_ladystare2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red_ladystare2.jpg; sourceTree = "<group>"; };
-		FE1166D2171E4DE800721035 /* red_lean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_lean.png; sourceTree = "<group>"; };
-		FE1166D3171E4DE800721035 /* red_lol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_lol.png; sourceTree = "<group>"; };
-		FE1166D4171E4DE800721035 /* red_me gusta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_me gusta.png"; sourceTree = "<group>"; };
-		FE1166D5171E4DE800721035 /* red_milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_milk.png; sourceTree = "<group>"; };
-		FE1166D6171E4DE800721035 /* red_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_normal.png; sourceTree = "<group>"; };
-		FE1166D7171E4DE800721035 /* red_normal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_normal2.png; sourceTree = "<group>"; };
-		FE1166D8171E4DE800721035 /* red_okay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_okay.png; sourceTree = "<group>"; };
-		FE1166D9171E4DE800721035 /* red_omgrun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_omgrun.png; sourceTree = "<group>"; };
-		FE1166DA171E4DE800721035 /* red_pfft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_pfft.png; sourceTree = "<group>"; };
-		FE1166DB171E4DE800721035 /* red_pokerface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_pokerface.png; sourceTree = "<group>"; };
-		FE1166DC171E4DE800721035 /* red_quite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_quite.png; sourceTree = "<group>"; };
-		FE1166DD171E4DE800721035 /* red_rage canadian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage canadian.png"; sourceTree = "<group>"; };
-		FE1166DE171E4DE800721035 /* red_rage extreme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage extreme.png"; sourceTree = "<group>"; };
-		FE1166DF171E4DE800721035 /* red_rage extreme2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage extreme2.png"; sourceTree = "<group>"; };
-		FE1166E0171E4DE800721035 /* red_rage foaming.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage foaming.png"; sourceTree = "<group>"; };
-		FE1166E1171E4DE800721035 /* red_rage getting pissed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage getting pissed.png"; sourceTree = "<group>"; };
-		FE1166E2171E4DE800721035 /* red_rage mad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage mad.png"; sourceTree = "<group>"; };
-		FE1166E3171E4DE800721035 /* red_rage mad2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage mad2.png"; sourceTree = "<group>"; };
-		FE1166E4171E4DE800721035 /* red_rage quiet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage quiet.png"; sourceTree = "<group>"; };
-		FE1166E5171E4DE800721035 /* red_rage shaking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage shaking.png"; sourceTree = "<group>"; };
-		FE1166E6171E4DE800721035 /* red_rage super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_rage super.png"; sourceTree = "<group>"; };
-		FE1166E7171E4DE800721035 /* red_rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_rage.png; sourceTree = "<group>"; };
-		FE1166E8171E4DE800721035 /* red_rage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_rage2.png; sourceTree = "<group>"; };
-		FE1166E9171E4DE800721035 /* red_really determined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_really determined.png"; sourceTree = "<group>"; };
-		FE1166EA171E4DE800721035 /* red_red tongue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_red tongue.png"; sourceTree = "<group>"; };
-		FE1166EB171E4DE800721035 /* red_schlick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_schlick.png; sourceTree = "<group>"; };
-		FE1166EC171E4DE800721035 /* red_smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_smile.png; sourceTree = "<group>"; };
-		FE1166ED171E4DE800721035 /* red_sweet tears.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_sweet tears.png"; sourceTree = "<group>"; };
-		FE1166EE171E4DE800721035 /* red_tongue down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_tongue down.png"; sourceTree = "<group>"; };
-		FE1166EF171E4DE800721035 /* red_troll sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_troll sad.png"; sourceTree = "<group>"; };
-		FE1166F0171E4DE800721035 /* red_troll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_troll.png; sourceTree = "<group>"; };
-		FE1166F1171E4DE800721035 /* red_what.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_what.png; sourceTree = "<group>"; };
-		FE1166F2171E4DE800721035 /* red_why no hands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_why no hands.png"; sourceTree = "<group>"; };
-		FE1166F3171E4DE800721035 /* red_why.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_why.png; sourceTree = "<group>"; };
-		FE1166F4171E4DE800721035 /* red_wut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_wut.png; sourceTree = "<group>"; };
-		FE1166F6171E4DE800721035 /* chef hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chef hat.png"; sourceTree = "<group>"; };
-		FE1166F7171E4DE800721035 /* face_fap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_fap.png; sourceTree = "<group>"; };
-		FE1166F8171E4DE800721035 /* face_mustache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_mustache.png; sourceTree = "<group>"; };
-		FE1166F9171E4DE800721035 /* ing_bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_bacon.png; sourceTree = "<group>"; };
-		FE1166FA171E4DE800721035 /* ing_bacon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_bacon2.png; sourceTree = "<group>"; };
-		FE1166FB171E4DE800721035 /* ing_cheese cheddar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ing_cheese cheddar.png"; sourceTree = "<group>"; };
-		FE1166FC171E4DE800721035 /* ing_cheese swiss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ing_cheese swiss.png"; sourceTree = "<group>"; };
-		FE1166FD171E4DE800721035 /* ing_egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_egg.png; sourceTree = "<group>"; };
-		FE1166FE171E4DE800721035 /* ing_flour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_flour.png; sourceTree = "<group>"; };
-		FE1166FF171E4DE800721035 /* ing_garlic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_garlic.png; sourceTree = "<group>"; };
-		FE116700171E4DE800721035 /* ing_milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_milk.png; sourceTree = "<group>"; };
-		FE116701171E4DE800721035 /* ing_onion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_onion.png; sourceTree = "<group>"; };
-		FE116702171E4DE800721035 /* ing_pepper green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ing_pepper green.png"; sourceTree = "<group>"; };
-		FE116703171E4DE800721035 /* ing_pepper red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ing_pepper red.png"; sourceTree = "<group>"; };
-		FE116704171E4DE800721035 /* ing_pepper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_pepper.png; sourceTree = "<group>"; };
-		FE116705171E4DE800721035 /* ing_salt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_salt.png; sourceTree = "<group>"; };
-		FE116706171E4DE800721035 /* ing_tomato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ing_tomato.png; sourceTree = "<group>"; };
-		FE116707171E4DE800721035 /* skillet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skillet.png; sourceTree = "<group>"; };
 		FE116709171E4DE800721035 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
 		FE11670A171E4DE800721035 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
 		FE11670B171E4DE800721035 /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
@@ -1085,28 +485,6 @@
 		FE116718171E4DE800721035 /* oh stop it you.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oh stop it you.png"; sourceTree = "<group>"; };
 		FE116719171E4DE800721035 /* Smile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smile2.png; sourceTree = "<group>"; };
 		FE11671A171E4DE800721035 /* images.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = images.xml; sourceTree = "<group>"; };
-		FE11671C171E4DE800721035 /* inglip_burning skeleton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_burning skeleton.jpg"; sourceTree = "<group>"; };
-		FE11671D171E4DE800721035 /* inglip_captcha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inglip_captcha.png; sourceTree = "<group>"; };
-		FE11671E171E4DE800721035 /* inglip_captchatext.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_captchatext.jpg; sourceTree = "<group>"; };
-		FE11671F171E4DE800721035 /* inglip_full body.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_full body.jpg"; sourceTree = "<group>"; };
-		FE116720171E4DE800721035 /* inglip_full body2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_full body2.jpg"; sourceTree = "<group>"; };
-		FE116721171E4DE800721035 /* inglip_gropaga amazed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_gropaga amazed.jpg"; sourceTree = "<group>"; };
-		FE116722171E4DE800721035 /* inglip_gropaga blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inglip_gropaga blank.png"; sourceTree = "<group>"; };
-		FE116723171E4DE800721035 /* inglip_gropaga front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_gropaga front.jpg"; sourceTree = "<group>"; };
-		FE116724171E4DE800721035 /* inglip_gropaga okay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_gropaga okay.jpg"; sourceTree = "<group>"; };
-		FE116725171E4DE800721035 /* inglip_gropaga why.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_gropaga why.jpg"; sourceTree = "<group>"; };
-		FE116726171E4DE800721035 /* inglip_gropaga1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_gropaga1.jpg; sourceTree = "<group>"; };
-		FE116727171E4DE800721035 /* inglip_gropaga2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_gropaga2.jpg; sourceTree = "<group>"; };
-		FE116728171E4DE800721035 /* inglip_gropaga3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_gropaga3.jpg; sourceTree = "<group>"; };
-		FE116729171E4DE800721035 /* inglip_gropaga4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_gropaga4.jpg; sourceTree = "<group>"; };
-		FE11672A171E4DE800721035 /* inglip_gropaga5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_gropaga5.jpg; sourceTree = "<group>"; };
-		FE11672B171E4DE800721035 /* inglip_gropaga6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_gropaga6.jpg; sourceTree = "<group>"; };
-		FE11672C171E4DE800721035 /* inglip_gropaga7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_gropaga7.jpg; sourceTree = "<group>"; };
-		FE11672D171E4DE800721035 /* inglip_hail inglip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_hail inglip.jpg"; sourceTree = "<group>"; };
-		FE11672E171E4DE800721035 /* inglip_hood1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inglip_hood1.png; sourceTree = "<group>"; };
-		FE11672F171E4DE800721035 /* inglip_hood2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inglip_hood2.png; sourceTree = "<group>"; };
-		FE116730171E4DE800721035 /* inglip_ircip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = inglip_ircip.jpg; sourceTree = "<group>"; };
-		FE116731171E4DE800721035 /* inglip_ready to battle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "inglip_ready to battle.jpg"; sourceTree = "<group>"; };
 		FE116733171E4DE800721035 /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
 		FE116734171E4DE800721035 /* 34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 34.png; sourceTree = "<group>"; };
 		FE116735171E4DE800721035 /* 40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40.png; sourceTree = "<group>"; };
@@ -1228,51 +606,6 @@
 		FE1167AF171E4DE800721035 /* rage reddit alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rage reddit alien.png"; sourceTree = "<group>"; };
 		FE1167B0171E4DE800721035 /* rage super.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rage super.png"; sourceTree = "<group>"; };
 		FE1167B1171E4DE800721035 /* RageLion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RageLion.png; sourceTree = "<group>"; };
-		FE1167B3171E4DE800721035 /* brick1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick1.jpg; sourceTree = "<group>"; };
-		FE1167B4171E4DE800721035 /* brick2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick2.jpg; sourceTree = "<group>"; };
-		FE1167B5171E4DE800721035 /* brick3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick3.jpg; sourceTree = "<group>"; };
-		FE1167B6171E4DE900721035 /* brick4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick4.jpg; sourceTree = "<group>"; };
-		FE1167B7171E4DE900721035 /* brick5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brick5.jpg; sourceTree = "<group>"; };
-		FE1167B8171E4DE900721035 /* command1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command1.jpg; sourceTree = "<group>"; };
-		FE1167B9171E4DE900721035 /* command10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command10.jpg; sourceTree = "<group>"; };
-		FE1167BA171E4DE900721035 /* command11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command11.jpg; sourceTree = "<group>"; };
-		FE1167BB171E4DE900721035 /* command2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command2.jpg; sourceTree = "<group>"; };
-		FE1167BC171E4DE900721035 /* command3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command3.jpg; sourceTree = "<group>"; };
-		FE1167BD171E4DE900721035 /* command4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command4.jpg; sourceTree = "<group>"; };
-		FE1167BE171E4DE900721035 /* command5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command5.jpg; sourceTree = "<group>"; };
-		FE1167BF171E4DE900721035 /* command6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command6.jpg; sourceTree = "<group>"; };
-		FE1167C0171E4DE900721035 /* command7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command7.jpg; sourceTree = "<group>"; };
-		FE1167C1171E4DE900721035 /* command8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command8.jpg; sourceTree = "<group>"; };
-		FE1167C2171E4DE900721035 /* command9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = command9.jpg; sourceTree = "<group>"; };
-		FE1167C3171E4DE900721035 /* radio1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio1.jpg; sourceTree = "<group>"; };
-		FE1167C4171E4DE900721035 /* radio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio2.jpg; sourceTree = "<group>"; };
-		FE1167C5171E4DE900721035 /* radio3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio3.jpg; sourceTree = "<group>"; };
-		FE1167C6171E4DE900721035 /* radio4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio4.jpg; sourceTree = "<group>"; };
-		FE1167C7171E4DE900721035 /* radio5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio5.jpg; sourceTree = "<group>"; };
-		FE1167C8171E4DE900721035 /* radio6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio6.jpg; sourceTree = "<group>"; };
-		FE1167C9171E4DE900721035 /* radio7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio7.jpg; sourceTree = "<group>"; };
-		FE1167CA171E4DE900721035 /* radio8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radio8.jpg; sourceTree = "<group>"; };
-		FE1167CB171E4DE900721035 /* soldier1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier1.jpg; sourceTree = "<group>"; };
-		FE1167CC171E4DE900721035 /* soldier2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier2.jpg; sourceTree = "<group>"; };
-		FE1167CD171E4DE900721035 /* soldier3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier3.jpg; sourceTree = "<group>"; };
-		FE1167CE171E4DE900721035 /* soldier_commander1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_commander1.jpg; sourceTree = "<group>"; };
-		FE1167CF171E4DE900721035 /* soldier_commander2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_commander2.jpg; sourceTree = "<group>"; };
-		FE1167D0171E4DE900721035 /* soldier_commander3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_commander3.jpg; sourceTree = "<group>"; };
-		FE1167D1171E4DE900721035 /* soldier_engineer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_engineer.jpg; sourceTree = "<group>"; };
-		FE1167D2171E4DE900721035 /* soldier_engineer2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_engineer2.jpg; sourceTree = "<group>"; };
-		FE1167D3171E4DE900721035 /* soldier_gunners.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_gunners.jpg; sourceTree = "<group>"; };
-		FE1167D4171E4DE900721035 /* soldier_lookout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_lookout.jpg; sourceTree = "<group>"; };
-		FE1167D5171E4DE900721035 /* soldier_march.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_march.jpg; sourceTree = "<group>"; };
-		FE1167D6171E4DE900721035 /* soldier_rapel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_rapel.jpg; sourceTree = "<group>"; };
-		FE1167D7171E4DE900721035 /* soldier_sniper1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_sniper1.jpg; sourceTree = "<group>"; };
-		FE1167D8171E4DE900721035 /* soldier_sniper2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_sniper2.jpg; sourceTree = "<group>"; };
-		FE1167D9171E4DE900721035 /* soldier_tank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soldier_tank.jpg; sourceTree = "<group>"; };
-		FE1167DA171E4DE900721035 /* strategize1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategize1.jpg; sourceTree = "<group>"; };
-		FE1167DB171E4DE900721035 /* strategize2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategize2.jpg; sourceTree = "<group>"; };
-		FE1167DC171E4DE900721035 /* strategize3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategize3.jpg; sourceTree = "<group>"; };
-		FE1167DD171E4DE900721035 /* strategize4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategize4.jpg; sourceTree = "<group>"; };
-		FE1167DE171E4DE900721035 /* strategize5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategize5.jpg; sourceTree = "<group>"; };
-		FE1167DF171E4DE900721035 /* strategize6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategize6.jpg; sourceTree = "<group>"; };
 		FE1167E1171E4DE900721035 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
 		FE1167E2171E4DE900721035 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
 		FE1167E3171E4DE900721035 /* 39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39.png; sourceTree = "<group>"; };
@@ -1291,70 +624,6 @@
 		FE1167F0171E4DE900721035 /* sad plain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sad plain.png"; sourceTree = "<group>"; };
 		FE1167F1171E4DE900721035 /* that feel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "that feel.png"; sourceTree = "<group>"; };
 		FE1167F2171E4DE900721035 /* why inverted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "why inverted.png"; sourceTree = "<group>"; };
-		FE1167F4171E4DE900721035 /* 01 - later1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later1.jpg"; sourceTree = "<group>"; };
-		FE1167F5171E4DE900721035 /* 01 - later2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later2.jpg"; sourceTree = "<group>"; };
-		FE1167F6171E4DE900721035 /* 01 - later3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later3.jpg"; sourceTree = "<group>"; };
-		FE1167F7171E4DE900721035 /* 01 - later3_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later3_1.jpg"; sourceTree = "<group>"; };
-		FE1167F8171E4DE900721035 /* 01 - later4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later4.jpg"; sourceTree = "<group>"; };
-		FE1167F9171E4DE900721035 /* 01 - later5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later5.jpg"; sourceTree = "<group>"; };
-		FE1167FA171E4DE900721035 /* 01 - later6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later6.jpg"; sourceTree = "<group>"; };
-		FE1167FB171E4DE900721035 /* 01 - later7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later7.jpg"; sourceTree = "<group>"; };
-		FE1167FC171E4DE900721035 /* 01 - later8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - later8.jpg"; sourceTree = "<group>"; };
-		FE1167FD171E4DE900721035 /* 01 - s_eventually.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - s_eventually.jpg"; sourceTree = "<group>"; };
-		FE1167FE171E4DE900721035 /* 01 - same evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01 - same evening.jpg"; sourceTree = "<group>"; };
-		FE1167FF171E4DE900721035 /* 02 - 10 seconds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02 - 10 seconds.jpg"; sourceTree = "<group>"; };
-		FE116800171E4DE900721035 /* 02 - 12 seconds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02 - 12 seconds.jpg"; sourceTree = "<group>"; };
-		FE116801171E4DE900721035 /* 03 - 1 37 seconds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 1 37 seconds.jpg"; sourceTree = "<group>"; };
-		FE116802171E4DE900721035 /* 03 - 15 minutes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 15 minutes.jpg"; sourceTree = "<group>"; };
-		FE116803171E4DE900721035 /* 03 - 2 minutes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 2 minutes.jpg"; sourceTree = "<group>"; };
-		FE116804171E4DE900721035 /* 03 - 20 minutes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 20 minutes.jpg"; sourceTree = "<group>"; };
-		FE116805171E4DE900721035 /* 03 - 346 minutes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 346 minutes.jpg"; sourceTree = "<group>"; };
-		FE116806171E4DE900721035 /* 03 - 4 minutes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 4 minutes.jpg"; sourceTree = "<group>"; };
-		FE116807171E4DE900721035 /* 03 - 4 minutes2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 4 minutes2.jpg"; sourceTree = "<group>"; };
-		FE116808171E4DE900721035 /* 03 - 5 minutes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03 - 5 minutes.jpg"; sourceTree = "<group>"; };
-		FE116809171E4DE900721035 /* 04 - 1 hour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 1 hour.jpg"; sourceTree = "<group>"; };
-		FE11680A171E4DE900721035 /* 04 - 2 hours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 2 hours.jpg"; sourceTree = "<group>"; };
-		FE11680B171E4DE900721035 /* 04 - 2 hours2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 2 hours2.jpg"; sourceTree = "<group>"; };
-		FE11680C171E4DE900721035 /* 04 - 2 hours3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 2 hours3.jpg"; sourceTree = "<group>"; };
-		FE11680D171E4DE900721035 /* 04 - 2 hours4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 2 hours4.jpg"; sourceTree = "<group>"; };
-		FE11680E171E4DE900721035 /* 04 - 2 hours5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 2 hours5.jpg"; sourceTree = "<group>"; };
-		FE11680F171E4DE900721035 /* 04 - 3 hours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 3 hours.jpg"; sourceTree = "<group>"; };
-		FE116810171E4DE900721035 /* 04 - 3 hours2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 3 hours2.jpg"; sourceTree = "<group>"; };
-		FE116811171E4DE900721035 /* 04 - 3 hours3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 3 hours3.jpg"; sourceTree = "<group>"; };
-		FE116812171E4DE900721035 /* 04 - 48 hours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 48 hours.jpg"; sourceTree = "<group>"; };
-		FE116813171E4DE900721035 /* 04 - 6 hours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 6 hours.jpg"; sourceTree = "<group>"; };
-		FE116814171E4DE900721035 /* 04 - 6 hours2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 6 hours2.jpg"; sourceTree = "<group>"; };
-		FE116815171E4DE900721035 /* 04 - 6 hours3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 6 hours3.jpg"; sourceTree = "<group>"; };
-		FE116816171E4DE900721035 /* 04 - 7 hours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 7 hours.jpg"; sourceTree = "<group>"; };
-		FE116817171E4DE900721035 /* 04 - 8 hours.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 8 hours.jpg"; sourceTree = "<group>"; };
-		FE116818171E4DE900721035 /* 04 - 8 hours2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04 - 8 hours2.jpg"; sourceTree = "<group>"; };
-		FE116819171E4DE900721035 /* 05 - 1 day.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - 1 day.jpg"; sourceTree = "<group>"; };
-		FE11681A171E4DE900721035 /* 05 - 1 day2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - 1 day2.jpg"; sourceTree = "<group>"; };
-		FE11681B171E4DE900721035 /* 05 - 3 days.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - 3 days.jpg"; sourceTree = "<group>"; };
-		FE11681C171E4DE900721035 /* 05 - 3 days2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - 3 days2.jpg"; sourceTree = "<group>"; };
-		FE11681D171E4DE900721035 /* 05 - 3 days3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - 3 days3.jpg"; sourceTree = "<group>"; };
-		FE11681E171E4DE900721035 /* 05 - 3 days4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - 3 days4.jpg"; sourceTree = "<group>"; };
-		FE11681F171E4DE900721035 /* 05 - 3 days5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - 3 days5.jpg"; sourceTree = "<group>"; };
-		FE116820171E4DE900721035 /* 05 - days.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - days.jpg"; sourceTree = "<group>"; };
-		FE116821171E4DE900721035 /* 05 - tomorrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - tomorrow.jpg"; sourceTree = "<group>"; };
-		FE116822171E4DE900721035 /* 05 - tomorrow2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - tomorrow2.jpg"; sourceTree = "<group>"; };
-		FE116823171E4DE900721035 /* 05 - yesterday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05 - yesterday.jpg"; sourceTree = "<group>"; };
-		FE116824171E4DE900721035 /* 06 - 1 week.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06 - 1 week.jpg"; sourceTree = "<group>"; };
-		FE116825171E4DE900721035 /* 06 - 3 weeks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06 - 3 weeks.jpg"; sourceTree = "<group>"; };
-		FE116826171E4DE900721035 /* 06 - 3 weeks2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06 - 3 weeks2.jpg"; sourceTree = "<group>"; };
-		FE116827171E4DE900721035 /* 06 - 4-6 weeks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "06 - 4-6 weeks.jpg"; sourceTree = "<group>"; };
-		FE116828171E4DE900721035 /* 07 - 6 months.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "07 - 6 months.jpg"; sourceTree = "<group>"; };
-		FE116829171E4DE900721035 /* 07 - many months.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "07 - many months.jpg"; sourceTree = "<group>"; };
-		FE11682A171E4DE900721035 /* 08 - 2000 years.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "08 - 2000 years.jpg"; sourceTree = "<group>"; };
-		FE11682B171E4DE900721035 /* 08 - 3000 years.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "08 - 3000 years.jpg"; sourceTree = "<group>"; };
-		FE11682C171E4DE900721035 /* 08 - thousands of tears.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "08 - thousands of tears.jpg"; sourceTree = "<group>"; };
-		FE11682D171E4DE900721035 /* 09 - 1200am.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09 - 1200am.jpg"; sourceTree = "<group>"; };
-		FE11682E171E4DE900721035 /* 09 - 328am.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09 - 328am.jpg"; sourceTree = "<group>"; };
-		FE11682F171E4DE900721035 /* 09 - 759am.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09 - 759am.jpg"; sourceTree = "<group>"; };
-		FE116830171E4DE900721035 /* 09 - 801pm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09 - 801pm.jpg"; sourceTree = "<group>"; };
-		FE116831171E4DE900721035 /* 10 - day2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 - day2.jpg"; sourceTree = "<group>"; };
-		FE116832171E4DE900721035 /* 10 - day3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 - day3.jpg"; sourceTree = "<group>"; };
-		FE116833171E4DE900721035 /* 10 - day4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 - day4.jpg"; sourceTree = "<group>"; };
 		FE116835171E4DE900721035 /* AreYouKiddingMe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AreYouKiddingMe.png; sourceTree = "<group>"; };
 		FE116836171E4DE900721035 /* AreYouKiddingMeNoText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AreYouKiddingMeNoText.png; sourceTree = "<group>"; };
 		FE116837171E4DE900721035 /* girl-glasses2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "girl-glasses2.jpg"; sourceTree = "<group>"; };
@@ -1404,41 +673,6 @@
 		FE116865171E4DE900721035 /* speech5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speech5.png; sourceTree = "<group>"; };
 		FE116866171E4DE900721035 /* speech6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speech6.png; sourceTree = "<group>"; };
 		FE116867171E4DE900721035 /* xmashat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xmashat.png; sourceTree = "<group>"; };
-		FE116869171E4DE900721035 /* bic blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bic blue.png"; sourceTree = "<group>"; };
-		FE11686A171E4DE900721035 /* bic brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bic brown.png"; sourceTree = "<group>"; };
-		FE11686B171E4DE900721035 /* bic red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bic red.png"; sourceTree = "<group>"; };
-		FE11686C171E4DE900721035 /* bong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bong.png; sourceTree = "<group>"; };
-		FE11686D171E4DE900721035 /* bud brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bud brick.png"; sourceTree = "<group>"; };
-		FE11686E171E4DE900721035 /* bud green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bud green.png"; sourceTree = "<group>"; };
-		FE11686F171E4DE900721035 /* bud orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bud orange.png"; sourceTree = "<group>"; };
-		FE116870171E4DE900721035 /* bud purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bud purple.png"; sourceTree = "<group>"; };
-		FE116871171E4DE900721035 /* face1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face1.png; sourceTree = "<group>"; };
-		FE116872171E4DE900721035 /* face2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face2.png; sourceTree = "<group>"; };
-		FE116873171E4DE900721035 /* face3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face3.png; sourceTree = "<group>"; };
-		FE116874171E4DE900721035 /* face4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face4.png; sourceTree = "<group>"; };
-		FE116875171E4DE900721035 /* face5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face5.png; sourceTree = "<group>"; };
-		FE116876171E4DE900721035 /* face6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face6.png; sourceTree = "<group>"; };
-		FE116877171E4DE900721035 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
-		FE116878171E4DE900721035 /* goofy smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goofy smile.png"; sourceTree = "<group>"; };
-		FE116879171E4DE900721035 /* happy smoking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy smoking.png"; sourceTree = "<group>"; };
-		FE11687A171E4DE900721035 /* joint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joint.png; sourceTree = "<group>"; };
-		FE11687B171E4DE900721035 /* joint2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joint2.png; sourceTree = "<group>"; };
-		FE11687C171E4DE900721035 /* joint3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joint3.png; sourceTree = "<group>"; };
-		FE11687D171E4DE900721035 /* launch_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_box.png; sourceTree = "<group>"; };
-		FE11687E171E4DE900721035 /* munchies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = munchies.png; sourceTree = "<group>"; };
-		FE11687F171E4DE900721035 /* pineapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pineapple.png; sourceTree = "<group>"; };
-		FE116880171E4DE900721035 /* pipe1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe1.png; sourceTree = "<group>"; };
-		FE116881171E4DE900721035 /* pipe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe2.png; sourceTree = "<group>"; };
-		FE116882171E4DE900721035 /* pipe3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pipe3.png; sourceTree = "<group>"; };
-		FE116883171E4DE900721035 /* pot leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pot leaf.png"; sourceTree = "<group>"; };
-		FE116884171E4DE900721035 /* stoned exhale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stoned exhale.png"; sourceTree = "<group>"; };
-		FE116885171E4DE900721035 /* stoned inhale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stoned inhale.png"; sourceTree = "<group>"; };
-		FE116886171E4DE900721035 /* stoned what no words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stoned what no words.png"; sourceTree = "<group>"; };
-		FE116887171E4DE900721035 /* stoned what.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stoned what.png"; sourceTree = "<group>"; };
-		FE116888171E4DE900721035 /* stoned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stoned.png; sourceTree = "<group>"; };
-		FE116889171E4DE900721035 /* ten guy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ten guy.png"; sourceTree = "<group>"; };
-		FE11688A171E4DE900721035 /* tokerface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokerface.png; sourceTree = "<group>"; };
-		FE11688B171E4DE900721035 /* visine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visine.png; sourceTree = "<group>"; };
 		FE11688D171E4DE900721035 /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
 		FE11688E171E4DE900721035 /* 43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 43.png; sourceTree = "<group>"; };
 		FE11688F171E4DE900721035 /* AllTheThings_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AllTheThings_back.png; sourceTree = "<group>"; };
@@ -1539,19 +773,12 @@
 			isa = PBXGroup;
 			children = (
 				FE11671A171E4DE800721035 /* images.xml */,
-				FE1165BB171E4DE700721035 /* 2-Panel */,
 				FE1165C7171E4DE700721035 /* Actually - Not Okay */,
 				FE1165CE171E4DE700721035 /* Angry */,
 				FE1165DE171E4DE700721035 /* Cereal - Newspaper */,
 				FE1165E9171E4DE700721035 /* Determined - Focused */,
 				FE1165F6171E4DE700721035 /* Female Black */,
-				FE116635171E4DE700721035 /* Female Blonde */,
-				FE116672171E4DE800721035 /* Female Brunette */,
-				FE1166AF171E4DE800721035 /* Female Hair */,
-				FE1166B8171E4DE800721035 /* Female Red */,
-				FE1166F5171E4DE800721035 /* fffffffuuuuuuuuuuuud */,
 				FE116708171E4DE800721035 /* Happy */,
-				FE11671B171E4DE800721035 /* Inglip */,
 				FE116732171E4DE800721035 /* Laughing */,
 				FE11673A171E4DE800721035 /* Madagascar */,
 				FE116740171E4DE800721035 /* Malicious - Troll */,
@@ -1559,34 +786,13 @@
 				FE116775171E4DE800721035 /* Neutral */,
 				FE116790171E4DE800721035 /* Pleasure */,
 				FE11679E171E4DE800721035 /* Rage */,
-				FE1167B2171E4DE800721035 /* RageOps */,
 				FE1167E0171E4DE900721035 /* Sad */,
-				FE1167F3171E4DE900721035 /* Some Time Later */,
 				FE116834171E4DE900721035 /* Stupidity */,
 				FE116841171E4DE900721035 /* Surprised - Amazed */,
 				FE116852171E4DE900721035 /* Text - Accessories */,
-				FE116868171E4DE900721035 /* treecomics */,
 				FE11688C171E4DE900721035 /* Victorious */,
 			);
 			path = images;
-			sourceTree = "<group>";
-		};
-		FE1165BB171E4DE700721035 /* 2-Panel */ = {
-			isa = PBXGroup;
-			children = (
-				FE1165BC171E4DE700721035 /* ForeverAloneComputer.png */,
-				FE1165BD171E4DE700721035 /* ForeverAloneComputer2.png */,
-				FE1165BE171E4DE700721035 /* ForeverAloneComputer3.png */,
-				FE1165BF171E4DE700721035 /* gasp2panel.png */,
-				FE1165C0171E4DE700721035 /* gaspcat2panel.png */,
-				FE1165C1171E4DE700721035 /* gaspcatglasses2panel.png */,
-				FE1165C2171E4DE700721035 /* gasphand2panel.png */,
-				FE1165C3171E4DE700721035 /* I Lied_black2panel.jpg */,
-				FE1165C4171E4DE700721035 /* I Lied_black2panel2.jpg */,
-				FE1165C5171E4DE700721035 /* rage2panel.png */,
-				FE1165C6171E4DE700721035 /* stare2panel.png */,
-			);
-			path = "2-Panel";
 			sourceTree = "<group>";
 		};
 		FE1165C7171E4DE700721035 /* Actually - Not Okay */ = {
@@ -1729,247 +935,6 @@
 			path = "Female Black";
 			sourceTree = "<group>";
 		};
-		FE116635171E4DE700721035 /* Female Blonde */ = {
-			isa = PBXGroup;
-			children = (
-				FE116636171E4DE700721035 /* 01blondehair.png */,
-				FE116637171E4DE700721035 /* blonde_big smile.png */,
-				FE116638171E4DE700721035 /* blonde_concentrated.png */,
-				FE116639171E4DE700721035 /* blonde_crying.png */,
-				FE11663A171E4DE700721035 /* blonde_dazed.png */,
-				FE11663B171E4DE700721035 /* blonde_determined.png */,
-				FE11663C171E4DE700721035 /* blonde_dude.png */,
-				FE11663D171E4DE700721035 /* blonde_dumbfounded.png */,
-				FE11663E171E4DE700721035 /* blonde_ewbte.png */,
-				FE11663F171E4DE700721035 /* blonde_excited bliss.png */,
-				FE116640171E4DE700721035 /* blonde_excited tears.png */,
-				FE116641171E4DE700721035 /* blonde_excited.png */,
-				FE116642171E4DE700721035 /* blonde_facepalm.png */,
-				FE116643171E4DE700721035 /* blonde_fake smile.png */,
-				FE116644171E4DE700721035 /* blonde_forever alone.png */,
-				FE116645171E4DE700721035 /* blonde_freddie.png */,
-				FE116646171E4DE700721035 /* blonde_fuck that bitch.png */,
-				FE116647171E4DE700721035 /* blonde_fuck yeah.png */,
-				FE116648171E4DE700721035 /* blonde_gasp.jpg */,
-				FE116649171E4DE700721035 /* blonde_gasp2.jpg */,
-				FE11664A171E4DE700721035 /* blonde_happy.png */,
-				FE11664B171E4DE700721035 /* blonde_hmmm.png */,
-				FE11664C171E4DE700721035 /* blonde_i wonder.png */,
-				FE11664D171E4DE700721035 /* blonde_ladystare.jpg */,
-				FE11664E171E4DE700721035 /* blonde_ladystare2.jpg */,
-				FE11664F171E4DE700721035 /* blonde_lean.png */,
-				FE116650171E4DE700721035 /* blonde_lol.png */,
-				FE116651171E4DE700721035 /* blonde_me gusta.png */,
-				FE116652171E4DE700721035 /* blonde_milk.png */,
-				FE116653171E4DE700721035 /* blonde_normal.png */,
-				FE116654171E4DE700721035 /* blonde_normal2.png */,
-				FE116655171E4DE700721035 /* blonde_okay.png */,
-				FE116656171E4DE700721035 /* blonde_omgrun.png */,
-				FE116657171E4DE700721035 /* blonde_pfft.png */,
-				FE116658171E4DE700721035 /* blonde_pokerface.png */,
-				FE116659171E4DE700721035 /* blonde_quite.png */,
-				FE11665A171E4DE700721035 /* blonde_rage canadian.png */,
-				FE11665B171E4DE700721035 /* blonde_rage extreme.png */,
-				FE11665C171E4DE700721035 /* blonde_rage extreme2.png */,
-				FE11665D171E4DE700721035 /* blonde_rage foaming.png */,
-				FE11665E171E4DE700721035 /* blonde_rage getting pissed.png */,
-				FE11665F171E4DE700721035 /* blonde_rage mad.png */,
-				FE116660171E4DE700721035 /* blonde_rage mad2.png */,
-				FE116661171E4DE700721035 /* blonde_rage quiet.png */,
-				FE116662171E4DE700721035 /* blonde_rage shaking.png */,
-				FE116663171E4DE700721035 /* blonde_rage super.png */,
-				FE116664171E4DE700721035 /* blonde_rage.png */,
-				FE116665171E4DE700721035 /* blonde_rage2.png */,
-				FE116666171E4DE700721035 /* blonde_really determined.png */,
-				FE116667171E4DE700721035 /* blonde_red tongue.png */,
-				FE116668171E4DE700721035 /* blonde_schlick.png */,
-				FE116669171E4DE800721035 /* blonde_smile.png */,
-				FE11666A171E4DE800721035 /* blonde_sweet tears.png */,
-				FE11666B171E4DE800721035 /* blonde_tongue down.png */,
-				FE11666C171E4DE800721035 /* blonde_troll sad.png */,
-				FE11666D171E4DE800721035 /* blonde_troll.png */,
-				FE11666E171E4DE800721035 /* blonde_what.png */,
-				FE11666F171E4DE800721035 /* blonde_why no hands.png */,
-				FE116670171E4DE800721035 /* blonde_why.png */,
-				FE116671171E4DE800721035 /* blonde_wut.png */,
-			);
-			path = "Female Blonde";
-			sourceTree = "<group>";
-		};
-		FE116672171E4DE800721035 /* Female Brunette */ = {
-			isa = PBXGroup;
-			children = (
-				FE116673171E4DE800721035 /* 01brunettehair.png */,
-				FE116674171E4DE800721035 /* brunette_big smile.png */,
-				FE116675171E4DE800721035 /* brunette_concentrated.png */,
-				FE116676171E4DE800721035 /* brunette_crying.png */,
-				FE116677171E4DE800721035 /* brunette_dazed.png */,
-				FE116678171E4DE800721035 /* brunette_determined.png */,
-				FE116679171E4DE800721035 /* brunette_dude.png */,
-				FE11667A171E4DE800721035 /* brunette_dumbfounded.png */,
-				FE11667B171E4DE800721035 /* brunette_ewbte.png */,
-				FE11667C171E4DE800721035 /* brunette_excited bliss.png */,
-				FE11667D171E4DE800721035 /* brunette_excited tears.png */,
-				FE11667E171E4DE800721035 /* brunette_excited.png */,
-				FE11667F171E4DE800721035 /* brunette_facepalm.png */,
-				FE116680171E4DE800721035 /* brunette_fake smile.png */,
-				FE116681171E4DE800721035 /* brunette_forever alone.png */,
-				FE116682171E4DE800721035 /* brunette_freddie.png */,
-				FE116683171E4DE800721035 /* brunette_fuck that bitch.png */,
-				FE116684171E4DE800721035 /* brunette_fuck yeah.png */,
-				FE116685171E4DE800721035 /* brunette_gasp.jpg */,
-				FE116686171E4DE800721035 /* brunette_gasp2.jpg */,
-				FE116687171E4DE800721035 /* brunette_happy.png */,
-				FE116688171E4DE800721035 /* brunette_hmmm.png */,
-				FE116689171E4DE800721035 /* brunette_i wonder.png */,
-				FE11668A171E4DE800721035 /* brunette_ladystare.jpg */,
-				FE11668B171E4DE800721035 /* brunette_ladystare2.jpg */,
-				FE11668C171E4DE800721035 /* brunette_lean.png */,
-				FE11668D171E4DE800721035 /* brunette_lol.png */,
-				FE11668E171E4DE800721035 /* brunette_me gusta.png */,
-				FE11668F171E4DE800721035 /* brunette_milk.png */,
-				FE116690171E4DE800721035 /* brunette_normal.png */,
-				FE116691171E4DE800721035 /* brunette_normal2.png */,
-				FE116692171E4DE800721035 /* brunette_okay.png */,
-				FE116693171E4DE800721035 /* brunette_omgrun.png */,
-				FE116694171E4DE800721035 /* brunette_pfft.png */,
-				FE116695171E4DE800721035 /* brunette_pokerface.png */,
-				FE116696171E4DE800721035 /* brunette_quite.png */,
-				FE116697171E4DE800721035 /* brunette_rage canadian.png */,
-				FE116698171E4DE800721035 /* brunette_rage extreme.png */,
-				FE116699171E4DE800721035 /* brunette_rage extreme2.png */,
-				FE11669A171E4DE800721035 /* brunette_rage foaming.png */,
-				FE11669B171E4DE800721035 /* brunette_rage getting pissed.png */,
-				FE11669C171E4DE800721035 /* brunette_rage mad.png */,
-				FE11669D171E4DE800721035 /* brunette_rage mad2.png */,
-				FE11669E171E4DE800721035 /* brunette_rage quiet.png */,
-				FE11669F171E4DE800721035 /* brunette_rage shaking.png */,
-				FE1166A0171E4DE800721035 /* brunette_rage super.png */,
-				FE1166A1171E4DE800721035 /* brunette_rage.png */,
-				FE1166A2171E4DE800721035 /* brunette_rage2.png */,
-				FE1166A3171E4DE800721035 /* brunette_really determined.png */,
-				FE1166A4171E4DE800721035 /* brunette_red tongue.png */,
-				FE1166A5171E4DE800721035 /* brunette_schlick.png */,
-				FE1166A6171E4DE800721035 /* brunette_smile.png */,
-				FE1166A7171E4DE800721035 /* brunette_sweet tears.png */,
-				FE1166A8171E4DE800721035 /* brunette_tongue down.png */,
-				FE1166A9171E4DE800721035 /* brunette_troll sad.png */,
-				FE1166AA171E4DE800721035 /* brunette_troll.png */,
-				FE1166AB171E4DE800721035 /* brunette_what.png */,
-				FE1166AC171E4DE800721035 /* brunette_why no hands.png */,
-				FE1166AD171E4DE800721035 /* brunette_why.png */,
-				FE1166AE171E4DE800721035 /* brunette_wut.png */,
-			);
-			path = "Female Brunette";
-			sourceTree = "<group>";
-		};
-		FE1166AF171E4DE800721035 /* Female Hair */ = {
-			isa = PBXGroup;
-			children = (
-				FE1166B0171E4DE800721035 /* 01blackhair.png */,
-				FE1166B1171E4DE800721035 /* 01blankhair.png */,
-				FE1166B2171E4DE800721035 /* 01blondehair.png */,
-				FE1166B3171E4DE800721035 /* 01brunettehair.png */,
-				FE1166B4171E4DE800721035 /* 01redhair.png */,
-				FE1166B5171E4DE800721035 /* 02blackhair.png */,
-				FE1166B6171E4DE800721035 /* 03blackhair.png */,
-				FE1166B7171E4DE800721035 /* grandmahair.png */,
-			);
-			path = "Female Hair";
-			sourceTree = "<group>";
-		};
-		FE1166B8171E4DE800721035 /* Female Red */ = {
-			isa = PBXGroup;
-			children = (
-				FE1166B9171E4DE800721035 /* 01redhair.png */,
-				FE1166BA171E4DE800721035 /* red_big smile.png */,
-				FE1166BB171E4DE800721035 /* red_concentrated.png */,
-				FE1166BC171E4DE800721035 /* red_crying.png */,
-				FE1166BD171E4DE800721035 /* red_dazed.png */,
-				FE1166BE171E4DE800721035 /* red_determined.png */,
-				FE1166BF171E4DE800721035 /* red_dude.png */,
-				FE1166C0171E4DE800721035 /* red_dumbfounded.png */,
-				FE1166C1171E4DE800721035 /* red_ewbte.png */,
-				FE1166C2171E4DE800721035 /* red_excited bliss.png */,
-				FE1166C3171E4DE800721035 /* red_excited tears.png */,
-				FE1166C4171E4DE800721035 /* red_excited.png */,
-				FE1166C5171E4DE800721035 /* red_facepalm.png */,
-				FE1166C6171E4DE800721035 /* red_fake smile.png */,
-				FE1166C7171E4DE800721035 /* red_forever alone.png */,
-				FE1166C8171E4DE800721035 /* red_freddie.png */,
-				FE1166C9171E4DE800721035 /* red_fuck that bitch.png */,
-				FE1166CA171E4DE800721035 /* red_fuck yeah.png */,
-				FE1166CB171E4DE800721035 /* red_gasp.jpg */,
-				FE1166CC171E4DE800721035 /* red_gasp2.jpg */,
-				FE1166CD171E4DE800721035 /* red_happy.png */,
-				FE1166CE171E4DE800721035 /* red_hmmm.png */,
-				FE1166CF171E4DE800721035 /* red_i wonder.png */,
-				FE1166D0171E4DE800721035 /* red_ladystare.jpg */,
-				FE1166D1171E4DE800721035 /* red_ladystare2.jpg */,
-				FE1166D2171E4DE800721035 /* red_lean.png */,
-				FE1166D3171E4DE800721035 /* red_lol.png */,
-				FE1166D4171E4DE800721035 /* red_me gusta.png */,
-				FE1166D5171E4DE800721035 /* red_milk.png */,
-				FE1166D6171E4DE800721035 /* red_normal.png */,
-				FE1166D7171E4DE800721035 /* red_normal2.png */,
-				FE1166D8171E4DE800721035 /* red_okay.png */,
-				FE1166D9171E4DE800721035 /* red_omgrun.png */,
-				FE1166DA171E4DE800721035 /* red_pfft.png */,
-				FE1166DB171E4DE800721035 /* red_pokerface.png */,
-				FE1166DC171E4DE800721035 /* red_quite.png */,
-				FE1166DD171E4DE800721035 /* red_rage canadian.png */,
-				FE1166DE171E4DE800721035 /* red_rage extreme.png */,
-				FE1166DF171E4DE800721035 /* red_rage extreme2.png */,
-				FE1166E0171E4DE800721035 /* red_rage foaming.png */,
-				FE1166E1171E4DE800721035 /* red_rage getting pissed.png */,
-				FE1166E2171E4DE800721035 /* red_rage mad.png */,
-				FE1166E3171E4DE800721035 /* red_rage mad2.png */,
-				FE1166E4171E4DE800721035 /* red_rage quiet.png */,
-				FE1166E5171E4DE800721035 /* red_rage shaking.png */,
-				FE1166E6171E4DE800721035 /* red_rage super.png */,
-				FE1166E7171E4DE800721035 /* red_rage.png */,
-				FE1166E8171E4DE800721035 /* red_rage2.png */,
-				FE1166E9171E4DE800721035 /* red_really determined.png */,
-				FE1166EA171E4DE800721035 /* red_red tongue.png */,
-				FE1166EB171E4DE800721035 /* red_schlick.png */,
-				FE1166EC171E4DE800721035 /* red_smile.png */,
-				FE1166ED171E4DE800721035 /* red_sweet tears.png */,
-				FE1166EE171E4DE800721035 /* red_tongue down.png */,
-				FE1166EF171E4DE800721035 /* red_troll sad.png */,
-				FE1166F0171E4DE800721035 /* red_troll.png */,
-				FE1166F1171E4DE800721035 /* red_what.png */,
-				FE1166F2171E4DE800721035 /* red_why no hands.png */,
-				FE1166F3171E4DE800721035 /* red_why.png */,
-				FE1166F4171E4DE800721035 /* red_wut.png */,
-			);
-			path = "Female Red";
-			sourceTree = "<group>";
-		};
-		FE1166F5171E4DE800721035 /* fffffffuuuuuuuuuuuud */ = {
-			isa = PBXGroup;
-			children = (
-				FE1166F6171E4DE800721035 /* chef hat.png */,
-				FE1166F7171E4DE800721035 /* face_fap.png */,
-				FE1166F8171E4DE800721035 /* face_mustache.png */,
-				FE1166F9171E4DE800721035 /* ing_bacon.png */,
-				FE1166FA171E4DE800721035 /* ing_bacon2.png */,
-				FE1166FB171E4DE800721035 /* ing_cheese cheddar.png */,
-				FE1166FC171E4DE800721035 /* ing_cheese swiss.png */,
-				FE1166FD171E4DE800721035 /* ing_egg.png */,
-				FE1166FE171E4DE800721035 /* ing_flour.png */,
-				FE1166FF171E4DE800721035 /* ing_garlic.png */,
-				FE116700171E4DE800721035 /* ing_milk.png */,
-				FE116701171E4DE800721035 /* ing_onion.png */,
-				FE116702171E4DE800721035 /* ing_pepper green.png */,
-				FE116703171E4DE800721035 /* ing_pepper red.png */,
-				FE116704171E4DE800721035 /* ing_pepper.png */,
-				FE116705171E4DE800721035 /* ing_salt.png */,
-				FE116706171E4DE800721035 /* ing_tomato.png */,
-				FE116707171E4DE800721035 /* skillet.png */,
-			);
-			path = fffffffuuuuuuuuuuuud;
-			sourceTree = "<group>";
-		};
 		FE116708171E4DE800721035 /* Happy */ = {
 			isa = PBXGroup;
 			children = (
@@ -1992,35 +957,6 @@
 				FE116719171E4DE800721035 /* Smile2.png */,
 			);
 			path = Happy;
-			sourceTree = "<group>";
-		};
-		FE11671B171E4DE800721035 /* Inglip */ = {
-			isa = PBXGroup;
-			children = (
-				FE11671C171E4DE800721035 /* inglip_burning skeleton.jpg */,
-				FE11671D171E4DE800721035 /* inglip_captcha.png */,
-				FE11671E171E4DE800721035 /* inglip_captchatext.jpg */,
-				FE11671F171E4DE800721035 /* inglip_full body.jpg */,
-				FE116720171E4DE800721035 /* inglip_full body2.jpg */,
-				FE116721171E4DE800721035 /* inglip_gropaga amazed.jpg */,
-				FE116722171E4DE800721035 /* inglip_gropaga blank.png */,
-				FE116723171E4DE800721035 /* inglip_gropaga front.jpg */,
-				FE116724171E4DE800721035 /* inglip_gropaga okay.jpg */,
-				FE116725171E4DE800721035 /* inglip_gropaga why.jpg */,
-				FE116726171E4DE800721035 /* inglip_gropaga1.jpg */,
-				FE116727171E4DE800721035 /* inglip_gropaga2.jpg */,
-				FE116728171E4DE800721035 /* inglip_gropaga3.jpg */,
-				FE116729171E4DE800721035 /* inglip_gropaga4.jpg */,
-				FE11672A171E4DE800721035 /* inglip_gropaga5.jpg */,
-				FE11672B171E4DE800721035 /* inglip_gropaga6.jpg */,
-				FE11672C171E4DE800721035 /* inglip_gropaga7.jpg */,
-				FE11672D171E4DE800721035 /* inglip_hail inglip.jpg */,
-				FE11672E171E4DE800721035 /* inglip_hood1.png */,
-				FE11672F171E4DE800721035 /* inglip_hood2.png */,
-				FE116730171E4DE800721035 /* inglip_ircip.jpg */,
-				FE116731171E4DE800721035 /* inglip_ready to battle.jpg */,
-			);
-			path = Inglip;
 			sourceTree = "<group>";
 		};
 		FE116732171E4DE800721035 /* Laughing */ = {
@@ -2193,58 +1129,6 @@
 			path = Rage;
 			sourceTree = "<group>";
 		};
-		FE1167B2171E4DE800721035 /* RageOps */ = {
-			isa = PBXGroup;
-			children = (
-				FE1167B3171E4DE800721035 /* brick1.jpg */,
-				FE1167B4171E4DE800721035 /* brick2.jpg */,
-				FE1167B5171E4DE800721035 /* brick3.jpg */,
-				FE1167B6171E4DE900721035 /* brick4.jpg */,
-				FE1167B7171E4DE900721035 /* brick5.jpg */,
-				FE1167B8171E4DE900721035 /* command1.jpg */,
-				FE1167B9171E4DE900721035 /* command10.jpg */,
-				FE1167BA171E4DE900721035 /* command11.jpg */,
-				FE1167BB171E4DE900721035 /* command2.jpg */,
-				FE1167BC171E4DE900721035 /* command3.jpg */,
-				FE1167BD171E4DE900721035 /* command4.jpg */,
-				FE1167BE171E4DE900721035 /* command5.jpg */,
-				FE1167BF171E4DE900721035 /* command6.jpg */,
-				FE1167C0171E4DE900721035 /* command7.jpg */,
-				FE1167C1171E4DE900721035 /* command8.jpg */,
-				FE1167C2171E4DE900721035 /* command9.jpg */,
-				FE1167C3171E4DE900721035 /* radio1.jpg */,
-				FE1167C4171E4DE900721035 /* radio2.jpg */,
-				FE1167C5171E4DE900721035 /* radio3.jpg */,
-				FE1167C6171E4DE900721035 /* radio4.jpg */,
-				FE1167C7171E4DE900721035 /* radio5.jpg */,
-				FE1167C8171E4DE900721035 /* radio6.jpg */,
-				FE1167C9171E4DE900721035 /* radio7.jpg */,
-				FE1167CA171E4DE900721035 /* radio8.jpg */,
-				FE1167CB171E4DE900721035 /* soldier1.jpg */,
-				FE1167CC171E4DE900721035 /* soldier2.jpg */,
-				FE1167CD171E4DE900721035 /* soldier3.jpg */,
-				FE1167CE171E4DE900721035 /* soldier_commander1.jpg */,
-				FE1167CF171E4DE900721035 /* soldier_commander2.jpg */,
-				FE1167D0171E4DE900721035 /* soldier_commander3.jpg */,
-				FE1167D1171E4DE900721035 /* soldier_engineer.jpg */,
-				FE1167D2171E4DE900721035 /* soldier_engineer2.jpg */,
-				FE1167D3171E4DE900721035 /* soldier_gunners.jpg */,
-				FE1167D4171E4DE900721035 /* soldier_lookout.jpg */,
-				FE1167D5171E4DE900721035 /* soldier_march.jpg */,
-				FE1167D6171E4DE900721035 /* soldier_rapel.jpg */,
-				FE1167D7171E4DE900721035 /* soldier_sniper1.jpg */,
-				FE1167D8171E4DE900721035 /* soldier_sniper2.jpg */,
-				FE1167D9171E4DE900721035 /* soldier_tank.jpg */,
-				FE1167DA171E4DE900721035 /* strategize1.jpg */,
-				FE1167DB171E4DE900721035 /* strategize2.jpg */,
-				FE1167DC171E4DE900721035 /* strategize3.jpg */,
-				FE1167DD171E4DE900721035 /* strategize4.jpg */,
-				FE1167DE171E4DE900721035 /* strategize5.jpg */,
-				FE1167DF171E4DE900721035 /* strategize6.jpg */,
-			);
-			path = RageOps;
-			sourceTree = "<group>";
-		};
 		FE1167E0171E4DE900721035 /* Sad */ = {
 			isa = PBXGroup;
 			children = (
@@ -2268,77 +1152,6 @@
 				FE1167F2171E4DE900721035 /* why inverted.png */,
 			);
 			path = Sad;
-			sourceTree = "<group>";
-		};
-		FE1167F3171E4DE900721035 /* Some Time Later */ = {
-			isa = PBXGroup;
-			children = (
-				FE1167F4171E4DE900721035 /* 01 - later1.jpg */,
-				FE1167F5171E4DE900721035 /* 01 - later2.jpg */,
-				FE1167F6171E4DE900721035 /* 01 - later3.jpg */,
-				FE1167F7171E4DE900721035 /* 01 - later3_1.jpg */,
-				FE1167F8171E4DE900721035 /* 01 - later4.jpg */,
-				FE1167F9171E4DE900721035 /* 01 - later5.jpg */,
-				FE1167FA171E4DE900721035 /* 01 - later6.jpg */,
-				FE1167FB171E4DE900721035 /* 01 - later7.jpg */,
-				FE1167FC171E4DE900721035 /* 01 - later8.jpg */,
-				FE1167FD171E4DE900721035 /* 01 - s_eventually.jpg */,
-				FE1167FE171E4DE900721035 /* 01 - same evening.jpg */,
-				FE1167FF171E4DE900721035 /* 02 - 10 seconds.jpg */,
-				FE116800171E4DE900721035 /* 02 - 12 seconds.jpg */,
-				FE116801171E4DE900721035 /* 03 - 1 37 seconds.jpg */,
-				FE116802171E4DE900721035 /* 03 - 15 minutes.jpg */,
-				FE116803171E4DE900721035 /* 03 - 2 minutes.jpg */,
-				FE116804171E4DE900721035 /* 03 - 20 minutes.jpg */,
-				FE116805171E4DE900721035 /* 03 - 346 minutes.jpg */,
-				FE116806171E4DE900721035 /* 03 - 4 minutes.jpg */,
-				FE116807171E4DE900721035 /* 03 - 4 minutes2.jpg */,
-				FE116808171E4DE900721035 /* 03 - 5 minutes.jpg */,
-				FE116809171E4DE900721035 /* 04 - 1 hour.jpg */,
-				FE11680A171E4DE900721035 /* 04 - 2 hours.jpg */,
-				FE11680B171E4DE900721035 /* 04 - 2 hours2.jpg */,
-				FE11680C171E4DE900721035 /* 04 - 2 hours3.jpg */,
-				FE11680D171E4DE900721035 /* 04 - 2 hours4.jpg */,
-				FE11680E171E4DE900721035 /* 04 - 2 hours5.jpg */,
-				FE11680F171E4DE900721035 /* 04 - 3 hours.jpg */,
-				FE116810171E4DE900721035 /* 04 - 3 hours2.jpg */,
-				FE116811171E4DE900721035 /* 04 - 3 hours3.jpg */,
-				FE116812171E4DE900721035 /* 04 - 48 hours.jpg */,
-				FE116813171E4DE900721035 /* 04 - 6 hours.jpg */,
-				FE116814171E4DE900721035 /* 04 - 6 hours2.jpg */,
-				FE116815171E4DE900721035 /* 04 - 6 hours3.jpg */,
-				FE116816171E4DE900721035 /* 04 - 7 hours.jpg */,
-				FE116817171E4DE900721035 /* 04 - 8 hours.jpg */,
-				FE116818171E4DE900721035 /* 04 - 8 hours2.jpg */,
-				FE116819171E4DE900721035 /* 05 - 1 day.jpg */,
-				FE11681A171E4DE900721035 /* 05 - 1 day2.jpg */,
-				FE11681B171E4DE900721035 /* 05 - 3 days.jpg */,
-				FE11681C171E4DE900721035 /* 05 - 3 days2.jpg */,
-				FE11681D171E4DE900721035 /* 05 - 3 days3.jpg */,
-				FE11681E171E4DE900721035 /* 05 - 3 days4.jpg */,
-				FE11681F171E4DE900721035 /* 05 - 3 days5.jpg */,
-				FE116820171E4DE900721035 /* 05 - days.jpg */,
-				FE116821171E4DE900721035 /* 05 - tomorrow.jpg */,
-				FE116822171E4DE900721035 /* 05 - tomorrow2.jpg */,
-				FE116823171E4DE900721035 /* 05 - yesterday.jpg */,
-				FE116824171E4DE900721035 /* 06 - 1 week.jpg */,
-				FE116825171E4DE900721035 /* 06 - 3 weeks.jpg */,
-				FE116826171E4DE900721035 /* 06 - 3 weeks2.jpg */,
-				FE116827171E4DE900721035 /* 06 - 4-6 weeks.jpg */,
-				FE116828171E4DE900721035 /* 07 - 6 months.jpg */,
-				FE116829171E4DE900721035 /* 07 - many months.jpg */,
-				FE11682A171E4DE900721035 /* 08 - 2000 years.jpg */,
-				FE11682B171E4DE900721035 /* 08 - 3000 years.jpg */,
-				FE11682C171E4DE900721035 /* 08 - thousands of tears.jpg */,
-				FE11682D171E4DE900721035 /* 09 - 1200am.jpg */,
-				FE11682E171E4DE900721035 /* 09 - 328am.jpg */,
-				FE11682F171E4DE900721035 /* 09 - 759am.jpg */,
-				FE116830171E4DE900721035 /* 09 - 801pm.jpg */,
-				FE116831171E4DE900721035 /* 10 - day2.jpg */,
-				FE116832171E4DE900721035 /* 10 - day3.jpg */,
-				FE116833171E4DE900721035 /* 10 - day4.jpg */,
-			);
-			path = "Some Time Later";
 			sourceTree = "<group>";
 		};
 		FE116834171E4DE900721035 /* Stupidity */ = {
@@ -2409,48 +1222,6 @@
 				FE116867171E4DE900721035 /* xmashat.png */,
 			);
 			path = "Text - Accessories";
-			sourceTree = "<group>";
-		};
-		FE116868171E4DE900721035 /* treecomics */ = {
-			isa = PBXGroup;
-			children = (
-				FE116869171E4DE900721035 /* bic blue.png */,
-				FE11686A171E4DE900721035 /* bic brown.png */,
-				FE11686B171E4DE900721035 /* bic red.png */,
-				FE11686C171E4DE900721035 /* bong.png */,
-				FE11686D171E4DE900721035 /* bud brick.png */,
-				FE11686E171E4DE900721035 /* bud green.png */,
-				FE11686F171E4DE900721035 /* bud orange.png */,
-				FE116870171E4DE900721035 /* bud purple.png */,
-				FE116871171E4DE900721035 /* face1.png */,
-				FE116872171E4DE900721035 /* face2.png */,
-				FE116873171E4DE900721035 /* face3.png */,
-				FE116874171E4DE900721035 /* face4.png */,
-				FE116875171E4DE900721035 /* face5.png */,
-				FE116876171E4DE900721035 /* face6.png */,
-				FE116877171E4DE900721035 /* fire.png */,
-				FE116878171E4DE900721035 /* goofy smile.png */,
-				FE116879171E4DE900721035 /* happy smoking.png */,
-				FE11687A171E4DE900721035 /* joint.png */,
-				FE11687B171E4DE900721035 /* joint2.png */,
-				FE11687C171E4DE900721035 /* joint3.png */,
-				FE11687D171E4DE900721035 /* launch_box.png */,
-				FE11687E171E4DE900721035 /* munchies.png */,
-				FE11687F171E4DE900721035 /* pineapple.png */,
-				FE116880171E4DE900721035 /* pipe1.png */,
-				FE116881171E4DE900721035 /* pipe2.png */,
-				FE116882171E4DE900721035 /* pipe3.png */,
-				FE116883171E4DE900721035 /* pot leaf.png */,
-				FE116884171E4DE900721035 /* stoned exhale.png */,
-				FE116885171E4DE900721035 /* stoned inhale.png */,
-				FE116886171E4DE900721035 /* stoned what no words.png */,
-				FE116887171E4DE900721035 /* stoned what.png */,
-				FE116888171E4DE900721035 /* stoned.png */,
-				FE116889171E4DE900721035 /* ten guy.png */,
-				FE11688A171E4DE900721035 /* tokerface.png */,
-				FE11688B171E4DE900721035 /* visine.png */,
-			);
-			path = treecomics;
 			sourceTree = "<group>";
 		};
 		FE11688C171E4DE900721035 /* Victorious */ = {
@@ -2530,17 +1301,6 @@
 				FE1165A8171E315800721035 /* Default@2x.png in Resources */,
 				FE1165AA171E315800721035 /* Default-568h@2x.png in Resources */,
 				FE1165AD171E315800721035 /* MainStoryboard.storyboard in Resources */,
-				FE11689A171E4DE900721035 /* ForeverAloneComputer.png in Resources */,
-				FE11689B171E4DE900721035 /* ForeverAloneComputer2.png in Resources */,
-				FE11689C171E4DE900721035 /* ForeverAloneComputer3.png in Resources */,
-				FE11689D171E4DE900721035 /* gasp2panel.png in Resources */,
-				FE11689E171E4DE900721035 /* gaspcat2panel.png in Resources */,
-				FE11689F171E4DE900721035 /* gaspcatglasses2panel.png in Resources */,
-				FE1168A0171E4DE900721035 /* gasphand2panel.png in Resources */,
-				FE1168A1171E4DE900721035 /* I Lied_black2panel.jpg in Resources */,
-				FE1168A2171E4DE900721035 /* I Lied_black2panel2.jpg in Resources */,
-				FE1168A3171E4DE900721035 /* rage2panel.png in Resources */,
-				FE1168A4171E4DE900721035 /* stare2panel.png in Resources */,
 				FE1168A5171E4DE900721035 /* 1darkokay.png in Resources */,
 				FE1168A6171E4DE900721035 /* 2SadShadow.png in Resources */,
 				FE1168A7171E4DE900721035 /* 3Actually.png in Resources */,
@@ -2646,212 +1406,6 @@
 				FE11690B171E4DE900721035 /* black_why no hands.png in Resources */,
 				FE11690C171E4DE900721035 /* black_why.png in Resources */,
 				FE11690D171E4DE900721035 /* black_wut.png in Resources */,
-				FE11690E171E4DE900721035 /* 01blondehair.png in Resources */,
-				FE11690F171E4DE900721035 /* blonde_big smile.png in Resources */,
-				FE116910171E4DE900721035 /* blonde_concentrated.png in Resources */,
-				FE116911171E4DE900721035 /* blonde_crying.png in Resources */,
-				FE116912171E4DE900721035 /* blonde_dazed.png in Resources */,
-				FE116913171E4DE900721035 /* blonde_determined.png in Resources */,
-				FE116914171E4DE900721035 /* blonde_dude.png in Resources */,
-				FE116915171E4DE900721035 /* blonde_dumbfounded.png in Resources */,
-				FE116916171E4DE900721035 /* blonde_ewbte.png in Resources */,
-				FE116917171E4DE900721035 /* blonde_excited bliss.png in Resources */,
-				FE116918171E4DE900721035 /* blonde_excited tears.png in Resources */,
-				FE116919171E4DE900721035 /* blonde_excited.png in Resources */,
-				FE11691A171E4DE900721035 /* blonde_facepalm.png in Resources */,
-				FE11691B171E4DE900721035 /* blonde_fake smile.png in Resources */,
-				FE11691C171E4DE900721035 /* blonde_forever alone.png in Resources */,
-				FE11691D171E4DE900721035 /* blonde_freddie.png in Resources */,
-				FE11691E171E4DE900721035 /* blonde_fuck that bitch.png in Resources */,
-				FE11691F171E4DE900721035 /* blonde_fuck yeah.png in Resources */,
-				FE116920171E4DE900721035 /* blonde_gasp.jpg in Resources */,
-				FE116921171E4DE900721035 /* blonde_gasp2.jpg in Resources */,
-				FE116922171E4DE900721035 /* blonde_happy.png in Resources */,
-				FE116923171E4DE900721035 /* blonde_hmmm.png in Resources */,
-				FE116924171E4DE900721035 /* blonde_i wonder.png in Resources */,
-				FE116925171E4DE900721035 /* blonde_ladystare.jpg in Resources */,
-				FE116926171E4DE900721035 /* blonde_ladystare2.jpg in Resources */,
-				FE116927171E4DE900721035 /* blonde_lean.png in Resources */,
-				FE116928171E4DE900721035 /* blonde_lol.png in Resources */,
-				FE116929171E4DE900721035 /* blonde_me gusta.png in Resources */,
-				FE11692A171E4DE900721035 /* blonde_milk.png in Resources */,
-				FE11692B171E4DE900721035 /* blonde_normal.png in Resources */,
-				FE11692C171E4DE900721035 /* blonde_normal2.png in Resources */,
-				FE11692D171E4DE900721035 /* blonde_okay.png in Resources */,
-				FE11692E171E4DE900721035 /* blonde_omgrun.png in Resources */,
-				FE11692F171E4DE900721035 /* blonde_pfft.png in Resources */,
-				FE116930171E4DE900721035 /* blonde_pokerface.png in Resources */,
-				FE116931171E4DE900721035 /* blonde_quite.png in Resources */,
-				FE116932171E4DE900721035 /* blonde_rage canadian.png in Resources */,
-				FE116933171E4DE900721035 /* blonde_rage extreme.png in Resources */,
-				FE116934171E4DE900721035 /* blonde_rage extreme2.png in Resources */,
-				FE116935171E4DE900721035 /* blonde_rage foaming.png in Resources */,
-				FE116936171E4DE900721035 /* blonde_rage getting pissed.png in Resources */,
-				FE116937171E4DE900721035 /* blonde_rage mad.png in Resources */,
-				FE116938171E4DE900721035 /* blonde_rage mad2.png in Resources */,
-				FE116939171E4DE900721035 /* blonde_rage quiet.png in Resources */,
-				FE11693A171E4DE900721035 /* blonde_rage shaking.png in Resources */,
-				FE11693B171E4DE900721035 /* blonde_rage super.png in Resources */,
-				FE11693C171E4DE900721035 /* blonde_rage.png in Resources */,
-				FE11693D171E4DE900721035 /* blonde_rage2.png in Resources */,
-				FE11693E171E4DE900721035 /* blonde_really determined.png in Resources */,
-				FE11693F171E4DE900721035 /* blonde_red tongue.png in Resources */,
-				FE116940171E4DE900721035 /* blonde_schlick.png in Resources */,
-				FE116941171E4DE900721035 /* blonde_smile.png in Resources */,
-				FE116942171E4DE900721035 /* blonde_sweet tears.png in Resources */,
-				FE116943171E4DE900721035 /* blonde_tongue down.png in Resources */,
-				FE116944171E4DE900721035 /* blonde_troll sad.png in Resources */,
-				FE116945171E4DE900721035 /* blonde_troll.png in Resources */,
-				FE116946171E4DE900721035 /* blonde_what.png in Resources */,
-				FE116947171E4DE900721035 /* blonde_why no hands.png in Resources */,
-				FE116948171E4DE900721035 /* blonde_why.png in Resources */,
-				FE116949171E4DE900721035 /* blonde_wut.png in Resources */,
-				FE11694A171E4DE900721035 /* 01brunettehair.png in Resources */,
-				FE11694B171E4DE900721035 /* brunette_big smile.png in Resources */,
-				FE11694C171E4DE900721035 /* brunette_concentrated.png in Resources */,
-				FE11694D171E4DE900721035 /* brunette_crying.png in Resources */,
-				FE11694E171E4DE900721035 /* brunette_dazed.png in Resources */,
-				FE11694F171E4DE900721035 /* brunette_determined.png in Resources */,
-				FE116950171E4DE900721035 /* brunette_dude.png in Resources */,
-				FE116951171E4DE900721035 /* brunette_dumbfounded.png in Resources */,
-				FE116952171E4DE900721035 /* brunette_ewbte.png in Resources */,
-				FE116953171E4DE900721035 /* brunette_excited bliss.png in Resources */,
-				FE116954171E4DE900721035 /* brunette_excited tears.png in Resources */,
-				FE116955171E4DE900721035 /* brunette_excited.png in Resources */,
-				FE116956171E4DE900721035 /* brunette_facepalm.png in Resources */,
-				FE116957171E4DE900721035 /* brunette_fake smile.png in Resources */,
-				FE116958171E4DE900721035 /* brunette_forever alone.png in Resources */,
-				FE116959171E4DE900721035 /* brunette_freddie.png in Resources */,
-				FE11695A171E4DE900721035 /* brunette_fuck that bitch.png in Resources */,
-				FE11695B171E4DE900721035 /* brunette_fuck yeah.png in Resources */,
-				FE11695C171E4DE900721035 /* brunette_gasp.jpg in Resources */,
-				FE11695D171E4DE900721035 /* brunette_gasp2.jpg in Resources */,
-				FE11695E171E4DE900721035 /* brunette_happy.png in Resources */,
-				FE11695F171E4DE900721035 /* brunette_hmmm.png in Resources */,
-				FE116960171E4DE900721035 /* brunette_i wonder.png in Resources */,
-				FE116961171E4DE900721035 /* brunette_ladystare.jpg in Resources */,
-				FE116962171E4DE900721035 /* brunette_ladystare2.jpg in Resources */,
-				FE116963171E4DE900721035 /* brunette_lean.png in Resources */,
-				FE116964171E4DE900721035 /* brunette_lol.png in Resources */,
-				FE116965171E4DE900721035 /* brunette_me gusta.png in Resources */,
-				FE116966171E4DE900721035 /* brunette_milk.png in Resources */,
-				FE116967171E4DE900721035 /* brunette_normal.png in Resources */,
-				FE116968171E4DE900721035 /* brunette_normal2.png in Resources */,
-				FE116969171E4DE900721035 /* brunette_okay.png in Resources */,
-				FE11696A171E4DE900721035 /* brunette_omgrun.png in Resources */,
-				FE11696B171E4DE900721035 /* brunette_pfft.png in Resources */,
-				FE11696C171E4DE900721035 /* brunette_pokerface.png in Resources */,
-				FE11696D171E4DE900721035 /* brunette_quite.png in Resources */,
-				FE11696E171E4DE900721035 /* brunette_rage canadian.png in Resources */,
-				FE11696F171E4DE900721035 /* brunette_rage extreme.png in Resources */,
-				FE116970171E4DE900721035 /* brunette_rage extreme2.png in Resources */,
-				FE116971171E4DE900721035 /* brunette_rage foaming.png in Resources */,
-				FE116972171E4DE900721035 /* brunette_rage getting pissed.png in Resources */,
-				FE116973171E4DE900721035 /* brunette_rage mad.png in Resources */,
-				FE116974171E4DE900721035 /* brunette_rage mad2.png in Resources */,
-				FE116975171E4DE900721035 /* brunette_rage quiet.png in Resources */,
-				FE116976171E4DE900721035 /* brunette_rage shaking.png in Resources */,
-				FE116977171E4DE900721035 /* brunette_rage super.png in Resources */,
-				FE116978171E4DE900721035 /* brunette_rage.png in Resources */,
-				FE116979171E4DE900721035 /* brunette_rage2.png in Resources */,
-				FE11697A171E4DE900721035 /* brunette_really determined.png in Resources */,
-				FE11697B171E4DE900721035 /* brunette_red tongue.png in Resources */,
-				FE11697C171E4DE900721035 /* brunette_schlick.png in Resources */,
-				FE11697D171E4DE900721035 /* brunette_smile.png in Resources */,
-				FE11697E171E4DE900721035 /* brunette_sweet tears.png in Resources */,
-				FE11697F171E4DE900721035 /* brunette_tongue down.png in Resources */,
-				FE116980171E4DE900721035 /* brunette_troll sad.png in Resources */,
-				FE116981171E4DE900721035 /* brunette_troll.png in Resources */,
-				FE116982171E4DE900721035 /* brunette_what.png in Resources */,
-				FE116983171E4DE900721035 /* brunette_why no hands.png in Resources */,
-				FE116984171E4DE900721035 /* brunette_why.png in Resources */,
-				FE116985171E4DE900721035 /* brunette_wut.png in Resources */,
-				FE116986171E4DE900721035 /* 01blackhair.png in Resources */,
-				FE116987171E4DE900721035 /* 01blankhair.png in Resources */,
-				FE116988171E4DE900721035 /* 01blondehair.png in Resources */,
-				FE116989171E4DE900721035 /* 01brunettehair.png in Resources */,
-				FE11698A171E4DE900721035 /* 01redhair.png in Resources */,
-				FE11698B171E4DE900721035 /* 02blackhair.png in Resources */,
-				FE11698C171E4DE900721035 /* 03blackhair.png in Resources */,
-				FE11698D171E4DE900721035 /* grandmahair.png in Resources */,
-				FE11698E171E4DE900721035 /* 01redhair.png in Resources */,
-				FE11698F171E4DE900721035 /* red_big smile.png in Resources */,
-				FE116990171E4DE900721035 /* red_concentrated.png in Resources */,
-				FE116991171E4DE900721035 /* red_crying.png in Resources */,
-				FE116992171E4DE900721035 /* red_dazed.png in Resources */,
-				FE116993171E4DE900721035 /* red_determined.png in Resources */,
-				FE116994171E4DE900721035 /* red_dude.png in Resources */,
-				FE116995171E4DE900721035 /* red_dumbfounded.png in Resources */,
-				FE116996171E4DE900721035 /* red_ewbte.png in Resources */,
-				FE116997171E4DE900721035 /* red_excited bliss.png in Resources */,
-				FE116998171E4DE900721035 /* red_excited tears.png in Resources */,
-				FE116999171E4DE900721035 /* red_excited.png in Resources */,
-				FE11699A171E4DE900721035 /* red_facepalm.png in Resources */,
-				FE11699B171E4DE900721035 /* red_fake smile.png in Resources */,
-				FE11699C171E4DE900721035 /* red_forever alone.png in Resources */,
-				FE11699D171E4DE900721035 /* red_freddie.png in Resources */,
-				FE11699E171E4DE900721035 /* red_fuck that bitch.png in Resources */,
-				FE11699F171E4DE900721035 /* red_fuck yeah.png in Resources */,
-				FE1169A0171E4DE900721035 /* red_gasp.jpg in Resources */,
-				FE1169A1171E4DE900721035 /* red_gasp2.jpg in Resources */,
-				FE1169A2171E4DE900721035 /* red_happy.png in Resources */,
-				FE1169A3171E4DE900721035 /* red_hmmm.png in Resources */,
-				FE1169A4171E4DE900721035 /* red_i wonder.png in Resources */,
-				FE1169A5171E4DE900721035 /* red_ladystare.jpg in Resources */,
-				FE1169A6171E4DE900721035 /* red_ladystare2.jpg in Resources */,
-				FE1169A7171E4DE900721035 /* red_lean.png in Resources */,
-				FE1169A8171E4DE900721035 /* red_lol.png in Resources */,
-				FE1169A9171E4DE900721035 /* red_me gusta.png in Resources */,
-				FE1169AA171E4DE900721035 /* red_milk.png in Resources */,
-				FE1169AB171E4DE900721035 /* red_normal.png in Resources */,
-				FE1169AC171E4DE900721035 /* red_normal2.png in Resources */,
-				FE1169AD171E4DE900721035 /* red_okay.png in Resources */,
-				FE1169AE171E4DE900721035 /* red_omgrun.png in Resources */,
-				FE1169AF171E4DE900721035 /* red_pfft.png in Resources */,
-				FE1169B0171E4DE900721035 /* red_pokerface.png in Resources */,
-				FE1169B1171E4DE900721035 /* red_quite.png in Resources */,
-				FE1169B2171E4DE900721035 /* red_rage canadian.png in Resources */,
-				FE1169B3171E4DE900721035 /* red_rage extreme.png in Resources */,
-				FE1169B4171E4DE900721035 /* red_rage extreme2.png in Resources */,
-				FE1169B5171E4DE900721035 /* red_rage foaming.png in Resources */,
-				FE1169B6171E4DE900721035 /* red_rage getting pissed.png in Resources */,
-				FE1169B7171E4DE900721035 /* red_rage mad.png in Resources */,
-				FE1169B8171E4DE900721035 /* red_rage mad2.png in Resources */,
-				FE1169B9171E4DE900721035 /* red_rage quiet.png in Resources */,
-				FE1169BA171E4DE900721035 /* red_rage shaking.png in Resources */,
-				FE1169BB171E4DE900721035 /* red_rage super.png in Resources */,
-				FE1169BC171E4DE900721035 /* red_rage.png in Resources */,
-				FE1169BD171E4DE900721035 /* red_rage2.png in Resources */,
-				FE1169BE171E4DE900721035 /* red_really determined.png in Resources */,
-				FE1169BF171E4DE900721035 /* red_red tongue.png in Resources */,
-				FE1169C0171E4DE900721035 /* red_schlick.png in Resources */,
-				FE1169C1171E4DE900721035 /* red_smile.png in Resources */,
-				FE1169C2171E4DE900721035 /* red_sweet tears.png in Resources */,
-				FE1169C3171E4DE900721035 /* red_tongue down.png in Resources */,
-				FE1169C4171E4DE900721035 /* red_troll sad.png in Resources */,
-				FE1169C5171E4DE900721035 /* red_troll.png in Resources */,
-				FE1169C6171E4DE900721035 /* red_what.png in Resources */,
-				FE1169C7171E4DE900721035 /* red_why no hands.png in Resources */,
-				FE1169C8171E4DE900721035 /* red_why.png in Resources */,
-				FE1169C9171E4DE900721035 /* red_wut.png in Resources */,
-				FE1169CA171E4DE900721035 /* chef hat.png in Resources */,
-				FE1169CB171E4DE900721035 /* face_fap.png in Resources */,
-				FE1169CC171E4DE900721035 /* face_mustache.png in Resources */,
-				FE1169CD171E4DE900721035 /* ing_bacon.png in Resources */,
-				FE1169CE171E4DE900721035 /* ing_bacon2.png in Resources */,
-				FE1169CF171E4DE900721035 /* ing_cheese cheddar.png in Resources */,
-				FE1169D0171E4DE900721035 /* ing_cheese swiss.png in Resources */,
-				FE1169D1171E4DE900721035 /* ing_egg.png in Resources */,
-				FE1169D2171E4DE900721035 /* ing_flour.png in Resources */,
-				FE1169D3171E4DE900721035 /* ing_garlic.png in Resources */,
-				FE1169D4171E4DE900721035 /* ing_milk.png in Resources */,
-				FE1169D5171E4DE900721035 /* ing_onion.png in Resources */,
-				FE1169D6171E4DE900721035 /* ing_pepper green.png in Resources */,
-				FE1169D7171E4DE900721035 /* ing_pepper red.png in Resources */,
-				FE1169D8171E4DE900721035 /* ing_pepper.png in Resources */,
-				FE1169D9171E4DE900721035 /* ing_salt.png in Resources */,
-				FE1169DA171E4DE900721035 /* ing_tomato.png in Resources */,
-				FE1169DB171E4DE900721035 /* skillet.png in Resources */,
 				FE1169DC171E4DE900721035 /* 05.png in Resources */,
 				FE1169DD171E4DE900721035 /* 06.png in Resources */,
 				FE1169DE171E4DE900721035 /* 08.png in Resources */,
@@ -2870,28 +1424,6 @@
 				FE1169EB171E4DE900721035 /* oh stop it you.png in Resources */,
 				FE1169EC171E4DE900721035 /* Smile2.png in Resources */,
 				FE1169ED171E4DE900721035 /* images.xml in Resources */,
-				FE1169EE171E4DE900721035 /* inglip_burning skeleton.jpg in Resources */,
-				FE1169EF171E4DE900721035 /* inglip_captcha.png in Resources */,
-				FE1169F0171E4DE900721035 /* inglip_captchatext.jpg in Resources */,
-				FE1169F1171E4DE900721035 /* inglip_full body.jpg in Resources */,
-				FE1169F2171E4DE900721035 /* inglip_full body2.jpg in Resources */,
-				FE1169F3171E4DE900721035 /* inglip_gropaga amazed.jpg in Resources */,
-				FE1169F4171E4DE900721035 /* inglip_gropaga blank.png in Resources */,
-				FE1169F5171E4DE900721035 /* inglip_gropaga front.jpg in Resources */,
-				FE1169F6171E4DE900721035 /* inglip_gropaga okay.jpg in Resources */,
-				FE1169F7171E4DE900721035 /* inglip_gropaga why.jpg in Resources */,
-				FE1169F8171E4DE900721035 /* inglip_gropaga1.jpg in Resources */,
-				FE1169F9171E4DE900721035 /* inglip_gropaga2.jpg in Resources */,
-				FE1169FA171E4DE900721035 /* inglip_gropaga3.jpg in Resources */,
-				FE1169FB171E4DE900721035 /* inglip_gropaga4.jpg in Resources */,
-				FE1169FC171E4DE900721035 /* inglip_gropaga5.jpg in Resources */,
-				FE1169FD171E4DE900721035 /* inglip_gropaga6.jpg in Resources */,
-				FE1169FE171E4DE900721035 /* inglip_gropaga7.jpg in Resources */,
-				FE1169FF171E4DE900721035 /* inglip_hail inglip.jpg in Resources */,
-				FE116A00171E4DE900721035 /* inglip_hood1.png in Resources */,
-				FE116A01171E4DE900721035 /* inglip_hood2.png in Resources */,
-				FE116A02171E4DE900721035 /* inglip_ircip.jpg in Resources */,
-				FE116A03171E4DE900721035 /* inglip_ready to battle.jpg in Resources */,
 				FE116A04171E4DE900721035 /* 27.png in Resources */,
 				FE116A05171E4DE900721035 /* 34.png in Resources */,
 				FE116A06171E4DE900721035 /* 40.png in Resources */,
@@ -3013,51 +1545,6 @@
 				FE116A7A171E4DEA00721035 /* rage reddit alien.png in Resources */,
 				FE116A7B171E4DEA00721035 /* rage super.png in Resources */,
 				FE116A7C171E4DEA00721035 /* RageLion.png in Resources */,
-				FE116A7D171E4DEA00721035 /* brick1.jpg in Resources */,
-				FE116A7E171E4DEA00721035 /* brick2.jpg in Resources */,
-				FE116A7F171E4DEA00721035 /* brick3.jpg in Resources */,
-				FE116A80171E4DEA00721035 /* brick4.jpg in Resources */,
-				FE116A81171E4DEA00721035 /* brick5.jpg in Resources */,
-				FE116A82171E4DEA00721035 /* command1.jpg in Resources */,
-				FE116A83171E4DEA00721035 /* command10.jpg in Resources */,
-				FE116A84171E4DEA00721035 /* command11.jpg in Resources */,
-				FE116A85171E4DEA00721035 /* command2.jpg in Resources */,
-				FE116A86171E4DEA00721035 /* command3.jpg in Resources */,
-				FE116A87171E4DEA00721035 /* command4.jpg in Resources */,
-				FE116A88171E4DEA00721035 /* command5.jpg in Resources */,
-				FE116A89171E4DEA00721035 /* command6.jpg in Resources */,
-				FE116A8A171E4DEA00721035 /* command7.jpg in Resources */,
-				FE116A8B171E4DEA00721035 /* command8.jpg in Resources */,
-				FE116A8C171E4DEA00721035 /* command9.jpg in Resources */,
-				FE116A8D171E4DEA00721035 /* radio1.jpg in Resources */,
-				FE116A8E171E4DEA00721035 /* radio2.jpg in Resources */,
-				FE116A8F171E4DEA00721035 /* radio3.jpg in Resources */,
-				FE116A90171E4DEA00721035 /* radio4.jpg in Resources */,
-				FE116A91171E4DEA00721035 /* radio5.jpg in Resources */,
-				FE116A92171E4DEA00721035 /* radio6.jpg in Resources */,
-				FE116A93171E4DEA00721035 /* radio7.jpg in Resources */,
-				FE116A94171E4DEA00721035 /* radio8.jpg in Resources */,
-				FE116A95171E4DEA00721035 /* soldier1.jpg in Resources */,
-				FE116A96171E4DEA00721035 /* soldier2.jpg in Resources */,
-				FE116A97171E4DEA00721035 /* soldier3.jpg in Resources */,
-				FE116A98171E4DEA00721035 /* soldier_commander1.jpg in Resources */,
-				FE116A99171E4DEA00721035 /* soldier_commander2.jpg in Resources */,
-				FE116A9A171E4DEA00721035 /* soldier_commander3.jpg in Resources */,
-				FE116A9B171E4DEA00721035 /* soldier_engineer.jpg in Resources */,
-				FE116A9C171E4DEA00721035 /* soldier_engineer2.jpg in Resources */,
-				FE116A9D171E4DEA00721035 /* soldier_gunners.jpg in Resources */,
-				FE116A9E171E4DEA00721035 /* soldier_lookout.jpg in Resources */,
-				FE116A9F171E4DEA00721035 /* soldier_march.jpg in Resources */,
-				FE116AA0171E4DEA00721035 /* soldier_rapel.jpg in Resources */,
-				FE116AA1171E4DEA00721035 /* soldier_sniper1.jpg in Resources */,
-				FE116AA2171E4DEA00721035 /* soldier_sniper2.jpg in Resources */,
-				FE116AA3171E4DEA00721035 /* soldier_tank.jpg in Resources */,
-				FE116AA4171E4DEA00721035 /* strategize1.jpg in Resources */,
-				FE116AA5171E4DEA00721035 /* strategize2.jpg in Resources */,
-				FE116AA6171E4DEA00721035 /* strategize3.jpg in Resources */,
-				FE116AA7171E4DEA00721035 /* strategize4.jpg in Resources */,
-				FE116AA8171E4DEA00721035 /* strategize5.jpg in Resources */,
-				FE116AA9171E4DEA00721035 /* strategize6.jpg in Resources */,
 				FE116AAA171E4DEA00721035 /* 10.png in Resources */,
 				FE116AAB171E4DEA00721035 /* 16.png in Resources */,
 				FE116AAC171E4DEA00721035 /* 39.png in Resources */,
@@ -3076,70 +1563,6 @@
 				FE116AB9171E4DEA00721035 /* sad plain.png in Resources */,
 				FE116ABA171E4DEA00721035 /* that feel.png in Resources */,
 				FE116ABB171E4DEA00721035 /* why inverted.png in Resources */,
-				FE116ABC171E4DEA00721035 /* 01 - later1.jpg in Resources */,
-				FE116ABD171E4DEA00721035 /* 01 - later2.jpg in Resources */,
-				FE116ABE171E4DEA00721035 /* 01 - later3.jpg in Resources */,
-				FE116ABF171E4DEA00721035 /* 01 - later3_1.jpg in Resources */,
-				FE116AC0171E4DEA00721035 /* 01 - later4.jpg in Resources */,
-				FE116AC1171E4DEA00721035 /* 01 - later5.jpg in Resources */,
-				FE116AC2171E4DEA00721035 /* 01 - later6.jpg in Resources */,
-				FE116AC3171E4DEA00721035 /* 01 - later7.jpg in Resources */,
-				FE116AC4171E4DEA00721035 /* 01 - later8.jpg in Resources */,
-				FE116AC5171E4DEA00721035 /* 01 - s_eventually.jpg in Resources */,
-				FE116AC6171E4DEA00721035 /* 01 - same evening.jpg in Resources */,
-				FE116AC7171E4DEA00721035 /* 02 - 10 seconds.jpg in Resources */,
-				FE116AC8171E4DEA00721035 /* 02 - 12 seconds.jpg in Resources */,
-				FE116AC9171E4DEA00721035 /* 03 - 1 37 seconds.jpg in Resources */,
-				FE116ACA171E4DEA00721035 /* 03 - 15 minutes.jpg in Resources */,
-				FE116ACB171E4DEA00721035 /* 03 - 2 minutes.jpg in Resources */,
-				FE116ACC171E4DEA00721035 /* 03 - 20 minutes.jpg in Resources */,
-				FE116ACD171E4DEA00721035 /* 03 - 346 minutes.jpg in Resources */,
-				FE116ACE171E4DEA00721035 /* 03 - 4 minutes.jpg in Resources */,
-				FE116ACF171E4DEA00721035 /* 03 - 4 minutes2.jpg in Resources */,
-				FE116AD0171E4DEA00721035 /* 03 - 5 minutes.jpg in Resources */,
-				FE116AD1171E4DEA00721035 /* 04 - 1 hour.jpg in Resources */,
-				FE116AD2171E4DEA00721035 /* 04 - 2 hours.jpg in Resources */,
-				FE116AD3171E4DEA00721035 /* 04 - 2 hours2.jpg in Resources */,
-				FE116AD4171E4DEA00721035 /* 04 - 2 hours3.jpg in Resources */,
-				FE116AD5171E4DEA00721035 /* 04 - 2 hours4.jpg in Resources */,
-				FE116AD6171E4DEA00721035 /* 04 - 2 hours5.jpg in Resources */,
-				FE116AD7171E4DEA00721035 /* 04 - 3 hours.jpg in Resources */,
-				FE116AD8171E4DEA00721035 /* 04 - 3 hours2.jpg in Resources */,
-				FE116AD9171E4DEA00721035 /* 04 - 3 hours3.jpg in Resources */,
-				FE116ADA171E4DEA00721035 /* 04 - 48 hours.jpg in Resources */,
-				FE116ADB171E4DEA00721035 /* 04 - 6 hours.jpg in Resources */,
-				FE116ADC171E4DEA00721035 /* 04 - 6 hours2.jpg in Resources */,
-				FE116ADD171E4DEA00721035 /* 04 - 6 hours3.jpg in Resources */,
-				FE116ADE171E4DEA00721035 /* 04 - 7 hours.jpg in Resources */,
-				FE116ADF171E4DEA00721035 /* 04 - 8 hours.jpg in Resources */,
-				FE116AE0171E4DEA00721035 /* 04 - 8 hours2.jpg in Resources */,
-				FE116AE1171E4DEA00721035 /* 05 - 1 day.jpg in Resources */,
-				FE116AE2171E4DEA00721035 /* 05 - 1 day2.jpg in Resources */,
-				FE116AE3171E4DEA00721035 /* 05 - 3 days.jpg in Resources */,
-				FE116AE4171E4DEA00721035 /* 05 - 3 days2.jpg in Resources */,
-				FE116AE5171E4DEA00721035 /* 05 - 3 days3.jpg in Resources */,
-				FE116AE6171E4DEA00721035 /* 05 - 3 days4.jpg in Resources */,
-				FE116AE7171E4DEA00721035 /* 05 - 3 days5.jpg in Resources */,
-				FE116AE8171E4DEA00721035 /* 05 - days.jpg in Resources */,
-				FE116AE9171E4DEA00721035 /* 05 - tomorrow.jpg in Resources */,
-				FE116AEA171E4DEA00721035 /* 05 - tomorrow2.jpg in Resources */,
-				FE116AEB171E4DEA00721035 /* 05 - yesterday.jpg in Resources */,
-				FE116AEC171E4DEA00721035 /* 06 - 1 week.jpg in Resources */,
-				FE116AED171E4DEA00721035 /* 06 - 3 weeks.jpg in Resources */,
-				FE116AEE171E4DEA00721035 /* 06 - 3 weeks2.jpg in Resources */,
-				FE116AEF171E4DEA00721035 /* 06 - 4-6 weeks.jpg in Resources */,
-				FE116AF0171E4DEA00721035 /* 07 - 6 months.jpg in Resources */,
-				FE116AF1171E4DEA00721035 /* 07 - many months.jpg in Resources */,
-				FE116AF2171E4DEA00721035 /* 08 - 2000 years.jpg in Resources */,
-				FE116AF3171E4DEA00721035 /* 08 - 3000 years.jpg in Resources */,
-				FE116AF4171E4DEA00721035 /* 08 - thousands of tears.jpg in Resources */,
-				FE116AF5171E4DEA00721035 /* 09 - 1200am.jpg in Resources */,
-				FE116AF6171E4DEA00721035 /* 09 - 328am.jpg in Resources */,
-				FE116AF7171E4DEA00721035 /* 09 - 759am.jpg in Resources */,
-				FE116AF8171E4DEA00721035 /* 09 - 801pm.jpg in Resources */,
-				FE116AF9171E4DEA00721035 /* 10 - day2.jpg in Resources */,
-				FE116AFA171E4DEA00721035 /* 10 - day3.jpg in Resources */,
-				FE116AFB171E4DEA00721035 /* 10 - day4.jpg in Resources */,
 				FE116AFC171E4DEA00721035 /* AreYouKiddingMe.png in Resources */,
 				FE116AFD171E4DEA00721035 /* AreYouKiddingMeNoText.png in Resources */,
 				FE116AFE171E4DEA00721035 /* girl-glasses2.jpg in Resources */,
@@ -3189,41 +1612,6 @@
 				FE116B2A171E4DEA00721035 /* speech5.png in Resources */,
 				FE116B2B171E4DEA00721035 /* speech6.png in Resources */,
 				FE116B2C171E4DEA00721035 /* xmashat.png in Resources */,
-				FE116B2D171E4DEA00721035 /* bic blue.png in Resources */,
-				FE116B2E171E4DEA00721035 /* bic brown.png in Resources */,
-				FE116B2F171E4DEA00721035 /* bic red.png in Resources */,
-				FE116B30171E4DEA00721035 /* bong.png in Resources */,
-				FE116B31171E4DEA00721035 /* bud brick.png in Resources */,
-				FE116B32171E4DEA00721035 /* bud green.png in Resources */,
-				FE116B33171E4DEA00721035 /* bud orange.png in Resources */,
-				FE116B34171E4DEA00721035 /* bud purple.png in Resources */,
-				FE116B35171E4DEA00721035 /* face1.png in Resources */,
-				FE116B36171E4DEA00721035 /* face2.png in Resources */,
-				FE116B37171E4DEA00721035 /* face3.png in Resources */,
-				FE116B38171E4DEA00721035 /* face4.png in Resources */,
-				FE116B39171E4DEA00721035 /* face5.png in Resources */,
-				FE116B3A171E4DEA00721035 /* face6.png in Resources */,
-				FE116B3B171E4DEA00721035 /* fire.png in Resources */,
-				FE116B3C171E4DEA00721035 /* goofy smile.png in Resources */,
-				FE116B3D171E4DEA00721035 /* happy smoking.png in Resources */,
-				FE116B3E171E4DEA00721035 /* joint.png in Resources */,
-				FE116B3F171E4DEA00721035 /* joint2.png in Resources */,
-				FE116B40171E4DEA00721035 /* joint3.png in Resources */,
-				FE116B41171E4DEA00721035 /* launch_box.png in Resources */,
-				FE116B42171E4DEA00721035 /* munchies.png in Resources */,
-				FE116B43171E4DEA00721035 /* pineapple.png in Resources */,
-				FE116B44171E4DEA00721035 /* pipe1.png in Resources */,
-				FE116B45171E4DEA00721035 /* pipe2.png in Resources */,
-				FE116B46171E4DEA00721035 /* pipe3.png in Resources */,
-				FE116B47171E4DEA00721035 /* pot leaf.png in Resources */,
-				FE116B48171E4DEA00721035 /* stoned exhale.png in Resources */,
-				FE116B49171E4DEA00721035 /* stoned inhale.png in Resources */,
-				FE116B4A171E4DEA00721035 /* stoned what no words.png in Resources */,
-				FE116B4B171E4DEA00721035 /* stoned what.png in Resources */,
-				FE116B4C171E4DEA00721035 /* stoned.png in Resources */,
-				FE116B4D171E4DEA00721035 /* ten guy.png in Resources */,
-				FE116B4E171E4DEA00721035 /* tokerface.png in Resources */,
-				FE116B4F171E4DEA00721035 /* visine.png in Resources */,
 				FE116B50171E4DEA00721035 /* 28.png in Resources */,
 				FE116B51171E4DEA00721035 /* 43.png in Resources */,
 				FE116B52171E4DEA00721035 /* AllTheThings_back.png in Resources */,

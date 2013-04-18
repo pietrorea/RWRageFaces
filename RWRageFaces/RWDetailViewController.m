@@ -16,6 +16,7 @@
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 
 @property (strong, nonatomic) UIPopoverController* popOver;
+@property (strong, nonatomic) UIActivityViewController* activityViewController;
 
 @end
 
@@ -60,18 +61,14 @@
     NSURL* url = [NSURL URLWithString:@"http://www.raywenderlich.com"];
     NSArray* activityItems = @[self.imageName, self.imageView.image, url];
     
-    UIActivityViewController* activityViewController = [[UIActivityViewController alloc] initWithActivityItems:activityItems
-                                                                                         applicationActivities:nil];
+    self.activityViewController = [[UIActivityViewController alloc] initWithActivityItems:activityItems
+                                                                    applicationActivities:nil];
     
-    activityViewController.excludedActivityTypes = @[UIActivityTypeAssignToContact, UIActivityTypePrint, UIActivityTypeMessage];
-    
-    [activityViewController setCompletionHandler:^(NSString* activityType, BOOL completed) {
-        
-    }];
+    self.activityViewController.excludedActivityTypes = @[UIActivityTypeAssignToContact, UIActivityTypePrint, UIActivityTypeMessage];
     
     /* Present UIActivityViewController in popover */
     
-    self.popOver = [[UIPopoverController alloc] initWithContentViewController:activityViewController];
+    self.popOver = [[UIPopoverController alloc] initWithContentViewController:self.activityViewController];
     
     [self.popOver presentPopoverFromBarButtonItem:self.shareButton
                          permittedArrowDirections:UIPopoverArrowDirectionAny
