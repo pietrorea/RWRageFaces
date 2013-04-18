@@ -20,20 +20,7 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="1LS-ef-Qut">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        </view>
-                                        <connections>
-                                            <segue destination="U16-sS-PlR" kind="modal" identifier="toDetailViewController" modalPresentationStyle="formSheet" id="szf-XF-Blc"/>
-                                        </connections>
-                                    </collectionViewCell>
-                                </cells>
+                                <cells/>
                                 <connections>
                                     <outlet property="dataSource" destination="2" id="VQg-Uz-wGz"/>
                                     <outlet property="delegate" destination="2" id="XLa-QS-4hb"/>
@@ -59,6 +46,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="dLT-MV-qjm" id="yUD-3D-dvD"/>
+                        <segue destination="U16-sS-PlR" kind="modal" identifier="toDetailViewController" modalPresentationStyle="formSheet" id="qXj-4c-5fI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
@@ -82,7 +70,11 @@
                                                 <action selector="doneButtonTapped:" destination="U16-sS-PlR" id="poI-Pi-zSV"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Share" id="ZIS-Yu-Xbd"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Share" id="ZIS-Yu-Xbd">
+                                            <connections>
+                                                <action selector="shareButtonTapped:" destination="U16-sS-PlR" id="Lrd-re-OV7"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -108,6 +100,7 @@
                         <outlet property="doneButton" destination="mmT-pL-b61" id="Xvf-sP-E9q"/>
                         <outlet property="imageView" destination="egX-OR-1x0" id="u1z-gp-wxi"/>
                         <outlet property="navigationBar" destination="CEe-c8-hQh" id="wX5-qI-zxl"/>
+                        <outlet property="shareButton" destination="ZIS-Yu-Xbd" id="MwA-VD-y5D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="laz-O8-52c" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -115,6 +108,35 @@
             <point key="canvasLocation" x="14" y="-51"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="RWDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RWDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="doneButtonTapped:"/>
+                <relationship kind="action" name="shareButtonTapped:"/>
+                <relationship kind="outlet" name="doneButton" candidateClass="UIBarButtonItem"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="navigationBar" candidateClass="UINavigationBar"/>
+                <relationship kind="outlet" name="shareButton" candidateClass="UIBarButtonItem"/>
+            </relationships>
+        </class>
+        <class className="RWRageFaceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RWRageFaceViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="collectionView" candidateClass="UICollectionView"/>
+                <relationship kind="outlet" name="navigationBar" candidateClass="UINavigationBar"/>
+            </relationships>
+        </class>
+        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
+        </class>
+        <class className="UICollectionViewLayout" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewLayout.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
