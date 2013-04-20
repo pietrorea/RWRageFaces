@@ -35,7 +35,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    /* Set initial view controller in the UIPageViewController */
+    /* Initialize the UIPageViewController */
+    
+    self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
+                                                              navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal
+                                                                            options:nil];
+    
+    self.pageViewController.delegate = self;
+    self.pageViewController.dataSource = self;
+    
+    CGFloat navBarHeight = self.navigationBar.frame.size.height;
+    self.pageViewController.view.frame = CGRectMake(0, navBarHeight, self.view.frame.size.width,
+                                                    self.view.frame.size.height - navBarHeight);
+    self.pageViewController.view.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+    [self.view addSubview:self.pageViewController.view];
+    
+    /* Add the pageViewController's first RWRageFaceViewController */
     
     RWRageFaceViewController* rageFaceViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"RWRageFaceViewController"];
     
@@ -48,15 +63,6 @@
                                        animated:NO
                                      completion:nil];
     
-}
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-
-    if ([segue.identifier isEqualToString:@"embedPageViewController"]) {
-        self.pageViewController = segue.destinationViewController;
-        self.pageViewController.dataSource = self;
-        self.pageViewController.delegate = self;
-    }
 }
 
 - (void)didReceiveMemoryWarning

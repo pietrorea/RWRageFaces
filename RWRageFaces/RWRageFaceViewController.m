@@ -33,21 +33,21 @@
     
     self.imageView.image = [UIImage imageNamed:self.imageName];
     
-    NSString* titleString = [NSString stringWithFormat:@"%@: %@", self.categoryName, self.imageName];
-    NSMutableAttributedString* attributedTitle = [[NSMutableAttributedString alloc] initWithString:titleString];
-    
-    NSRange categoryRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@: ", self.categoryName]];
-    NSRange titleRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@", self.imageName]];
-    
-    [attributedTitle addAttribute:NSForegroundColorAttributeName
-                            value:[UIColor redColor]
-                            range:categoryRange];
-    
-    [attributedTitle addAttribute:NSForegroundColorAttributeName
-                            value:[UIColor whiteColor]
-                            range:titleRange];
-    
-    self.imageLabel.attributedText = attributedTitle;
+//    NSString* titleString = [NSString stringWithFormat:@"%@: %@", self.categoryName, self.imageName];
+//    NSMutableAttributedString* attributedTitle = [[NSMutableAttributedString alloc] initWithString:titleString];
+//    
+//    NSRange categoryRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@: ", self.categoryName]];
+//    NSRange titleRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@", self.imageName]];
+//    
+//    [attributedTitle addAttribute:NSForegroundColorAttributeName
+//                            value:[UIColor redColor]
+//                            range:categoryRange];
+//    
+//    [attributedTitle addAttribute:NSForegroundColorAttributeName
+//                            value:[UIColor whiteColor]
+//                            range:titleRange];
+//    
+//    self.imageLabel.attributedText = attributedTitle;
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,8 +8,9 @@
 
 #import "RWGridViewController.h"
 #import "RWDetailViewController.h"
+#import "PSTCollectionView.h"
 
-@interface RWGridViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, NSXMLParserDelegate>
+@interface RWGridViewController () <PSUICollectionViewDataSource, PSUICollectionViewDelegateFlowLayout, NSXMLParserDelegate>
 
 @property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
@@ -50,7 +51,7 @@
     
     self.dictionaryKeys = [self.mutableDictionary allKeys];
     
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"RWRageFaceCell"];
+    [self.collectionView registerClass:[PSUICollectionViewCell class] forCellWithReuseIdentifier:@"RWRageFaceCell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -72,18 +73,18 @@
 
 #pragma mark - UICollectionView Datasource
 
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+- (NSInteger)numberOfSectionsInCollectionView:(PSUICollectionView *)collectionView {
     return self.dictionaryKeys.count;
 }
 
-- (NSInteger)collectionView:(UICollectionView *)view numberOfItemsInSection:(NSInteger)section {
+- (NSInteger)collectionView:(PSUICollectionView *)view numberOfItemsInSection:(NSInteger)section {
     NSString* key = self.dictionaryKeys[section];
     return [self.mutableDictionary[key] count];
 }
 
-- (UICollectionViewCell *)collectionView:(UICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+- (PSUICollectionViewCell *)collectionView:(PSUICollectionView *)cv cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
-    UICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"RWRageFaceCell" forIndexPath:indexPath];
+    PSUICollectionViewCell *cell = [cv dequeueReusableCellWithReuseIdentifier:@"RWRageFaceCell" forIndexPath:indexPath];
     cell.backgroundColor = [UIColor whiteColor];
     cell.clipsToBounds = YES;
     
@@ -100,17 +101,17 @@
 
 #pragma mark - UICollectionViewDelegate
 
-- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {    
+- (void)collectionView:(PSUICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [self performSegueWithIdentifier:@"toDetailViewController" sender:indexPath];
 }
 
 #pragma mark – UICollectionViewDelegateFlowLayout
 
-- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+- (CGSize)collectionView:(PSUICollectionView *)collectionView layout:(PSUICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     return CGSizeMake(150, 150);
 }
 
-- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
+- (UIEdgeInsets)collectionView:(PSUICollectionView *)collectionView layout:(PSUICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
     return UIEdgeInsetsMake(50, 20, 50, 20);
 }
 
