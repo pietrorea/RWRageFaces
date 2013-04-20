@@ -10,6 +10,8 @@
 
 @interface RWDetailViewController : UIViewController
 
+@property (strong, nonatomic) NSString* categoryName;
+
 @property (assign, nonatomic) NSInteger index;
 @property (strong, nonatomic) NSArray* imageNames;
 

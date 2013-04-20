@@ -61,10 +61,11 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
     NSIndexPath* indexPath = (NSIndexPath *)sender;
-    NSString* dictionaryKey = self.dictionaryKeys[indexPath.section];
-    NSArray* imageNames = self.mutableDictionary[dictionaryKey];
+    NSString* categoryName = self.dictionaryKeys[indexPath.section];
+    NSArray* imageNames = self.mutableDictionary[categoryName];
     
     RWDetailViewController* detailViewController = (RWDetailViewController*)segue.destinationViewController;
+    detailViewController.categoryName = categoryName;
     detailViewController.imageNames = imageNames;
     detailViewController.index = indexPath.row;
 }

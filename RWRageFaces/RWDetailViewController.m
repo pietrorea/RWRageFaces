@@ -17,6 +17,7 @@
 @property (strong, nonatomic) IBOutlet UINavigationBar *navigationBar;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 
+@property (strong, nonatomic) UILabel* titleLabel;
 @property (strong, nonatomic) UIActionSheet* actionSheet;
 @property (strong, nonatomic) UIPageViewController* pageViewController;
 
@@ -37,7 +38,18 @@
 	// Do any additional setup after loading the view.
     
     NSString* imageName = self.imageNames[self.index];
-    self.navigationBar.topItem.title = imageName;
+    
+    /* Set the initial title */
+    
+    self.titleLabel = [[UILabel alloc] init];
+    self.titleLabel.backgroundColor = [UIColor clearColor];
+    self.titleLabel.textColor = [UIColor whiteColor];
+    self.titleLabel.text = [NSString stringWithFormat:@"%@: %@", self.categoryName, imageName];
+    [self.titleLabel sizeToFit];
+    
+    self.navigationBar.topItem.titleView = self.titleLabel;
+    
+    /* Set initial view controller in the UIPageViewController */
     
     RWRageFaceViewController* rageFaceViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"RWRageFaceViewController"];
     
@@ -113,6 +125,14 @@
     return rageFaceViewController;
 }
 
+- (void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed {
+    
+    /* Update the nav bar's title */
+    RWRageFaceViewController* currentViewController = self.pageViewController.viewControllers[0];
+    self.titleLabel.text = [NSString stringWithFormat:@"%@: %@", self.categoryName, currentViewController.imageName];
+    [self.titleLabel sizeToFit];
+}
+
 #pragma mark - UIActionSheetDelegate methods
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
@@ -169,7 +189,6 @@
     else if (buttonIndex == 3) { /* Copy to Clipboard */
         [[UIPasteboard generalPasteboard] setImage:image];
     }
-    
 }
 
 #pragma mark - MFMailComposeViewControllerDelegate methods
