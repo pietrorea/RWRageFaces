@@ -10,6 +10,7 @@
 
 @interface RWDetailViewController : UIViewController
 
-@property (strong, nonatomic) NSString* imageName;
+@property (assign, nonatomic) NSInteger index;
+@property (strong, nonatomic) NSArray* imageNames;
 
 @end

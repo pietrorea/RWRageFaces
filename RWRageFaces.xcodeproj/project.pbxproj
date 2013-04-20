@@ -17,7 +17,7 @@
 		FE1165A8171E315800721035 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165A7171E315800721035 /* Default@2x.png */; };
 		FE1165AA171E315800721035 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165A9171E315800721035 /* Default-568h@2x.png */; };
 		FE1165AD171E315800721035 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1165AB171E315800721035 /* MainStoryboard.storyboard */; };
-		FE1165B8171E320600721035 /* RWRageFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1165B7171E320600721035 /* RWRageFaceViewController.m */; };
+		FE1165B8171E320600721035 /* RWGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1165B7171E320600721035 /* RWGridViewController.m */; };
 		FE1168A5171E4DE900721035 /* 1darkokay.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C8171E4DE700721035 /* 1darkokay.png */; };
 		FE1168A6171E4DE900721035 /* 2SadShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165C9171E4DE700721035 /* 2SadShadow.png */; };
 		FE1168A7171E4DE900721035 /* 3Actually.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1165CA171E4DE700721035 /* 3Actually.png */; };
@@ -343,6 +343,7 @@
 		FE116B5B171E4DEA00721035 /* gtfo.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116898171E4DE900721035 /* gtfo.png */; };
 		FE116B5C171E4DEA00721035 /* melvin fuck yeah.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116899171E4DE900721035 /* melvin fuck yeah.png */; };
 		FE116B62171F837400721035 /* RWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE116B61171F837400721035 /* RWDetailViewController.m */; };
+		FE860C881722D87D001A0F56 /* RWRageFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE860C871722D87D001A0F56 /* RWRageFaceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -360,8 +361,8 @@
 		FE1165A7171E315800721035 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FE1165A9171E315800721035 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FE1165AC171E315800721035 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		FE1165B6171E320600721035 /* RWRageFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRageFaceViewController.h; sourceTree = "<group>"; };
-		FE1165B7171E320600721035 /* RWRageFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRageFaceViewController.m; sourceTree = "<group>"; };
+		FE1165B6171E320600721035 /* RWGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWGridViewController.h; sourceTree = "<group>"; };
+		FE1165B7171E320600721035 /* RWGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWGridViewController.m; sourceTree = "<group>"; };
 		FE1165C8171E4DE700721035 /* 1darkokay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1darkokay.png; sourceTree = "<group>"; };
 		FE1165C9171E4DE700721035 /* 2SadShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2SadShadow.png; sourceTree = "<group>"; };
 		FE1165CA171E4DE700721035 /* 3Actually.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3Actually.png; sourceTree = "<group>"; };
@@ -688,6 +689,8 @@
 		FE116899171E4DE900721035 /* melvin fuck yeah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "melvin fuck yeah.png"; sourceTree = "<group>"; };
 		FE116B60171F837400721035 /* RWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDetailViewController.h; sourceTree = "<group>"; };
 		FE116B61171F837400721035 /* RWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDetailViewController.m; sourceTree = "<group>"; };
+		FE860C861722D87D001A0F56 /* RWRageFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRageFaceViewController.h; sourceTree = "<group>"; };
+		FE860C871722D87D001A0F56 /* RWRageFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRageFaceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -736,10 +739,12 @@
 			children = (
 				FE1165A2171E315800721035 /* RWAppDelegate.h */,
 				FE1165A3171E315800721035 /* RWAppDelegate.m */,
-				FE1165B6171E320600721035 /* RWRageFaceViewController.h */,
-				FE1165B7171E320600721035 /* RWRageFaceViewController.m */,
+				FE1165B6171E320600721035 /* RWGridViewController.h */,
+				FE1165B7171E320600721035 /* RWGridViewController.m */,
 				FE116B60171F837400721035 /* RWDetailViewController.h */,
 				FE116B61171F837400721035 /* RWDetailViewController.m */,
+				FE860C861722D87D001A0F56 /* RWRageFaceViewController.h */,
+				FE860C871722D87D001A0F56 /* RWRageFaceViewController.m */,
 				FE1165AB171E315800721035 /* MainStoryboard.storyboard */,
 				FE11659A171E315800721035 /* Supporting Files */,
 				FE1165B9171E4DC200721035 /* Resources */,
@@ -1637,8 +1642,9 @@
 			files = (
 				FE1165A0171E315800721035 /* main.m in Sources */,
 				FE1165A4171E315800721035 /* RWAppDelegate.m in Sources */,
-				FE1165B8171E320600721035 /* RWRageFaceViewController.m in Sources */,
+				FE1165B8171E320600721035 /* RWGridViewController.m in Sources */,
 				FE116B62171F837400721035 /* RWDetailViewController.m in Sources */,
+				FE860C881722D87D001A0F56 /* RWRageFaceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1763,6 +1769,7 @@
 				FE1165B5171E315800721035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

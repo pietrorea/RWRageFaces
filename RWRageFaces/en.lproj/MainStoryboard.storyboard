@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--Rage Face View Controller-->
+        <!--Grid View Controller-->
         <scene sceneID="4">
             <objects>
-                <viewController id="2" customClass="RWRageFaceViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="RWGridViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,19 +78,21 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egX-OR-1x0">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="393" id="hPO-Gt-ViS"/>
-                                    <constraint firstAttribute="width" constant="397" id="roR-IP-HKi"/>
-                                </constraints>
-                            </imageView>
+                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ek-Nr-VM1">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <connections>
+                                    <segue destination="ehc-io-dxN" kind="embed" identifier="embedPageViewController" id="nRZ-2K-fBe"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" red="0.61176470589999998" green="0.61176470589999998" blue="0.61176470589999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="egX-OR-1x0" firstAttribute="centerX" secondItem="CEe-c8-hQh" secondAttribute="centerX" type="default" id="Ak0-yI-kyJ"/>
+                            <constraint firstItem="6ek-Nr-VM1" firstAttribute="trailing" secondItem="bfz-6n-IX8" secondAttribute="trailing" type="default" id="Jxg-Mt-q62"/>
                             <constraint firstItem="CEe-c8-hQh" firstAttribute="trailing" secondItem="bfz-6n-IX8" secondAttribute="trailing" type="default" id="KmL-Lg-uxF"/>
-                            <constraint firstItem="egX-OR-1x0" firstAttribute="top" secondItem="bfz-6n-IX8" secondAttribute="top" constant="113" id="MXK-FY-SMw"/>
+                            <constraint firstItem="6ek-Nr-VM1" firstAttribute="leading" secondItem="bfz-6n-IX8" secondAttribute="leading" type="default" id="NMO-kh-CAa"/>
+                            <constraint firstItem="6ek-Nr-VM1" firstAttribute="bottom" secondItem="bfz-6n-IX8" secondAttribute="bottom" type="default" id="OHs-Dp-vNj"/>
                             <constraint firstItem="CEe-c8-hQh" firstAttribute="leading" secondItem="bfz-6n-IX8" secondAttribute="leading" type="default" id="ZE6-YY-sCJ"/>
+                            <constraint firstItem="6ek-Nr-VM1" firstAttribute="top" secondItem="CEe-c8-hQh" secondAttribute="bottom" type="default" id="d3u-WP-Z4e"/>
                             <constraint firstItem="CEe-c8-hQh" firstAttribute="top" secondItem="bfz-6n-IX8" secondAttribute="top" type="default" id="rri-1I-Rt0"/>
                         </constraints>
                     </view>
@@ -100,12 +102,53 @@
                         <outlet property="doneButton" destination="mmT-pL-b61" id="Xvf-sP-E9q"/>
                         <outlet property="imageView" destination="egX-OR-1x0" id="u1z-gp-wxi"/>
                         <outlet property="navigationBar" destination="CEe-c8-hQh" id="wX5-qI-zxl"/>
+                        <outlet property="pageViewController" destination="6ek-Nr-VM1" id="lg2-aK-juw"/>
                         <outlet property="shareButton" destination="ZIS-Yu-Xbd" id="MwA-VD-y5D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="laz-O8-52c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="14" y="-51"/>
+            <point key="canvasLocation" x="-33" y="-76"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="ckh-Aa-dzH">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ehc-io-dxN" sceneMemberID="viewController">
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6qL-tB-ajY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="-76"/>
+        </scene>
+        <!--Rage Face View Controller-->
+        <scene sceneID="VxW-ad-OVa">
+            <objects>
+                <viewController storyboardIdentifier="RWRageFaceViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3oD-3L-Th5" customClass="RWRageFaceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qln-zR-7xU">
+                        <rect key="frame" x="0.0" y="20" width="540" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egX-OR-1x0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="393" id="hPO-Gt-ViS"/>
+                                    <constraint firstAttribute="width" constant="397" id="roR-IP-HKi"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54117647058823526" green="0.54117647058823526" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="egX-OR-1x0" firstAttribute="top" secondItem="qln-zR-7xU" secondAttribute="top" constant="103" id="JzB-Dc-IsI"/>
+                            <constraint firstItem="egX-OR-1x0" firstAttribute="centerX" secondItem="qln-zR-7xU" secondAttribute="centerX" type="default" id="ejL-ob-COh"/>
+                        </constraints>
+                    </view>
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="egX-OR-1x0" id="f4e-7g-NoP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXx-P5-N3k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-33" y="677"/>
         </scene>
     </scenes>
     <classes>
@@ -115,26 +158,26 @@
         <class className="RWDetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/RWDetailViewController.h"/>
             <relationships>
-                <relationship kind="action" name="doneButtonTapped:"/>
-                <relationship kind="action" name="shareButtonTapped:"/>
                 <relationship kind="outlet" name="doneButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="navigationBar" candidateClass="UINavigationBar"/>
                 <relationship kind="outlet" name="shareButton" candidateClass="UIBarButtonItem"/>
             </relationships>
         </class>
-        <class className="RWRageFaceViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/RWRageFaceViewController.h"/>
+        <class className="RWGridViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RWGridViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="collectionView" candidateClass="UICollectionView"/>
                 <relationship kind="outlet" name="navigationBar" candidateClass="UINavigationBar"/>
             </relationships>
         </class>
+        <class className="RWRageFaceViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RWRageFaceViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
         <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
-        </class>
-        <class className="UICollectionViewLayout" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewLayout.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
