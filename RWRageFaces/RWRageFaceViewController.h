@@ -12,5 +12,6 @@
 
 @property (assign, nonatomic) NSUInteger index;
 @property (strong, nonatomic) NSString* imageName;
+@property (strong, nonatomic) NSString* categoryName;
 
 @end
