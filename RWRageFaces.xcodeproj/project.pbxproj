@@ -344,6 +344,8 @@
 		FE116B5C171E4DEA00721035 /* melvin fuck yeah.png in Resources */ = {isa = PBXBuildFile; fileRef = FE116899171E4DE900721035 /* melvin fuck yeah.png */; };
 		FE116B62171F837400721035 /* RWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE116B61171F837400721035 /* RWDetailViewController.m */; };
 		FE860C881722D87D001A0F56 /* RWRageFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE860C871722D87D001A0F56 /* RWRageFaceViewController.m */; };
+		FE860C8A1722EB61001A0F56 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE860C891722EB61001A0F56 /* Social.framework */; };
+		FE860C8C1722EB74001A0F56 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE860C8B1722EB74001A0F56 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -691,6 +693,8 @@
 		FE116B61171F837400721035 /* RWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDetailViewController.m; sourceTree = "<group>"; };
 		FE860C861722D87D001A0F56 /* RWRageFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWRageFaceViewController.h; sourceTree = "<group>"; };
 		FE860C871722D87D001A0F56 /* RWRageFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWRageFaceViewController.m; sourceTree = "<group>"; };
+		FE860C891722EB61001A0F56 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FE860C8B1722EB74001A0F56 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -698,6 +702,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE860C8C1722EB74001A0F56 /* MessageUI.framework in Frameworks */,
+				FE860C8A1722EB61001A0F56 /* Social.framework in Frameworks */,
 				FE116594171E315800721035 /* UIKit.framework in Frameworks */,
 				FE116596171E315800721035 /* Foundation.framework in Frameworks */,
 				FE116598171E315800721035 /* CoreGraphics.framework in Frameworks */,
@@ -727,6 +733,8 @@
 		FE116592171E315800721035 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE860C8B1722EB74001A0F56 /* MessageUI.framework */,
+				FE860C891722EB61001A0F56 /* Social.framework */,
 				FE116593171E315800721035 /* UIKit.framework */,
 				FE116595171E315800721035 /* Foundation.framework */,
 				FE116597171E315800721035 /* CoreGraphics.framework */,

@@ -8,15 +8,16 @@
 
 #import "RWDetailViewController.h"
 #import "RWRageFaceViewController.h"
+#import <MessageUI/MessageUI.h>
+#import <Social/Social.h>
 
-@interface RWDetailViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
+@interface RWDetailViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *doneButton;
 @property (strong, nonatomic) IBOutlet UINavigationBar *navigationBar;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *shareButton;
 
-@property (strong, nonatomic) UIPopoverController* popOver;
-@property (strong, nonatomic) UIActivityViewController* activityViewController;
+@property (strong, nonatomic) UIActionSheet* actionSheet;
 @property (strong, nonatomic) UIPageViewController* pageViewController;
 
 @end
@@ -68,30 +69,20 @@
 - (IBAction)doneButtonTapped:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
     
-    if ([self.popOver isPopoverVisible]) {
-        [self.popOver dismissPopoverAnimated:YES];
+    if ([self.actionSheet isVisible]) {
+        [self.actionSheet dismissWithClickedButtonIndex:self.actionSheet.cancelButtonIndex animated:YES];
     }
 }
 
 - (IBAction)shareButtonTapped:(id)sender {
     
-    /* Set up UIActivityViewController */
+    self.actionSheet = [[UIActionSheet alloc] initWithTitle:@"Share"
+                                                   delegate:self
+                                          cancelButtonTitle:nil
+                                     destructiveButtonTitle:nil
+                                          otherButtonTitles:@"E-mail", @"Facebook", @"Twitter", @"Copy to Clipboard", nil];
     
-//    NSURL* url = [NSURL URLWithString:@"http://www.raywenderlich.com"];
-//    NSArray* activityItems = @[self.imageName, self.imageView.image, url];
-//    
-//    self.activityViewController = [[UIActivityViewController alloc] initWithActivityItems:activityItems
-//                                                                    applicationActivities:nil];
-//    
-//    self.activityViewController.excludedActivityTypes = @[UIActivityTypeAssignToContact, UIActivityTypePrint, UIActivityTypeMessage];
-//    
-//    /* Present UIActivityViewController in popover */
-//    
-//    self.popOver = [[UIPopoverController alloc] initWithContentViewController:self.activityViewController];
-//    
-//    [self.popOver presentPopoverFromBarButtonItem:self.shareButton
-//                         permittedArrowDirections:UIPopoverArrowDirectionAny
-//                                         animated:YES];
+    [self.actionSheet showFromBarButtonItem:self.shareButton animated:YES];
 }
 
 #pragma mark - UIPageviewControllerDataSource / Delegate
@@ -120,6 +111,71 @@
     rageFaceViewController.imageName = self.imageNames[nextViewController.index - 1];
     
     return rageFaceViewController;
+}
+
+#pragma mark - UIActionSheetDelegate methods
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    
+    RWRageFaceViewController* rageFaceViewController = self.pageViewController.viewControllers[0];
+    NSString* imageName = rageFaceViewController.imageName;
+    UIImage* image = [UIImage imageNamed:imageName];
+    
+    if (buttonIndex == 0) { /* E-mail*/
+        
+        if ([MFMailComposeViewController canSendMail]) {
+            
+            MFMailComposeViewController* viewController = [[MFMailComposeViewController alloc] init];
+            viewController.mailComposeDelegate = self;
+            
+            [viewController setSubject:@"RWRageFaces"];
+            [viewController setMessageBody:imageName isHTML:NO];
+            
+            NSData *imageData = UIImagePNGRepresentation(image);
+            [viewController addAttachmentData:imageData mimeType:@"image/png" fileName:@"rage-face"];
+            
+            [self presentViewController:viewController animated:YES completion:nil];
+        }
+    }
+    
+    else if (buttonIndex == 1) { /* Facebook */
+        
+        if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
+            
+            SLComposeViewController* facebookVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+            [facebookVC setInitialText:@"Check out this Rage Face at raywenderlich.com"];
+            [facebookVC addURL:[NSURL URLWithString:@"http://www.raywenderlich.com"]];
+            [facebookVC addImage:image];
+            
+            [self presentViewController:facebookVC animated:YES completion:nil];
+        }
+        
+    }
+    
+    else if (buttonIndex == 2) { /* Twitter */
+        
+        if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
+            
+            SLComposeViewController* twitterVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+            [twitterVC setInitialText:@"Check out this Rage Face at raywenderlich.com via @RWRageFaces"];
+            [twitterVC addURL:[NSURL URLWithString:@"http://www.raywenderlich.com"]];
+            [twitterVC addImage:image];
+            
+            [self presentViewController:twitterVC animated:YES completion:nil];
+        }
+        
+    }
+    
+    else if (buttonIndex == 3) { /* Copy to Clipboard */
+        [[UIPasteboard generalPasteboard] setImage:image];
+    }
+    
+}
+
+#pragma mark - MFMailComposeViewControllerDelegate methods
+
+- (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end
