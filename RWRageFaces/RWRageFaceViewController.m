@@ -26,34 +26,45 @@
     return self;
 }
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    
+	
     self.imageView.image = [UIImage imageNamed:self.imageName];
+    NSString* titleString = [NSString stringWithFormat:@"%@: %@", self.categoryName, self.imageName];
     
-//    NSString* titleString = [NSString stringWithFormat:@"%@: %@", self.categoryName, self.imageName];
-//    NSMutableAttributedString* attributedTitle = [[NSMutableAttributedString alloc] initWithString:titleString];
-//    
-//    NSRange categoryRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@: ", self.categoryName]];
-//    NSRange titleRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@", self.imageName]];
-//    
-//    [attributedTitle addAttribute:NSForegroundColorAttributeName
-//                            value:[UIColor redColor]
-//                            range:categoryRange];
-//    
-//    [attributedTitle addAttribute:NSForegroundColorAttributeName
-//                            value:[UIColor whiteColor]
-//                            range:titleRange];
-//    
-//    self.imageLabel.attributedText = attributedTitle;
+    /* Use NSAttributedString with iOS 6 + */
+    if ([self.imageLabel respondsToSelector:@selector(setAttributedText:)]) {
+        
+        NSMutableAttributedString* attributedTitle = [[NSMutableAttributedString alloc] initWithString:titleString];
+        
+        NSRange categoryRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@: ", self.categoryName]];
+        NSRange titleRange = [titleString rangeOfString:[NSString stringWithFormat:@"%@", self.imageName]];
+        
+        [attributedTitle addAttribute:NSForegroundColorAttributeName
+                                value:[UIColor redColor]
+                                range:categoryRange];
+        
+        [attributedTitle addAttribute:NSForegroundColorAttributeName
+                                value:[UIColor whiteColor]
+                                range:titleRange];
+        
+        self.imageLabel.attributedText = attributedTitle;
+    }
+    
+    /* Simple UILabel with iOS 5 */
+    else {
+        self.imageLabel.text = titleString;
+    }
+    
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return YES;
 }
 
 @end
