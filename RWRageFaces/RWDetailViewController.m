@@ -35,33 +35,44 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    /* Initialize the UIPageViewController */
- 
-    self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
-                                                              navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal
-                                                                            options:@{UIPageViewControllerOptionInterPageSpacingKey: @(20)}];
-    
-    self.pageViewController.delegate = self;
-    self.pageViewController.dataSource = self;
-    
-    CGFloat navBarHeight = self.navigationBar.frame.size.height;
-    self.pageViewController.view.frame = CGRectMake(0, navBarHeight, self.view.frame.size.width,
-                                                    self.view.frame.size.height - navBarHeight);
-    self.pageViewController.view.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
-    [self.view addSubview:self.pageViewController.view];
-    
-    /* Add the pageViewController's first RWRageFaceViewController */
-    
     RWRageFaceViewController* rageFaceViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"RWRageFaceViewController"];
     
     rageFaceViewController.index = self.index;
     rageFaceViewController.imageName = self.imageNames[self.index];
     rageFaceViewController.categoryName = self.categoryName;
     
-    [self.pageViewController setViewControllers:@[rageFaceViewController]
-                                      direction:UIPageViewControllerNavigationDirectionForward
-                                       animated:NO
-                                     completion:nil];
+    CGFloat navBarHeight = self.navigationBar.frame.size.height;
+    CGRect detailViewControllerFrame = CGRectMake(0, navBarHeight, self.view.frame.size.width,
+                                                   self.view.frame.size.height - navBarHeight);
+    
+    /* Use UIPageViewController in iOS 6+ */
+    
+    if (&UIPageViewControllerOptionInterPageSpacingKey) {
+        
+        self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
+                                                                  navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal
+                                                                                options:@{UIPageViewControllerOptionInterPageSpacingKey: @(35)}];
+        
+        self.pageViewController.delegate = self;
+        self.pageViewController.dataSource = self;
+        
+        self.pageViewController.view.frame = detailViewControllerFrame;
+        self.pageViewController.view.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+        [self.view addSubview:self.pageViewController.view];
+        
+        [self.pageViewController setViewControllers:@[rageFaceViewController]
+                                          direction:UIPageViewControllerNavigationDirectionForward
+                                           animated:NO
+                                         completion:nil];
+}
+    
+    else {
+        
+        [self addChildViewController:rageFaceViewController];
+        rageFaceViewController.view.frame = detailViewControllerFrame;
+        [self.view addSubview:rageFaceViewController.view];
+        [rageFaceViewController didMoveToParentViewController:self];
+    }
     
 }
 
@@ -73,7 +84,6 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
     return YES;
 }
-
 
 - (IBAction)doneButtonTapped:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
