@@ -36,10 +36,10 @@
     [super viewDidLoad];
     
     /* Initialize the UIPageViewController */
-    
+ 
     self.pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll
                                                               navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal
-                                                                            options:nil];
+                                                                            options:@{UIPageViewControllerOptionInterPageSpacingKey: @(20)}];
     
     self.pageViewController.delegate = self;
     self.pageViewController.dataSource = self;
