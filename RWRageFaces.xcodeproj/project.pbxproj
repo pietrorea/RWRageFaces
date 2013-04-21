@@ -360,6 +360,7 @@
 		FEC3B12017230D940030EC30 /* PSTGridLayoutRow.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3B11217230D940030EC30 /* PSTGridLayoutRow.m */; };
 		FEC3B12117230D940030EC30 /* PSTGridLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC3B11417230D940030EC30 /* PSTGridLayoutSection.m */; };
 		FEC3B12317230E190030EC30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3B12217230E190030EC30 /* QuartzCore.framework */; };
+		FEC3B12517242FD50030EC30 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC3B12417242FD50030EC30 /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -738,6 +739,7 @@
 		FEC3B11317230D940030EC30 /* PSTGridLayoutSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutSection.h; sourceTree = "<group>"; };
 		FEC3B11417230D940030EC30 /* PSTGridLayoutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutSection.m; sourceTree = "<group>"; };
 		FEC3B12217230E190030EC30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FEC3B12417242FD50030EC30 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -745,6 +747,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC3B12517242FD50030EC30 /* Twitter.framework in Frameworks */,
 				FEC3B12317230E190030EC30 /* QuartzCore.framework in Frameworks */,
 				FE860C8C1722EB74001A0F56 /* MessageUI.framework in Frameworks */,
 				FE860C8A1722EB61001A0F56 /* Social.framework in Frameworks */,
@@ -777,6 +780,7 @@
 		FE116592171E315800721035 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FEC3B12417242FD50030EC30 /* Twitter.framework */,
 				FEC3B12217230E190030EC30 /* QuartzCore.framework */,
 				FE860C8B1722EB74001A0F56 /* MessageUI.framework */,
 				FE860C891722EB61001A0F56 /* Social.framework */,

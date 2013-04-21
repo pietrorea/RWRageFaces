@@ -9,6 +9,7 @@
 #import "RWDetailViewController.h"
 #import "RWRageFaceViewController.h"
 #import <MessageUI/MessageUI.h>
+#import <Twitter/Twitter.h>
 #import <Social/Social.h>
 
 @interface RWDetailViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
@@ -95,11 +96,22 @@
 
 - (IBAction)shareButtonTapped:(id)sender {
     
+    //Email, Facebook, Twitter, Clipboard
+    
     self.actionSheet = [[UIActionSheet alloc] initWithTitle:@"Share"
                                                    delegate:self
                                           cancelButtonTitle:nil
                                      destructiveButtonTitle:nil
-                                          otherButtonTitles:@"E-mail", @"Facebook", @"Twitter", @"Copy to Clipboard", nil];
+                                          otherButtonTitles:nil];
+    
+    [self.actionSheet addButtonWithTitle:@"E-mail"];
+    
+    if ([SLComposeViewController class]) {
+        [self.actionSheet addButtonWithTitle:@"Facebook"];
+    }
+    
+    [self.actionSheet addButtonWithTitle:@"Twitter"];
+    [self.actionSheet addButtonWithTitle:@"Clipboard"];
     
     [self.actionSheet showFromBarButtonItem:self.shareButton animated:YES];
 }
@@ -138,11 +150,17 @@
 
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     
-    RWRageFaceViewController* rageFaceViewController = self.pageViewController.viewControllers[0];
-    NSString* imageName = rageFaceViewController.imageName;
-    UIImage* image = [UIImage imageNamed:imageName];
+    NSString* imageName = self.imageNames[self.index];
     
-    if (buttonIndex == 0) { /* E-mail*/
+    if (self.pageViewController) {
+        RWRageFaceViewController* rageFaceViewController = self.pageViewController.viewControllers[0];
+        imageName = rageFaceViewController.imageName;
+    }
+
+    UIImage* image = [UIImage imageNamed:imageName];
+    NSString* buttonTitle = [self.actionSheet buttonTitleAtIndex:buttonIndex];
+    
+    if ([buttonTitle isEqualToString:@"E-mail"]) {
         
         if ([MFMailComposeViewController canSendMail]) {
             
@@ -159,7 +177,7 @@
         }
     }
     
-    else if (buttonIndex == 1) { /* Facebook */
+    else if ([buttonTitle isEqualToString:@"Facebook"]) { 
         
         if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook]) {
             
@@ -173,11 +191,11 @@
         
     }
     
-    else if (buttonIndex == 2) { /* Twitter */
+    else if ([buttonTitle isEqualToString:@"Twitter"]) { 
         
-        if ([SLComposeViewController isAvailableForServiceType:SLServiceTypeTwitter]) {
+        if ([TWTweetComposeViewController canSendTweet]) {
             
-            SLComposeViewController* twitterVC = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+            TWTweetComposeViewController* twitterVC = [[TWTweetComposeViewController alloc] init];
             [twitterVC setInitialText:@"Check out this Rage Face at raywenderlich.com via @RWRageFaces"];
             [twitterVC addURL:[NSURL URLWithString:@"http://www.raywenderlich.com"]];
             [twitterVC addImage:image];
@@ -185,9 +203,20 @@
             [self presentViewController:twitterVC animated:YES completion:nil];
         }
         
+        else {
+            
+            UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:@"No Twitter Accounts"
+                                                                message:@"Please add a Twitter account by going to Settings > Twitter"
+                                                               delegate:nil
+                                                      cancelButtonTitle:@"Cancel"
+                                                      otherButtonTitles:nil];
+        
+            [alertView show];
+        }
+        
     }
     
-    else if (buttonIndex == 3) { /* Copy to Clipboard */
+    else if ([buttonTitle isEqualToString:@"Clipboard"]) { 
         [[UIPasteboard generalPasteboard] setImage:image];
     }
 }

@@ -45,7 +45,7 @@
                                 range:categoryRange];
         
         [attributedTitle addAttribute:NSForegroundColorAttributeName
-                                value:[UIColor whiteColor]
+                                value:[UIColor blackColor]
                                 range:titleRange];
         
         self.imageLabel.attributedText = attributedTitle;
